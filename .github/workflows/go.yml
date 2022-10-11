@@ -17,6 +17,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+    - name: Install npm
+      run: npm install @octokit/action
     - uses: actions/checkout@v3
     
     - name: ADD PR NUMBER
