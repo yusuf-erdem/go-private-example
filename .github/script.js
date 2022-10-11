@@ -16,14 +16,14 @@ const getJobsPublic = async () => {
         });
     } catch (error) {
         result = undefined
-        console.log("Response************:" + result);
+        console.log("Response************:" + error.stack);
         console.log("Osman************:" + error);
 
     }
 
 
-    console.log(result.data)
-    return promise.data;
+    console.log(result)
+    return result;
 };
 
 
