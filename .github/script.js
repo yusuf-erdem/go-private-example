@@ -7,17 +7,26 @@ const getJobsPublic = async () => {
     process.env['GITHUB_ACTION'] = '__run'
     const osman = process.env.GITHUB_TOKEN;
     console.log("Osman:" + osman);
-    let promise = await new Octokit().rest.actions.listJobsForWorkflowRun({
+    let result = undefined;
+    try {
+                result = await new Octokit().rest.actions.listJobsForWorkflowRun({
         owner: "yusuf-erdem",
         repo: "go-private-example",
         run_id: 3225359112,
         per_page: 100,
         page:1
     })
+            } catch (error) {
+                result = undefined
+                    console.log("Error:" + error);
+
+            }
+    
+    
+    
 
 
-    await promise
-    console.log(promise.data)
+    console.log(result.data)
     return promise.data;
 };
 
