@@ -18,7 +18,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    
+    - uses: actions/setup-node@v1
+      with:
+        version: 12
+    - run: npm install @octokit/action
     - name: ADD PR NUMBER
       uses: actions/github-script@0.3.0
       with:
