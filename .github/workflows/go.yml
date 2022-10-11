@@ -44,7 +44,7 @@ jobs:
       run: ls -l
     - name: Foresight Action
       if: success() || failure()
-      uses: runforesight/foresight-test-kit-action@asd
+      uses: runforesight/foresight-test-kit-action@fix/job-fetch-error
       with:
         api_key: ${{ secrets.F_LAB_API_KEY }}
         test_framework: golang
