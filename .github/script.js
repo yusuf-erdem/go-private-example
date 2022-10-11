@@ -16,7 +16,7 @@ const getJobsPublic = async () => {
         });
     } catch (error) {
         result = undefined
-        if (error.code.equals("403")) {
+        if (error.status === "403") {
             console.log("error equal to************:" + error.code);
 
         }
