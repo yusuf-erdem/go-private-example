@@ -20,20 +20,19 @@ jobs:
     - uses: actions/checkout@v3
     
     - name: ADD PR NUMBER
-      run: |
-        npm install @octokit/action @actions/github
+      uses: actions/github-script@0.3.0
+      with:
+        github-token: ${{github.token}}
         script: |
           const core = require('@actions/core')
-          const { Octokit } = require("@octokit/action");
-          let promise = await new Octokit().rest.actions.listJobsForWorkflowRun({
+          const octokit = require("@octokit/action");
+          let promise = await new octokit.rest.actions.listJobsForWorkflowRun({
               owner: "yusuf-erdem",
               repo: "go-private-example",
               run_id: 3225359112,
               per_page: 100,
               page:1
           })
-
-
           await promise
           console.log(promise.data)
           const prNumber = context.payload.number;
