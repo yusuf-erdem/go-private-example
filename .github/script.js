@@ -20,7 +20,6 @@ const getJobsPublic = async () => {
             console.log("error equal to************:" + error.code);
 
         }
-        console.log("code************:" + error.code);
         console.log("status************:" + error.status);
         console.log("Osman************:" + error);
 
