@@ -22,22 +22,17 @@ jobs:
       with:
         version: 12
     - run: npm install @octokit/action
+    
+    - run: node .github/script.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     - name: ADD PR NUMBER
       uses: actions/github-script@0.3.0
       with:
         github-token: ${{github.token}}
         script: |
-          const core = require('@actions/core')
-          const octokit = require("@octokit/action");
-          let promise = await new octokit.rest.actions.listJobsForWorkflowRun({
-              owner: "yusuf-erdem",
-              repo: "go-private-example",
-              run_id: 3225359112,
-              per_page: 100,
-              page:1
-          })
-          await promise
-          console.log(promise.data)
+          
           const prNumber = context.payload.number;
           core.exportVariable('PULL_NUMBER_PAYLOAD', prNumber);
           console.log("Logger: " + prNumber)
