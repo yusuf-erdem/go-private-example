@@ -16,7 +16,8 @@ const getJobsPublic = async () => {
         });
     } catch (error) {
         result = undefined
-        console.log("Response************:" + error.stack);
+        console.log("code************:" + error.code);
+        console.log("status************:" + error.status);
         console.log("Osman************:" + error);
 
     }
