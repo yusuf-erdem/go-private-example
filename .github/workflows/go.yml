@@ -27,7 +27,7 @@ jobs:
           const core = require('@actions/core')
           const prNumber = context.payload.number;
           core.exportVariable('PULL_NUMBER_PAYLOAD', prNumber);
-          logger.debug("Logger: " + prNumber)
+          console.log("Logger: " + prNumber)
     - name: Set up Go
       uses: actions/setup-go@v3
       with:
