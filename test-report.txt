@@ -1,0 +1,2639 @@
+=== RUN   Test_writeByte_should_grow_buffer
+--- PASS: Test_writeByte_should_grow_buffer (0.00s)
+=== RUN   Test_writeBytes_should_grow_buffer
+--- PASS: Test_writeBytes_should_grow_buffer (0.00s)
+=== RUN   Test_writeIndention_should_grow_buffer
+--- PASS: Test_writeIndention_should_grow_buffer (0.00s)
+=== RUN   Test_writeRaw_should_grow_buffer
+--- PASS: Test_writeRaw_should_grow_buffer (0.00s)
+=== RUN   Test_writeString_should_grow_buffer
+--- PASS: Test_writeString_should_grow_buffer (0.00s)
+=== RUN   Test_flush_buffer_should_stop_grow_buffer
+--- PASS: Test_flush_buffer_should_stop_grow_buffer (0.10s)
+=== RUN   ExampleMarshal
+--- PASS: ExampleMarshal (0.00s)
+=== RUN   ExampleUnmarshal
+--- PASS: ExampleUnmarshal (0.00s)
+=== RUN   ExampleConfigFastest_Marshal
+--- PASS: ExampleConfigFastest_Marshal (0.00s)
+=== RUN   ExampleConfigFastest_Unmarshal
+--- PASS: ExampleConfigFastest_Unmarshal (0.00s)
+=== RUN   ExampleGet
+--- PASS: ExampleGet (0.00s)
+=== RUN   ExampleMyKey
+--- PASS: ExampleMyKey (0.00s)
+PASS
+ok  	github.com/json-iterator/go	(cached)
+=== RUN   Test_read_empty_array_as_any
+--- PASS: Test_read_empty_array_as_any (0.00s)
+=== RUN   Test_read_one_element_array_as_any
+--- PASS: Test_read_one_element_array_as_any (0.00s)
+=== RUN   Test_read_two_element_array_as_any
+--- PASS: Test_read_two_element_array_as_any (0.00s)
+=== RUN   Test_wrap_array_and_convert_to_any
+--- PASS: Test_wrap_array_and_convert_to_any (0.00s)
+=== RUN   Test_array_lazy_any_get
+--- PASS: Test_array_lazy_any_get (0.00s)
+=== RUN   Test_array_lazy_any_get_all
+--- PASS: Test_array_lazy_any_get_all (0.00s)
+=== RUN   Test_array_wrapper_any_get_all
+--- PASS: Test_array_wrapper_any_get_all (0.00s)
+=== RUN   Test_array_lazy_any_get_invalid
+--- PASS: Test_array_lazy_any_get_invalid (0.00s)
+=== RUN   Test_invalid_array
+--- PASS: Test_invalid_array (0.00s)
+=== RUN   Test_read_bool_as_any
+--- PASS: Test_read_bool_as_any (0.00s)
+=== RUN   Test_write_bool_to_stream
+--- PASS: Test_write_bool_to_stream (0.00s)
+=== RUN   Test_read_any_to_float
+--- PASS: Test_read_any_to_float (0.00s)
+=== RUN   Test_read_float_to_any
+--- PASS: Test_read_float_to_any (0.00s)
+=== RUN   Test_read_any_to_int
+--- PASS: Test_read_any_to_int (0.00s)
+=== RUN   Test_read_any_to_uint
+--- PASS: Test_read_any_to_uint (0.00s)
+=== RUN   Test_read_int64_to_any
+--- PASS: Test_read_int64_to_any (0.00s)
+=== RUN   Test_read_int32_to_any
+--- PASS: Test_read_int32_to_any (0.00s)
+=== RUN   Test_read_uint32_to_any
+--- PASS: Test_read_uint32_to_any (0.00s)
+=== RUN   Test_read_uint64_to_any
+--- PASS: Test_read_uint64_to_any (0.00s)
+=== RUN   Test_int_lazy_any_get
+--- PASS: Test_int_lazy_any_get (0.00s)
+=== RUN   Test_wrap_map
+--- PASS: Test_wrap_map (0.00s)
+=== RUN   Test_map_wrapper_any_get_all
+--- PASS: Test_map_wrapper_any_get_all (0.00s)
+=== RUN   Test_read_null_as_any
+--- PASS: Test_read_null_as_any (0.00s)
+=== RUN   Test_read_object_as_any
+--- PASS: Test_read_object_as_any (0.00s)
+=== RUN   Test_object_lazy_any_get
+--- PASS: Test_object_lazy_any_get (0.00s)
+=== RUN   Test_object_lazy_any_get_all
+--- PASS: Test_object_lazy_any_get_all (0.00s)
+=== RUN   Test_object_lazy_any_get_invalid
+--- PASS: Test_object_lazy_any_get_invalid (0.00s)
+=== RUN   Test_wrap_map_and_convert_to_any
+--- PASS: Test_wrap_map_and_convert_to_any (0.00s)
+=== RUN   Test_wrap_object_and_convert_to_any
+--- PASS: Test_wrap_object_and_convert_to_any (0.00s)
+=== RUN   Test_any_within_struct
+--- PASS: Test_any_within_struct (0.00s)
+=== RUN   Test_object_wrapper_any_get_all
+--- PASS: Test_object_wrapper_any_get_all (0.00s)
+=== RUN   Test_read_any_to_string
+--- PASS: Test_read_any_to_string (0.00s)
+=== RUN   Test_read_string_as_any
+--- PASS: Test_read_string_as_any (0.00s)
+=== RUN   Test_wrap_string
+--- PASS: Test_wrap_string (0.00s)
+=== RUN   Test_must_be_valid
+--- PASS: Test_must_be_valid (0.00s)
+=== RUN   Test_wrap_and_valuetype_everything
+--- PASS: Test_wrap_and_valuetype_everything (0.00s)
+PASS
+ok  	github.com/json-iterator/go/any_tests	(cached)
+=== RUN   Test_use_number_for_unmarshal
+--- PASS: Test_use_number_for_unmarshal (0.00s)
+=== RUN   Test_customize_float_marshal
+--- PASS: Test_customize_float_marshal (0.00s)
+=== RUN   Test_customize_tag_key
+--- PASS: Test_customize_tag_key (0.00s)
+=== RUN   Test_read_large_number_as_interface
+--- PASS: Test_read_large_number_as_interface (0.00s)
+=== RUN   Test_CaseSensitive
+--- PASS: Test_CaseSensitive (0.00s)
+=== RUN   Test_CaseSensitive_MoreThanTenFields
+--- PASS: Test_CaseSensitive_MoreThanTenFields (0.00s)
+=== RUN   Test_OnlyTaggedField
+--- PASS: Test_OnlyTaggedField (0.00s)
+=== RUN   Test_disallowUnknownFields
+--- PASS: Test_disallowUnknownFields (0.00s)
+=== RUN   Test_new_decoder
+--- PASS: Test_new_decoder (0.00s)
+=== RUN   Test_use_number
+--- PASS: Test_use_number (0.00s)
+=== RUN   Test_decoder_more
+--- PASS: Test_decoder_more (0.00s)
+=== RUN   Test_new_encoder
+--- PASS: Test_new_encoder (0.00s)
+=== RUN   Test_string_encode_with_std_without_html_escape
+--- PASS: Test_string_encode_with_std_without_html_escape (0.00s)
+=== RUN   TestEncoderHasTrailingNewline
+--- PASS: TestEncoderHasTrailingNewline (0.00s)
+=== RUN   Test_marshal_indent
+--- PASS: Test_marshal_indent (0.00s)
+=== RUN   Test_marshal_indent_map
+--- PASS: Test_marshal_indent_map (0.00s)
+=== RUN   TestEncodeEscape
+--- PASS: TestEncodeEscape (0.00s)
+=== RUN   TestEncodeMarshalJSON
+--- PASS: TestEncodeMarshalJSON (0.00s)
+PASS
+ok  	github.com/json-iterator/go/api_tests	(cached)
+=== RUN   TestEncodeObject
+--- PASS: TestEncodeObject (0.00s)
+PASS
+ok  	github.com/json-iterator/go/benchmarks	(cached)
+=== RUN   Test_customize_type_decoder
+    decoder_test.go:15: 
+--- SKIP: Test_customize_type_decoder (0.00s)
+=== RUN   Test_customize_byte_array_encoder
+    decoder_test.go:37: 
+--- SKIP: Test_customize_byte_array_encoder (0.00s)
+=== RUN   Test_custom_encoder_attachment
+--- PASS: Test_custom_encoder_attachment (0.00s)
+=== RUN   Test_customize_field_decoder
+--- PASS: Test_customize_field_decoder (0.00s)
+=== RUN   Test_recursive_empty_interface_customization
+    decoder_test.go:99: 
+--- SKIP: Test_recursive_empty_interface_customization (0.00s)
+=== RUN   Test_read_custom_interface
+    decoder_test.go:125: 
+--- SKIP: Test_read_custom_interface (0.00s)
+=== RUN   TestType1NoFinalLF
+--- PASS: TestType1NoFinalLF (0.00s)
+=== RUN   TestType1FinalLF
+--- PASS: TestType1FinalLF (0.00s)
+=== RUN   TestType2NoFinalLF
+--- PASS: TestType2NoFinalLF (0.00s)
+=== RUN   TestType2FinalLF
+--- PASS: TestType2FinalLF (0.00s)
+=== RUN   Test_customize_field_by_extension
+--- PASS: Test_customize_field_by_extension (0.00s)
+=== RUN   Test_customize_map_key_encoder
+--- PASS: Test_customize_map_key_encoder (0.00s)
+PASS
+ok  	github.com/json-iterator/go/extension_tests	(cached)
+=== RUN   TestBinaryAsStringCodec
+=== RUN   TestBinaryAsStringCodec/safe_set
+=== RUN   TestBinaryAsStringCodec/non_safe_set
+--- PASS: TestBinaryAsStringCodec (0.00s)
+    --- PASS: TestBinaryAsStringCodec/safe_set (0.00s)
+    --- PASS: TestBinaryAsStringCodec/non_safe_set (0.00s)
+=== RUN   Test_any_to_string
+--- PASS: Test_any_to_string (0.00s)
+=== RUN   Test_any_to_int64
+--- PASS: Test_any_to_int64 (0.00s)
+=== RUN   Test_any_to_int
+--- PASS: Test_any_to_int (0.00s)
+=== RUN   Test_any_to_int16
+--- PASS: Test_any_to_int16 (0.00s)
+=== RUN   Test_any_to_int32
+--- PASS: Test_any_to_int32 (0.00s)
+=== RUN   Test_any_to_int8
+--- PASS: Test_any_to_int8 (0.00s)
+=== RUN   Test_any_to_uint8
+--- PASS: Test_any_to_uint8 (0.00s)
+=== RUN   Test_any_to_uint64
+--- PASS: Test_any_to_uint64 (0.00s)
+=== RUN   Test_any_to_uint32
+--- PASS: Test_any_to_uint32 (0.00s)
+=== RUN   Test_any_to_uint16
+--- PASS: Test_any_to_uint16 (0.00s)
+=== RUN   Test_any_to_uint
+--- PASS: Test_any_to_uint (0.00s)
+=== RUN   Test_any_to_float32
+--- PASS: Test_any_to_float32 (0.00s)
+=== RUN   Test_any_to_float64
+--- PASS: Test_any_to_float64 (0.00s)
+=== RUN   Test_empty_array_as_map
+--- PASS: Test_empty_array_as_map (0.00s)
+=== RUN   Test_empty_array_as_object
+--- PASS: Test_empty_array_as_object (0.00s)
+=== RUN   Test_bad_case
+--- PASS: Test_bad_case (0.00s)
+=== RUN   Test_null_to_string
+--- PASS: Test_null_to_string (0.00s)
+=== RUN   Test_null_to_int
+--- PASS: Test_null_to_int (0.00s)
+=== RUN   Test_null_to_float32
+--- PASS: Test_null_to_float32 (0.00s)
+=== RUN   Test_null_to_float64
+--- PASS: Test_null_to_float64 (0.00s)
+=== RUN   Test_lower_case_with_underscores
+--- PASS: Test_lower_case_with_underscores (0.00s)
+=== RUN   Test_set_naming_strategy_with_overrides
+--- PASS: Test_set_naming_strategy_with_overrides (0.00s)
+=== RUN   Test_set_naming_strategy_with_omitempty
+--- PASS: Test_set_naming_strategy_with_omitempty (0.00s)
+=== RUN   Test_set_naming_strategy_with_private_field
+--- PASS: Test_set_naming_strategy_with_private_field (0.00s)
+=== RUN   Test_private_fields
+--- PASS: Test_private_fields (0.00s)
+=== RUN   Test_time_as_int64
+--- PASS: Test_time_as_int64 (0.00s)
+=== RUN   Test_time_as_int64_keep_microsecond
+    time_as_int64_codec_test.go:22: conflict
+--- SKIP: Test_time_as_int64_keep_microsecond (0.00s)
+PASS
+ok  	github.com/json-iterator/go/extra	(cached)
+=== RUN   Test_empty_array
+--- PASS: Test_empty_array (0.00s)
+=== RUN   Test_one_element
+--- PASS: Test_one_element (0.00s)
+=== RUN   Test_two_elements
+--- PASS: Test_two_elements (0.00s)
+=== RUN   Test_whitespace_in_head
+--- PASS: Test_whitespace_in_head (0.00s)
+=== RUN   Test_whitespace_after_array_start
+--- PASS: Test_whitespace_after_array_start (0.00s)
+=== RUN   Test_whitespace_before_array_end
+--- PASS: Test_whitespace_before_array_end (0.00s)
+=== RUN   Test_whitespace_before_comma
+--- PASS: Test_whitespace_before_comma (0.00s)
+=== RUN   Test_write_array
+--- PASS: Test_write_array (0.00s)
+=== RUN   Test_write_val_array
+--- PASS: Test_write_val_array (0.00s)
+=== RUN   Test_write_val_empty_array
+--- PASS: Test_write_val_empty_array (0.00s)
+=== RUN   Test_write_array_of_interface_in_struct
+--- PASS: Test_write_array_of_interface_in_struct (0.00s)
+=== RUN   Test_encode_byte_array
+--- PASS: Test_encode_byte_array (0.00s)
+=== RUN   Test_encode_empty_byte_array
+--- PASS: Test_encode_empty_byte_array (0.00s)
+=== RUN   Test_encode_nil_byte_array
+--- PASS: Test_encode_nil_byte_array (0.00s)
+=== RUN   Test_decode_byte_array_from_base64
+--- PASS: Test_decode_byte_array_from_base64 (0.00s)
+=== RUN   Test_decode_byte_array_from_base64_with_newlines
+--- PASS: Test_decode_byte_array_from_base64_with_newlines (0.00s)
+=== RUN   Test_decode_byte_array_from_array
+--- PASS: Test_decode_byte_array_from_array (0.00s)
+=== RUN   Test_decode_slice
+--- PASS: Test_decode_slice (0.00s)
+=== RUN   Test_decode_large_slice
+--- PASS: Test_decode_large_slice (0.00s)
+=== RUN   Test_true
+--- PASS: Test_true (0.00s)
+=== RUN   Test_false
+--- PASS: Test_false (0.00s)
+=== RUN   Test_write_true_false
+--- PASS: Test_write_true_false (0.00s)
+=== RUN   Test_write_val_bool
+--- PASS: Test_write_val_bool (0.00s)
+=== RUN   Test_read_big_float
+--- PASS: Test_read_big_float (0.00s)
+=== RUN   Test_read_big_int
+--- PASS: Test_read_big_int (0.00s)
+=== RUN   Test_read_float_as_interface
+--- PASS: Test_read_float_as_interface (0.00s)
+=== RUN   Test_wrap_float
+--- PASS: Test_wrap_float (0.00s)
+=== RUN   Test_read_float64_cursor
+--- PASS: Test_read_float64_cursor (0.00s)
+=== RUN   Test_read_float_scientific
+--- PASS: Test_read_float_scientific (0.00s)
+=== RUN   Test_lossy_float_marshal
+--- PASS: Test_lossy_float_marshal (0.00s)
+=== RUN   Test_read_number
+--- PASS: Test_read_number (0.00s)
+=== RUN   Test_encode_inf
+--- PASS: Test_encode_inf (0.00s)
+=== RUN   Test_encode_nan
+--- PASS: Test_encode_nan (0.00s)
+=== RUN   Test_read_uint64_invalid
+--- PASS: Test_read_uint64_invalid (0.00s)
+=== RUN   Test_read_int32_array
+--- PASS: Test_read_int32_array (0.00s)
+=== RUN   Test_read_int64_array
+--- PASS: Test_read_int64_array (0.00s)
+=== RUN   Test_wrap_int
+--- PASS: Test_wrap_int (0.00s)
+=== RUN   Test_write_val_int
+--- PASS: Test_write_val_int (0.00s)
+=== RUN   Test_write_val_int_ptr
+--- PASS: Test_write_val_int_ptr (0.00s)
+=== RUN   Test_float_as_int
+--- PASS: Test_float_as_int (0.00s)
+=== RUN   TestIterator_ReadInt_chunkedInput
+--- PASS: TestIterator_ReadInt_chunkedInput (0.00s)
+=== RUN   Test_nil_non_empty_interface
+--- PASS: Test_nil_non_empty_interface (0.00s)
+=== RUN   Test_nil_out_null_interface
+--- PASS: Test_nil_out_null_interface (0.00s)
+=== RUN   Test_overwrite_interface_ptr_value_with_nil
+--- PASS: Test_overwrite_interface_ptr_value_with_nil (0.00s)
+=== RUN   Test_overwrite_interface_value_with_nil
+--- PASS: Test_overwrite_interface_value_with_nil (0.00s)
+=== RUN   Test_unmarshal_into_nil
+--- PASS: Test_unmarshal_into_nil (0.00s)
+=== RUN   Test_bad_case
+--- PASS: Test_bad_case (0.00s)
+=== RUN   Test_iterator_use_number
+=== RUN   Test_iterator_use_number/2147483647
+=== RUN   Test_iterator_use_number/-2147483648
+--- PASS: Test_iterator_use_number (0.00s)
+    --- PASS: Test_iterator_use_number/2147483647 (0.00s)
+    --- PASS: Test_iterator_use_number/-2147483648 (0.00s)
+=== RUN   Test_iterator_without_number
+=== RUN   Test_iterator_without_number/2147483647
+=== RUN   Test_iterator_without_number/-2147483648
+--- PASS: Test_iterator_without_number (0.00s)
+    --- PASS: Test_iterator_without_number/2147483647 (0.00s)
+    --- PASS: Test_iterator_without_number/-2147483648 (0.00s)
+=== RUN   Test_decode_TextMarshaler_key_map
+--- PASS: Test_decode_TextMarshaler_key_map (0.00s)
+=== RUN   Test_read_map_with_reader
+--- PASS: Test_read_map_with_reader (0.00s)
+=== RUN   Test_map_eface_of_eface
+--- PASS: Test_map_eface_of_eface (0.00s)
+=== RUN   Test_encode_nil_map
+--- PASS: Test_encode_nil_map (0.00s)
+=== RUN   Test_deep_nested
+=== RUN   Test_deep_nested/array_under_maxDepth
+=== RUN   Test_deep_nested/array_under_maxDepth/unstructured
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_named_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_missing_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_1_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_2_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_3_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_4_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_5_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_6_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_7_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_8_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_9_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_10_field
+=== RUN   Test_deep_nested/array_under_maxDepth/typed_11_field
+=== RUN   Test_deep_nested/array_over_maxDepth
+=== RUN   Test_deep_nested/array_over_maxDepth/unstructured
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_named_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_missing_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_1_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_2_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_3_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_4_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_5_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_6_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_7_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_8_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_9_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_10_field
+=== RUN   Test_deep_nested/array_over_maxDepth/typed_11_field
+=== RUN   Test_deep_nested/object_under_maxDepth
+=== RUN   Test_deep_nested/object_under_maxDepth/unstructured
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_named_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_missing_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_1_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_2_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_3_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_4_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_5_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_6_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_7_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_8_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_9_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_10_field
+=== RUN   Test_deep_nested/object_under_maxDepth/typed_11_field
+=== RUN   Test_deep_nested/object_over_maxDepth
+=== RUN   Test_deep_nested/object_over_maxDepth/unstructured
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_named_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_missing_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_1_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_2_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_3_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_4_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_5_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_6_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_7_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_8_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_9_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_10_field
+=== RUN   Test_deep_nested/object_over_maxDepth/typed_11_field
+--- PASS: Test_deep_nested (0.46s)
+    --- PASS: Test_deep_nested/array_under_maxDepth (0.12s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/unstructured (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_named_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_missing_field (0.00s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_1_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_2_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_3_field (0.02s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_4_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_5_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_6_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_7_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_8_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_9_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_10_field (0.01s)
+        --- PASS: Test_deep_nested/array_under_maxDepth/typed_11_field (0.01s)
+    --- PASS: Test_deep_nested/array_over_maxDepth (0.11s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/unstructured (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_named_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_missing_field (0.00s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_1_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_2_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_3_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_4_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_5_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_6_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_7_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_8_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_9_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_10_field (0.01s)
+        --- PASS: Test_deep_nested/array_over_maxDepth/typed_11_field (0.01s)
+    --- PASS: Test_deep_nested/object_under_maxDepth (0.12s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/unstructured (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_named_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_missing_field (0.00s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_1_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_2_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_3_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_4_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_5_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_6_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_7_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_8_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_9_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_10_field (0.01s)
+        --- PASS: Test_deep_nested/object_under_maxDepth/typed_11_field (0.01s)
+    --- PASS: Test_deep_nested/object_over_maxDepth (0.12s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/unstructured (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_named_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_missing_field (0.00s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_1_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_2_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_3_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_4_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_5_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_6_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_7_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_8_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_9_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_10_field (0.01s)
+        --- PASS: Test_deep_nested/object_over_maxDepth/typed_11_field (0.01s)
+=== RUN   Test_nested
+--- PASS: Test_nested (0.00s)
+=== RUN   Test_read_null
+--- PASS: Test_read_null (0.00s)
+=== RUN   Test_write_null
+--- PASS: Test_write_null (0.00s)
+=== RUN   Test_decode_null_object_field
+--- PASS: Test_decode_null_object_field (0.00s)
+=== RUN   Test_decode_null_array_element
+--- PASS: Test_decode_null_array_element (0.00s)
+=== RUN   Test_decode_null_string
+--- PASS: Test_decode_null_string (0.00s)
+=== RUN   Test_decode_null_skip
+--- PASS: Test_decode_null_skip (0.00s)
+=== RUN   Test_empty_object
+--- PASS: Test_empty_object (0.00s)
+=== RUN   Test_one_field
+--- PASS: Test_one_field (0.00s)
+=== RUN   Test_two_field
+--- PASS: Test_two_field (0.00s)
+=== RUN   Test_write_object
+--- PASS: Test_write_object (0.00s)
+=== RUN   Test_reader_and_load_more
+--- PASS: Test_reader_and_load_more (0.00s)
+=== RUN   Test_unmarshal_into_existing_value
+--- PASS: Test_unmarshal_into_existing_value (0.00s)
+=== RUN   Test_unmarshal_anonymous_struct_invalid
+--- PASS: Test_unmarshal_anonymous_struct_invalid (0.00s)
+=== RUN   Test_jsoniter_RawMessage
+--- PASS: Test_jsoniter_RawMessage (0.00s)
+=== RUN   Test_encode_map_of_jsoniter_raw_message
+--- PASS: Test_encode_map_of_jsoniter_raw_message (0.00s)
+=== RUN   Test_marshal_invalid_json_raw_message
+--- PASS: Test_marshal_invalid_json_raw_message (0.00s)
+=== RUN   Test_marshal_nil_json_raw_message
+--- PASS: Test_marshal_nil_json_raw_message (0.00s)
+=== RUN   Test_raw_message_memory_not_copied_issue
+--- PASS: Test_raw_message_memory_not_copied_issue (0.00s)
+PASS
+ok  	github.com/json-iterator/go/misc_tests	(cached)
+=== RUN   Test_skip_number_in_array
+--- PASS: Test_skip_number_in_array (0.00s)
+=== RUN   Test_skip_string_in_array
+--- PASS: Test_skip_string_in_array (0.00s)
+=== RUN   Test_skip_null
+--- PASS: Test_skip_null (0.00s)
+=== RUN   Test_skip_true
+--- PASS: Test_skip_true (0.00s)
+=== RUN   Test_skip_false
+--- PASS: Test_skip_false (0.00s)
+=== RUN   Test_skip_array
+--- PASS: Test_skip_array (0.00s)
+=== RUN   Test_skip_empty_array
+--- PASS: Test_skip_empty_array (0.00s)
+=== RUN   Test_skip_nested
+--- PASS: Test_skip_nested (0.00s)
+=== RUN   Test_skip_and_return_bytes
+--- PASS: Test_skip_and_return_bytes (0.00s)
+=== RUN   Test_skip_and_return_bytes_with_reader
+--- PASS: Test_skip_and_return_bytes_with_reader (0.00s)
+=== RUN   Test_append_skip_and_return_bytes_with_reader
+--- PASS: Test_append_skip_and_return_bytes_with_reader (0.00s)
+=== RUN   Test_skip_empty
+--- PASS: Test_skip_empty (0.00s)
+=== RUN   Test_skip
+=== RUN   Test_skip/[]
+=== RUN   Test_skip/[1]
+=== RUN   Test_skip/[__1,_"hello"]
+=== RUN   Test_skip/[abc]
+=== RUN   Test_skip/[
+=== RUN   Test_skip/[[]
+=== RUN   Test_skip/+1
+=== RUN   Test_skip/-a
+=== RUN   Test_skip/-\x00
+=== RUN   Test_skip/0.1
+=== RUN   Test_skip/0..1
+=== RUN   Test_skip/1e+1
+=== RUN   Test_skip/1+1
+=== RUN   Test_skip/1E1
+=== RUN   Test_skip/1ee1
+=== RUN   Test_skip/100a
+=== RUN   Test_skip/10.
+=== RUN   Test_skip/""
+=== RUN   Test_skip/"hello"
+=== RUN   Test_skip/"
+=== RUN   Test_skip/"\"
+=== RUN   Test_skip/"\x00"
+=== RUN   Test_skip/"\x00"#01
+=== RUN   Test_skip/"_"
+=== RUN   Test_skip/"\t"
+=== RUN   Test_skip/{}
+=== RUN   Test_skip/{"hello":"world"}
+=== RUN   Test_skip/{hello:"world"}
+=== RUN   Test_skip/{"hello:"world"}
+=== RUN   Test_skip/{"hello","world"}
+=== RUN   Test_skip/{"hello":{}
+=== RUN   Test_skip/{"hello":{}}
+=== RUN   Test_skip/{"hello":{}}}
+=== RUN   Test_skip/{"hello":__{__"hello":_1}}
+=== RUN   Test_skip/{abc}
+--- PASS: Test_skip (0.00s)
+    --- PASS: Test_skip/[] (0.00s)
+    --- PASS: Test_skip/[1] (0.00s)
+    --- PASS: Test_skip/[__1,_"hello"] (0.00s)
+    --- PASS: Test_skip/[abc] (0.00s)
+    --- PASS: Test_skip/[ (0.00s)
+    --- PASS: Test_skip/[[] (0.00s)
+    --- PASS: Test_skip/+1 (0.00s)
+    --- PASS: Test_skip/-a (0.00s)
+    --- PASS: Test_skip/-\x00 (0.00s)
+    --- PASS: Test_skip/0.1 (0.00s)
+    --- PASS: Test_skip/0..1 (0.00s)
+    --- PASS: Test_skip/1e+1 (0.00s)
+    --- PASS: Test_skip/1+1 (0.00s)
+    --- PASS: Test_skip/1E1 (0.00s)
+    --- PASS: Test_skip/1ee1 (0.00s)
+    --- PASS: Test_skip/100a (0.00s)
+    --- PASS: Test_skip/10. (0.00s)
+    --- PASS: Test_skip/"" (0.00s)
+    --- PASS: Test_skip/"hello" (0.00s)
+    --- PASS: Test_skip/" (0.00s)
+    --- PASS: Test_skip/"\" (0.00s)
+    --- PASS: Test_skip/"\x00" (0.00s)
+    --- PASS: Test_skip/"\x00"#01 (0.00s)
+    --- PASS: Test_skip/"_" (0.00s)
+    --- PASS: Test_skip/"\t" (0.00s)
+    --- PASS: Test_skip/{} (0.00s)
+    --- PASS: Test_skip/{"hello":"world"} (0.00s)
+    --- PASS: Test_skip/{hello:"world"} (0.00s)
+    --- PASS: Test_skip/{"hello:"world"} (0.00s)
+    --- PASS: Test_skip/{"hello","world"} (0.00s)
+    --- PASS: Test_skip/{"hello":{} (0.00s)
+    --- PASS: Test_skip/{"hello":{}} (0.00s)
+    --- PASS: Test_skip/{"hello":{}}} (0.00s)
+    --- PASS: Test_skip/{"hello":__{__"hello":_1}} (0.00s)
+    --- PASS: Test_skip/{abc} (0.00s)
+PASS
+ok  	github.com/json-iterator/go/skip_tests	(cached)
+=== RUN   Test_symmetric
+=== RUN   Test_symmetric/[4]bool
+=== RUN   Test_symmetric/[4]uint8
+=== RUN   Test_symmetric/[4]float64
+=== RUN   Test_symmetric/[4]int32
+=== RUN   Test_symmetric/[4]map[int32]string
+=== RUN   Test_symmetric/[4]map[string]string
+=== RUN   Test_symmetric/[4]*bool
+=== RUN   Test_symmetric/[4]*float64
+=== RUN   Test_symmetric/[4]*int32
+=== RUN   Test_symmetric/[4]*map[int32]string
+=== RUN   Test_symmetric/[4]*map[string]string
+=== RUN   Test_symmetric/[4]*[4]bool
+=== RUN   Test_symmetric/[4]*[4]uint8
+=== RUN   Test_symmetric/[4]*[4]float64
+=== RUN   Test_symmetric/[4]*[4]int32
+=== RUN   Test_symmetric/[4]*[4]*string
+=== RUN   Test_symmetric/[4]*[4]string
+=== RUN   Test_symmetric/[4]*[4]uint8#01
+=== RUN   Test_symmetric/[4]*string
+=== RUN   Test_symmetric/[4]*struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[4]string;_Map_map[string]string_}
+=== RUN   Test_symmetric/[4]*uint8
+=== RUN   Test_symmetric/[4][4]bool
+=== RUN   Test_symmetric/[4][4]uint8
+=== RUN   Test_symmetric/[4][4]float64
+=== RUN   Test_symmetric/[4][4]int32
+=== RUN   Test_symmetric/[4][4]*string
+=== RUN   Test_symmetric/[4][4]string
+=== RUN   Test_symmetric/[4][4]uint8#01
+=== RUN   Test_symmetric/[4]string
+=== RUN   Test_symmetric/[4]struct_{}
+=== RUN   Test_symmetric/[4]test.structEmpty
+=== RUN   Test_symmetric/[4]struct_{_F_*string_}
+=== RUN   Test_symmetric/[4]struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[4]string;_Map_map[string]string_}
+=== RUN   Test_symmetric/[4]uint8#01
+=== RUN   Test_symmetric/bool
+=== RUN   Test_symmetric/test.boolAlias
+=== RUN   Test_symmetric/uint8
+=== RUN   Test_symmetric/test.byteAlias
+=== RUN   Test_symmetric/float32
+=== RUN   Test_symmetric/test.float32Alias
+=== RUN   Test_symmetric/float64
+=== RUN   Test_symmetric/test.float64Alias
+=== RUN   Test_symmetric/int8
+=== RUN   Test_symmetric/test.int8Alias
+=== RUN   Test_symmetric/int16
+=== RUN   Test_symmetric/test.int16Alias
+=== RUN   Test_symmetric/int32
+=== RUN   Test_symmetric/test.int32Alias
+=== RUN   Test_symmetric/int64
+=== RUN   Test_symmetric/test.int64Alias
+=== RUN   Test_symmetric/string
+=== RUN   Test_symmetric/test.stringAlias
+=== RUN   Test_symmetric/uint8#01
+=== RUN   Test_symmetric/test.uint8Alias
+=== RUN   Test_symmetric/uint16
+=== RUN   Test_symmetric/test.uint16Alias
+=== RUN   Test_symmetric/uint32
+=== RUN   Test_symmetric/test.uint32Alias
+=== RUN   Test_symmetric/uintptr
+=== RUN   Test_symmetric/test.uintptrAlias
+=== RUN   Test_symmetric/struct_{_A_test.int8Alias_"json:\"a\"";_B_test.int16Alias_"json:\"stream\"";_C_test.int32Alias_"json:\"c\"";_D_test.int64Alias_"json:\"d\"";_E_test.uintAlias_"json:\"e\"";_F_test.uint16Alias_"json:\"f\"";_G_test.uint32Alias_"json:\"g\"";_H_test.uint64Alias_"json:\"h\"";_I_test.float32Alias_"json:\"i\"";_J_test.float64Alias_"json:\"j\"";_K_test.stringAlias_"json:\"k\"";_L_test.intAlias_"json:\"l\"";_M_test.uintAlias_"json:\"m\"";_N_test.boolAlias_"json:\"n\"";_O_test.uintptrAlias_"json:\"o\""_}
+=== RUN   Test_symmetric/map[test.stringKeyType]string
+    type_test.go:55: marshal expected:
+            {
+            >  "": "斶麱獋ĵƿɗȘl雌",
+            >  ")E.#ú訅幌alZd訅": "蒍Ģ塎C½æț侚綒给",
+            >  ".ı[ʄ萫Kŕ埖pKh+燄i灄": "簬芫IØį堽ȉ篍ɠ暟$ŚGŵ+淸龥",
+            >  "S]鯒sɓMʍȓ": "駣[ʌ歁ȣŕg",
+            >  "iȿo": "豔bɻ櫔ʧ嵲酃錟Y¾慆Ȭ£Þ謵 ",
+            >  "s骂ï\u003cê": "",
+            >  "ƆȠ": "¥愷鑟4輪謃E矫",
+            >  "噮X舲箋ȃ祤鉁鐎Lq鼏罫ū\u003eƞ": "^",
+            >  "恮Ē": "簩Bá6痜kɖƷ碿絩-ǵn",
+            >  "棤Ȣ揅夿": "ĝ"
+            }
+        got:
+            {
+            >  "MANUAL__": "斶麱獋ĵƿɗȘl雌",
+            >  "MANUAL__)E.#ú訅幌alZd訅": "蒍Ģ塎C½æț侚綒给",
+            >  "MANUAL__.ı[ʄ萫Kŕ埖pKh+燄i灄": "簬芫IØį堽ȉ篍ɠ暟$ŚGŵ+淸龥",
+            >  "MANUAL__S]鯒sɓMʍȓ": "駣[ʌ歁ȣŕg",
+            >  "MANUAL__iȿo": "豔bɻ櫔ʧ嵲酃錟Y¾慆Ȭ£Þ謵 ",
+            >  "MANUAL__s骂ï\u003cê": "",
+            >  "MANUAL__ƆȠ": "¥愷鑟4輪謃E矫",
+            >  "MANUAL__噮X舲箋ȃ祤鉁鐎Lq鼏罫ū\u003eƞ": "^",
+            >  "MANUAL__恮Ē": "簩Bá6痜kɖƷ碿絩-ǵn",
+            >  "MANUAL__棤Ȣ揅夿": "ĝ"
+            }
+        obj:
+            (map[test.stringKeyType]string) (len=10) {
+        >  (test.stringKeyType) (len=9) "s骂ï<ê": (string) "",
+        >  (test.stringKeyType) (len=4) "iȿo": (string) (len=36) "豔bɻ櫔ʧ嵲酃錟Y¾慆Ȭ£Þ謵 ",
+        >  (test.stringKeyType) (len=13) "S]鯒sɓMʍȓ": (string) (len=14) "駣[ʌ歁ȣŕg",
+        >  (test.stringKeyType) (len=26) ".ı[ʄ萫Kŕ埖pKh+燄i灄": (string) (len=37) "簬芫IØį堽ȉ篍ɠ暟$ŚGŵ+淸龥",
+        >  (test.stringKeyType) (len=11) "棤Ȣ揅夿": (string) (len=2) "ĝ",
+        >  (test.stringKeyType) (len=5) "恮Ē": (string) (len=25) "簩Bá6痜kɖƷ碿絩-ǵn",
+        >  (test.stringKeyType) (len=4) "ƆȠ": (string) (len=19) "¥愷鑟4輪謃E矫",
+        >  (test.stringKeyType) (len=19) ")E.#ú訅幌alZd訅": (string) (len=24) "蒍Ģ塎C½æț侚綒给",
+        >  (test.stringKeyType) "": (string) (len=21) "斶麱獋ĵƿɗȘl雌",
+        >  (test.stringKeyType) (len=34) "噮X舲箋ȃ祤鉁鐎Lq鼏罫ū>ƞ": (string) (len=1) "^"
+        }
+=== RUN   Test_symmetric/map[test.structKeyType]string
+=== RUN   Test_symmetric/map[int8]string
+=== RUN   Test_symmetric/map[int16]string
+=== RUN   Test_symmetric/map[int32]string
+=== RUN   Test_symmetric/map[int64]string
+=== RUN   Test_symmetric/map[string][4]string
+=== RUN   Test_symmetric/map[string]bool
+=== RUN   Test_symmetric/map[string]uint8
+=== RUN   Test_symmetric/map[string]float64
+=== RUN   Test_symmetric/map[string]int32
+=== RUN   Test_symmetric/map[string]map[string]string
+=== RUN   Test_symmetric/map[string]*[4]string
+=== RUN   Test_symmetric/map[string]*bool
+=== RUN   Test_symmetric/map[string]*float64
+=== RUN   Test_symmetric/map[string]*int32
+=== RUN   Test_symmetric/map[string]*map[string]string
+=== RUN   Test_symmetric/map[string]*[]string
+=== RUN   Test_symmetric/map[string]*string
+=== RUN   Test_symmetric/map[string]*test.structVarious
+=== RUN   Test_symmetric/map[string]*uint8
+=== RUN   Test_symmetric/map[string][]string
+=== RUN   Test_symmetric/map[string]string
+=== RUN   Test_symmetric/map[string]test.stringAlias
+=== RUN   Test_symmetric/map[string]struct_{}
+=== RUN   Test_symmetric/map[string]test.structEmpty
+=== RUN   Test_symmetric/map[string]struct_{_F_*string_}
+=== RUN   Test_symmetric/map[string]struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[]string;_Map_map[string]string_}
+=== RUN   Test_symmetric/map[string]uint8#01
+=== RUN   Test_symmetric/map[test.stringAlias]string
+=== RUN   Test_symmetric/map[test.stringAlias]test.stringAlias
+=== RUN   Test_symmetric/map[uint8]string
+=== RUN   Test_symmetric/map[uint16]string
+=== RUN   Test_symmetric/map[uint32]string
+=== RUN   Test_symmetric/test.StringMarshaler
+=== RUN   Test_symmetric/test.structMarshaler
+=== RUN   Test_symmetric/test.structMarshalerAlias
+=== RUN   Test_symmetric/struct_{_S_string;_M_test.structMarshaler;_I_int8_}
+=== RUN   Test_symmetric/struct_{_S_string;_M_test.structMarshalerAlias;_I_int8_}
+=== RUN   Test_symmetric/[][4]bool
+=== RUN   Test_symmetric/[][4]uint8
+=== RUN   Test_symmetric/[][4]float64
+=== RUN   Test_symmetric/[][4]int32
+=== RUN   Test_symmetric/[][4]*string
+=== RUN   Test_symmetric/[][4]string
+=== RUN   Test_symmetric/[][4]uint8#01
+=== RUN   Test_symmetric/[]bool
+=== RUN   Test_symmetric/[]uint8
+=== RUN   Test_symmetric/[]float64
+=== RUN   Test_symmetric/[]int32
+=== RUN   Test_symmetric/[]int64
+=== RUN   Test_symmetric/[]map[int32]string
+=== RUN   Test_symmetric/[]map[string]string
+=== RUN   Test_symmetric/[4]*[4]bool#01
+=== RUN   Test_symmetric/[4]*[4]uint8#02
+=== RUN   Test_symmetric/[4]*[4]float64#01
+=== RUN   Test_symmetric/[4]*[4]int32#01
+=== RUN   Test_symmetric/[4]*[4]*string#01
+=== RUN   Test_symmetric/[4]*[4]string#01
+=== RUN   Test_symmetric/[4]*[4]uint8#03
+=== RUN   Test_symmetric/[]*bool
+=== RUN   Test_symmetric/[]*float64
+=== RUN   Test_symmetric/[]*int32
+=== RUN   Test_symmetric/[]*map[int32]string
+=== RUN   Test_symmetric/[]*map[string]string
+=== RUN   Test_symmetric/[]*[]bool
+=== RUN   Test_symmetric/[]*[]uint8
+=== RUN   Test_symmetric/[]*[]float64
+=== RUN   Test_symmetric/[]*[]int32
+=== RUN   Test_symmetric/[]*[]*string
+=== RUN   Test_symmetric/[]*[]string
+=== RUN   Test_symmetric/[]*[]uint8#01
+=== RUN   Test_symmetric/[]*string
+=== RUN   Test_symmetric/[]*struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[]string;_Map_map[string]string_}
+=== RUN   Test_symmetric/[]*uint8
+=== RUN   Test_symmetric/[][]bool
+=== RUN   Test_symmetric/[][]uint8
+=== RUN   Test_symmetric/[][]float64
+=== RUN   Test_symmetric/[][]int32
+=== RUN   Test_symmetric/[][]*string
+=== RUN   Test_symmetric/[][]string
+=== RUN   Test_symmetric/[][]uint8#01
+=== RUN   Test_symmetric/[]string
+=== RUN   Test_symmetric/[]struct_{}
+=== RUN   Test_symmetric/[]test.structEmpty
+=== RUN   Test_symmetric/[]struct_{_F_*string_}
+=== RUN   Test_symmetric/[]struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[]string;_Map_map[string]string_}
+=== RUN   Test_symmetric/[]uint8#01
+=== RUN   Test_symmetric/[]test.jsonMarshaler
+=== RUN   Test_symmetric/[]test.jsonMarshalerMap
+=== RUN   Test_symmetric/[]test.textMarshaler
+=== RUN   Test_symmetric/[]test.textMarshalerMap
+=== RUN   Test_symmetric/struct_{_test.EmbeddedFloat64_}
+=== RUN   Test_symmetric/struct_{_test.EmbeddedInt32_}
+=== RUN   Test_symmetric/struct_{_F1_float64;_test.StringMarshaler;_F2_int32_}
+=== RUN   Test_symmetric/struct_{_test.EmbeddedMapStringString_}
+=== RUN   Test_symmetric/struct_{_*test.EmbeddedFloat64_}
+=== RUN   Test_symmetric/struct_{_*test.EmbeddedInt32_}
+=== RUN   Test_symmetric/struct_{_*test.EmbeddedMapStringString_}
+=== RUN   Test_symmetric/struct_{_*test.EmbeddedSliceString_}
+=== RUN   Test_symmetric/struct_{_*test.EmbeddedString_}
+=== RUN   Test_symmetric/struct_{_*test.EmbeddedStruct_}
+=== RUN   Test_symmetric/struct_{_test.EmbeddedSliceString_}
+=== RUN   Test_symmetric/struct_{_test.EmbeddedString_}
+=== RUN   Test_symmetric/struct_{_test.EmbeddedString_"json:\"othername\""_}
+=== RUN   Test_symmetric/struct_{_test.EmbeddedStruct_}
+=== RUN   Test_symmetric/struct_{_F1_float64;_test.StringTextMarshaler;_F2_int32_}
+=== RUN   Test_symmetric/test.OverlapDifferentLevels
+=== RUN   Test_symmetric/test.IgnoreDeeperLevel
+=== RUN   Test_symmetric/test.SameLevel1BothTagged
+=== RUN   Test_symmetric/test.SameLevel1NoTags
+=== RUN   Test_symmetric/test.SameLevel1Tagged
+=== RUN   Test_symmetric/test.SameLevel2BothTagged
+=== RUN   Test_symmetric/test.SameLevel2NoTags
+=== RUN   Test_symmetric/test.SameLevel2Tagged
+=== RUN   Test_symmetric/test.EmbeddedPtr
+=== RUN   Test_symmetric/test.UnnamedLiteral
+=== RUN   Test_symmetric/struct_{_Upper_bool_"json:\"M\"";_Lower_bool_"json:\"m\""_}
+=== RUN   Test_symmetric/test.EmbeddedFieldName
+=== RUN   Test_symmetric/test.StringFieldName
+=== RUN   Test_symmetric/test.StructFieldName
+=== RUN   Test_symmetric/struct_{_F1_bool_"json:\"F1\"";_F2_bool_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/test.EmbeddedOmitEmpty
+=== RUN   Test_symmetric/struct_{_F1_float32_"json:\"F1\"";_F2_float32_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_int32_"json:\"F1\"";_F2_int32_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_map[string]string_"json:\"F1\"";_F2_map[string]string_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_*bool_"json:\"F1\"";_F2_*bool_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_*float32_"json:\"F1\"";_F2_*float32_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_*int32_"json:\"F1\"";_F2_*int32_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_*map[string]string_"json:\"F1\"";_F2_*map[string]string_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_*[]string_"json:\"F1\"";_F2_*[]string_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_string_"json:\"F1\"";_F2_string_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_*string_"json:\"F1\"";_F2_*string_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_*test.jm_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_*test.tm_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_*test.sjm_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_*test.tm_"json:\"f,omitempty\""_}#01
+=== RUN   Test_symmetric/struct_{_F1_*uint32_"json:\"F1\"";_F2_*uint32_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_[]string_"json:\"F1\"";_F2_[]string_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_string_"json:\"F1\"";_F2_string_"json:\"F2,omitempty\""_}#01
+=== RUN   Test_symmetric/struct_{_F_test.jm_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_test.tm_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_struct_{}_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_test.sjm_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F_test.stm_"json:\"f,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_uint32_"json:\"F1\"";_F2_uint32_"json:\"F2,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_F1_bool_"json:\"F1\"";_F2_bool_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_uint8_"json:\"F1\"";_F2_uint8_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_float32_"json:\"F1\"";_F2_float32_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_float64_"json:\"F1\"";_F2_float64_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_int8_"json:\"F1\"";_F2_int8_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_int16_"json:\"F1\"";_F2_int16_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_int32_"json:\"F1\"";_F2_int32_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_uint8_"json:\"F1\"";_F2_uint8_"json:\"F2,string\""_}#01
+=== RUN   Test_symmetric/struct_{_F1_uint16_"json:\"F1\"";_F2_uint16_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_F1_uint32_"json:\"F1\"";_F2_uint32_"json:\"F2,string\""_}
+=== RUN   Test_symmetric/struct_{_A_string_"json:\"a,omitempty\"";_B_string_"json:\"b,omitempty\"";_Annotations_map[string]string_"json:\"annotations,omitempty\""_}
+=== RUN   Test_symmetric/struct_{_Field_bool_"json:\",omitempty,string\""_}
+=== RUN   Test_symmetric/struct_{_Field_bool_"json:\"中文\""_}
+=== RUN   Test_symmetric/struct_{_Field1_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string;_Field9_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string;_Field9_string;_Field10_string_}
+=== RUN   Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string;_Field9_string;_Field10_string;_Field11_string_}
+=== RUN   Test_symmetric/test.struct1Alias
+=== RUN   Test_symmetric/struct_{_F_[4]*string_}
+=== RUN   Test_symmetric/struct_{_F_[4]string_}
+=== RUN   Test_symmetric/struct_{_F1_[4]test.stringAlias;_F2_test.arrayAlis_}
+=== RUN   Test_symmetric/struct_{_F1_[4]string;_F2_[4]string;_F3_[4]string_}
+=== RUN   Test_symmetric/struct_{_F_[4]struct_{_F1_string;_F2_string;_F3_string_}_}
+=== RUN   Test_symmetric/struct_{}
+=== RUN   Test_symmetric/test.structEmpty
+=== RUN   Test_symmetric/struct_{_Byte1_uint8;_Byte2_uint8;_Bool1_bool;_Bool2_bool;_Int8_int8;_Int16_int16;_Int32_int32;_Int64_int64;_Uint8_uint8;_Uint16_uint16;_Uint32_uint32;_Uint64_uint64;_Float32_float32;_Float64_float64;_String1_string;_String2_string_}
+=== RUN   Test_symmetric/struct_{_F_float64_}
+=== RUN   Test_symmetric/struct_{_F_test.float64Alias_}
+=== RUN   Test_symmetric/struct_{_F1_float64;_F2_float64;_F3_float64_}
+=== RUN   Test_symmetric/struct_{_F1_test.float64Alias;_F2_test.float64Alias;_F3_test.float64Alias_}
+=== RUN   Test_symmetric/struct_{_F_int32_}
+=== RUN   Test_symmetric/struct_{_F_test.int32Alias_}
+=== RUN   Test_symmetric/struct_{_F1_int32;_F2_int32;_F3_int32_}
+=== RUN   Test_symmetric/struct_{_F1_test.int32Alias;_F2_test.int32Alias;_F3_test.int32Alias_}
+=== RUN   Test_symmetric/struct_{_F_int64_}
+=== RUN   Test_symmetric/struct_{_F_map[int32]*string_}
+=== RUN   Test_symmetric/struct_{_F_map[int32]string_}
+=== RUN   Test_symmetric/struct_{_F_map[int32]struct_{_F1_string;_F2_string;_F3_string_}_}
+=== RUN   Test_symmetric/struct_{_F_map[string]*string_}
+=== RUN   Test_symmetric/struct_{_F_map[string]string_}
+=== RUN   Test_symmetric/struct_{_F_map[string]struct_{_F1_string;_F2_string;_F3_string_}_}
+=== RUN   Test_symmetric/struct_{_F_*float64_}
+=== RUN   Test_symmetric/struct_{_F1_*test.float64Alias;_F2_test.ptrFloat64Alias;_F3_*test.ptrFloat64Alias_}
+=== RUN   Test_symmetric/struct_{_F_*int32_}
+=== RUN   Test_symmetric/struct_{_F1_*test.int32Alias;_F2_test.ptrInt32Alias;_F3_*test.ptrInt32Alias_}
+=== RUN   Test_symmetric/struct_{_F_**struct_{}_}
+=== RUN   Test_symmetric/struct_{_F_**struct_{_F1_string;_F2_string;_F3_string_}_}
+=== RUN   Test_symmetric/struct_{_F_*string_}
+=== RUN   Test_symmetric/struct_{_F1_*test.stringAlias;_F2_test.ptrStringAlias;_F3_*test.ptrStringAlias_}
+=== RUN   Test_symmetric/struct_{_F_*struct_{}_}
+=== RUN   Test_symmetric/struct_{_F_*struct_{_F1_string;_F2_string;_F3_string_}_}
+=== RUN   Test_symmetric/struct_{_F1_*float64;_F2_*float64;_F3_*float64_}
+=== RUN   Test_symmetric/struct_{_F1_*int32;_F2_*int32;_F3_*int32_}
+=== RUN   Test_symmetric/struct_{_F1_*string;_F2_*string;_F3_*string_}
+=== RUN   Test_symmetric/struct_{_F_[]*string_}
+=== RUN   Test_symmetric/struct_{_F_[]string_}
+=== RUN   Test_symmetric/struct_{_F1_[]test.stringAlias;_F2_test.stringAlias_}
+=== RUN   Test_symmetric/struct_{_F1_[]string;_F2_[]string;_F3_[]string_}
+=== RUN   Test_symmetric/struct_{_F_[]struct_{_F1_string;_F2_string;_F3_string_}_}
+=== RUN   Test_symmetric/struct_{_F_string_}
+=== RUN   Test_symmetric/struct_{_F_test.stringAlias_}
+=== RUN   Test_symmetric/struct_{_F1_string;_F2_string;_F3_string_}
+=== RUN   Test_symmetric/struct_{_F1_test.stringAlias;_F2_test.stringAlias;_F3_test.stringAlias_}
+=== RUN   Test_symmetric/struct_{_F1_struct_{};_F2_struct_{};_F3_struct_{}_}
+=== RUN   Test_symmetric/struct_{_F_struct_{}_}
+=== RUN   Test_symmetric/struct_{_F_test.structEmpty_}
+=== RUN   Test_symmetric/struct_{_F_struct_{_F1_float32;_F2_float32;_F3_float32_}_}
+=== RUN   Test_symmetric/struct_{_F_struct_{_F_float32_}_}
+=== RUN   Test_symmetric/struct_{_F_test.struct2_}
+=== RUN   Test_symmetric/struct_{_F_struct_{_F1_int32;_F2_int32;_F3_int32_}_}
+=== RUN   Test_symmetric/struct_{_F_struct_{_F1_string;_F2_string;_F3_string_}_}
+=== RUN   Test_symmetric/struct_{_F_test.struct3_}
+=== RUN   Test_symmetric/struct_{_TF1_struct_{_F2_int;_F1_*test.withTime_}_}
+=== RUN   Test_symmetric/test.DeeplyNested
+=== RUN   Test_symmetric/test.StringTextMarshaler
+=== RUN   Test_symmetric/test.structTextMarshaler
+=== RUN   Test_symmetric/test.structTextMarshalerAlias
+=== RUN   Test_symmetric/struct_{_S_string;_M_test.structTextMarshaler;_I_int8_}
+=== RUN   Test_symmetric/struct_{_S_string;_M_test.structTextMarshalerAlias;_I_int8_}
+--- FAIL: Test_symmetric (1.14s)
+    --- PASS: Test_symmetric/[4]bool (0.00s)
+    --- PASS: Test_symmetric/[4]uint8 (0.00s)
+    --- PASS: Test_symmetric/[4]float64 (0.00s)
+    --- PASS: Test_symmetric/[4]int32 (0.00s)
+    --- PASS: Test_symmetric/[4]map[int32]string (0.01s)
+    --- PASS: Test_symmetric/[4]map[string]string (0.02s)
+    --- PASS: Test_symmetric/[4]*bool (0.00s)
+    --- PASS: Test_symmetric/[4]*float64 (0.00s)
+    --- PASS: Test_symmetric/[4]*int32 (0.00s)
+    --- PASS: Test_symmetric/[4]*map[int32]string (0.01s)
+    --- PASS: Test_symmetric/[4]*map[string]string (0.01s)
+    --- PASS: Test_symmetric/[4]*[4]bool (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]uint8 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]float64 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]int32 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]*string (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]string (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/[4]*string (0.00s)
+    --- PASS: Test_symmetric/[4]*struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[4]string;_Map_map[string]string_} (0.02s)
+    --- PASS: Test_symmetric/[4]*uint8 (0.01s)
+    --- PASS: Test_symmetric/[4][4]bool (0.01s)
+    --- PASS: Test_symmetric/[4][4]uint8 (0.00s)
+    --- PASS: Test_symmetric/[4][4]float64 (0.00s)
+    --- PASS: Test_symmetric/[4][4]int32 (0.00s)
+    --- PASS: Test_symmetric/[4][4]*string (0.01s)
+    --- PASS: Test_symmetric/[4][4]string (0.01s)
+    --- PASS: Test_symmetric/[4][4]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/[4]string (0.00s)
+    --- PASS: Test_symmetric/[4]struct_{} (0.00s)
+    --- PASS: Test_symmetric/[4]test.structEmpty (0.00s)
+    --- PASS: Test_symmetric/[4]struct_{_F_*string_} (0.00s)
+    --- PASS: Test_symmetric/[4]struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[4]string;_Map_map[string]string_} (0.02s)
+    --- PASS: Test_symmetric/[4]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/bool (0.00s)
+    --- PASS: Test_symmetric/test.boolAlias (0.00s)
+    --- PASS: Test_symmetric/uint8 (0.00s)
+    --- PASS: Test_symmetric/test.byteAlias (0.00s)
+    --- PASS: Test_symmetric/float32 (0.00s)
+    --- PASS: Test_symmetric/test.float32Alias (0.00s)
+    --- PASS: Test_symmetric/float64 (0.00s)
+    --- PASS: Test_symmetric/test.float64Alias (0.00s)
+    --- PASS: Test_symmetric/int8 (0.00s)
+    --- PASS: Test_symmetric/test.int8Alias (0.00s)
+    --- PASS: Test_symmetric/int16 (0.00s)
+    --- PASS: Test_symmetric/test.int16Alias (0.00s)
+    --- PASS: Test_symmetric/int32 (0.00s)
+    --- PASS: Test_symmetric/test.int32Alias (0.00s)
+    --- PASS: Test_symmetric/int64 (0.00s)
+    --- PASS: Test_symmetric/test.int64Alias (0.00s)
+    --- PASS: Test_symmetric/string (0.00s)
+    --- PASS: Test_symmetric/test.stringAlias (0.00s)
+    --- PASS: Test_symmetric/uint8#01 (0.00s)
+    --- PASS: Test_symmetric/test.uint8Alias (0.00s)
+    --- PASS: Test_symmetric/uint16 (0.00s)
+    --- PASS: Test_symmetric/test.uint16Alias (0.00s)
+    --- PASS: Test_symmetric/uint32 (0.00s)
+    --- PASS: Test_symmetric/test.uint32Alias (0.00s)
+    --- PASS: Test_symmetric/uintptr (0.00s)
+    --- PASS: Test_symmetric/test.uintptrAlias (0.00s)
+    --- PASS: Test_symmetric/struct_{_A_test.int8Alias_"json:\"a\"";_B_test.int16Alias_"json:\"stream\"";_C_test.int32Alias_"json:\"c\"";_D_test.int64Alias_"json:\"d\"";_E_test.uintAlias_"json:\"e\"";_F_test.uint16Alias_"json:\"f\"";_G_test.uint32Alias_"json:\"g\"";_H_test.uint64Alias_"json:\"h\"";_I_test.float32Alias_"json:\"i\"";_J_test.float64Alias_"json:\"j\"";_K_test.stringAlias_"json:\"k\"";_L_test.intAlias_"json:\"l\"";_M_test.uintAlias_"json:\"m\"";_N_test.boolAlias_"json:\"n\"";_O_test.uintptrAlias_"json:\"o\""_} (0.01s)
+    --- FAIL: Test_symmetric/map[test.stringKeyType]string (0.00s)
+    --- PASS: Test_symmetric/map[test.structKeyType]string (0.00s)
+    --- PASS: Test_symmetric/map[int8]string (0.01s)
+    --- PASS: Test_symmetric/map[int16]string (0.01s)
+    --- PASS: Test_symmetric/map[int32]string (0.01s)
+    --- PASS: Test_symmetric/map[int64]string (0.00s)
+    --- PASS: Test_symmetric/map[string][4]string (0.01s)
+    --- PASS: Test_symmetric/map[string]bool (0.00s)
+    --- PASS: Test_symmetric/map[string]uint8 (0.00s)
+    --- PASS: Test_symmetric/map[string]float64 (0.01s)
+    --- PASS: Test_symmetric/map[string]int32 (0.00s)
+    --- PASS: Test_symmetric/map[string]map[string]string (0.01s)
+    --- PASS: Test_symmetric/map[string]*[4]string (0.01s)
+    --- PASS: Test_symmetric/map[string]*bool (0.00s)
+    --- PASS: Test_symmetric/map[string]*float64 (0.01s)
+    --- PASS: Test_symmetric/map[string]*int32 (0.00s)
+    --- PASS: Test_symmetric/map[string]*map[string]string (0.01s)
+    --- PASS: Test_symmetric/map[string]*[]string (0.01s)
+    --- PASS: Test_symmetric/map[string]*string (0.00s)
+    --- PASS: Test_symmetric/map[string]*test.structVarious (0.04s)
+    --- PASS: Test_symmetric/map[string]*uint8 (0.03s)
+    --- PASS: Test_symmetric/map[string][]string (0.01s)
+    --- PASS: Test_symmetric/map[string]string (0.00s)
+    --- PASS: Test_symmetric/map[string]test.stringAlias (0.00s)
+    --- PASS: Test_symmetric/map[string]struct_{} (0.00s)
+    --- PASS: Test_symmetric/map[string]test.structEmpty (0.00s)
+    --- PASS: Test_symmetric/map[string]struct_{_F_*string_} (0.01s)
+    --- PASS: Test_symmetric/map[string]struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[]string;_Map_map[string]string_} (0.04s)
+    --- PASS: Test_symmetric/map[string]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/map[test.stringAlias]string (0.01s)
+    --- PASS: Test_symmetric/map[test.stringAlias]test.stringAlias (0.01s)
+    --- PASS: Test_symmetric/map[uint8]string (0.00s)
+    --- PASS: Test_symmetric/map[uint16]string (0.00s)
+    --- PASS: Test_symmetric/map[uint32]string (0.00s)
+    --- PASS: Test_symmetric/test.StringMarshaler (0.00s)
+    --- PASS: Test_symmetric/test.structMarshaler (0.00s)
+    --- PASS: Test_symmetric/test.structMarshalerAlias (0.00s)
+    --- PASS: Test_symmetric/struct_{_S_string;_M_test.structMarshaler;_I_int8_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_S_string;_M_test.structMarshalerAlias;_I_int8_} (0.00s)
+    --- PASS: Test_symmetric/[][4]bool (0.00s)
+    --- PASS: Test_symmetric/[][4]uint8 (0.00s)
+    --- PASS: Test_symmetric/[][4]float64 (0.00s)
+    --- PASS: Test_symmetric/[][4]int32 (0.00s)
+    --- PASS: Test_symmetric/[][4]*string (0.01s)
+    --- PASS: Test_symmetric/[][4]string (0.00s)
+    --- PASS: Test_symmetric/[][4]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/[]bool (0.00s)
+    --- PASS: Test_symmetric/[]uint8 (0.00s)
+    --- PASS: Test_symmetric/[]float64 (0.00s)
+    --- PASS: Test_symmetric/[]int32 (0.00s)
+    --- PASS: Test_symmetric/[]int64 (0.00s)
+    --- PASS: Test_symmetric/[]map[int32]string (0.01s)
+    --- PASS: Test_symmetric/[]map[string]string (0.02s)
+    --- PASS: Test_symmetric/[4]*[4]bool#01 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]uint8#02 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]float64#01 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]int32#01 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]*string#01 (0.01s)
+    --- PASS: Test_symmetric/[4]*[4]string#01 (0.00s)
+    --- PASS: Test_symmetric/[4]*[4]uint8#03 (0.00s)
+    --- PASS: Test_symmetric/[]*bool (0.00s)
+    --- PASS: Test_symmetric/[]*float64 (0.00s)
+    --- PASS: Test_symmetric/[]*int32 (0.00s)
+    --- PASS: Test_symmetric/[]*map[int32]string (0.01s)
+    --- PASS: Test_symmetric/[]*map[string]string (0.01s)
+    --- PASS: Test_symmetric/[]*[]bool (0.00s)
+    --- PASS: Test_symmetric/[]*[]uint8 (0.00s)
+    --- PASS: Test_symmetric/[]*[]float64 (0.00s)
+    --- PASS: Test_symmetric/[]*[]int32 (0.00s)
+    --- PASS: Test_symmetric/[]*[]*string (0.01s)
+    --- PASS: Test_symmetric/[]*[]string (0.00s)
+    --- PASS: Test_symmetric/[]*[]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/[]*string (0.00s)
+    --- PASS: Test_symmetric/[]*struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[]string;_Map_map[string]string_} (0.02s)
+    --- PASS: Test_symmetric/[]*uint8 (0.00s)
+    --- PASS: Test_symmetric/[][]bool (0.00s)
+    --- PASS: Test_symmetric/[][]uint8 (0.00s)
+    --- PASS: Test_symmetric/[][]float64 (0.01s)
+    --- PASS: Test_symmetric/[][]int32 (0.00s)
+    --- PASS: Test_symmetric/[][]*string (0.01s)
+    --- PASS: Test_symmetric/[][]string (0.01s)
+    --- PASS: Test_symmetric/[][]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/[]string (0.00s)
+    --- PASS: Test_symmetric/[]struct_{} (0.00s)
+    --- PASS: Test_symmetric/[]test.structEmpty (0.00s)
+    --- PASS: Test_symmetric/[]struct_{_F_*string_} (0.00s)
+    --- PASS: Test_symmetric/[]struct_{_String_string;_Int_int32;_Float_float64;_Struct_struct_{_X_string_};_Slice_[]string;_Map_map[string]string_} (0.03s)
+    --- PASS: Test_symmetric/[]uint8#01 (0.00s)
+    --- PASS: Test_symmetric/[]test.jsonMarshaler (0.00s)
+    --- PASS: Test_symmetric/[]test.jsonMarshalerMap (0.00s)
+    --- PASS: Test_symmetric/[]test.textMarshaler (0.00s)
+    --- PASS: Test_symmetric/[]test.textMarshalerMap (0.00s)
+    --- PASS: Test_symmetric/struct_{_test.EmbeddedFloat64_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_test.EmbeddedInt32_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_float64;_test.StringMarshaler;_F2_int32_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_test.EmbeddedMapStringString_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_*test.EmbeddedFloat64_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_*test.EmbeddedInt32_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_*test.EmbeddedMapStringString_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_*test.EmbeddedSliceString_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_*test.EmbeddedString_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_*test.EmbeddedStruct_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_test.EmbeddedSliceString_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_test.EmbeddedString_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_test.EmbeddedString_"json:\"othername\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_test.EmbeddedStruct_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F1_float64;_test.StringTextMarshaler;_F2_int32_} (0.00s)
+    --- PASS: Test_symmetric/test.OverlapDifferentLevels (0.00s)
+    --- PASS: Test_symmetric/test.IgnoreDeeperLevel (0.00s)
+    --- PASS: Test_symmetric/test.SameLevel1BothTagged (0.00s)
+    --- PASS: Test_symmetric/test.SameLevel1NoTags (0.00s)
+    --- PASS: Test_symmetric/test.SameLevel1Tagged (0.00s)
+    --- PASS: Test_symmetric/test.SameLevel2BothTagged (0.00s)
+    --- PASS: Test_symmetric/test.SameLevel2NoTags (0.00s)
+    --- PASS: Test_symmetric/test.SameLevel2Tagged (0.00s)
+    --- PASS: Test_symmetric/test.EmbeddedPtr (0.00s)
+    --- PASS: Test_symmetric/test.UnnamedLiteral (0.01s)
+    --- PASS: Test_symmetric/struct_{_Upper_bool_"json:\"M\"";_Lower_bool_"json:\"m\""_} (0.00s)
+    --- PASS: Test_symmetric/test.EmbeddedFieldName (0.00s)
+    --- PASS: Test_symmetric/test.StringFieldName (0.00s)
+    --- PASS: Test_symmetric/test.StructFieldName (0.01s)
+    --- PASS: Test_symmetric/struct_{_F1_bool_"json:\"F1\"";_F2_bool_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/test.EmbeddedOmitEmpty (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_float32_"json:\"F1\"";_F2_float32_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_int32_"json:\"F1\"";_F2_int32_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_map[string]string_"json:\"F1\"";_F2_map[string]string_"json:\"F2,omitempty\""_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F1_*bool_"json:\"F1\"";_F2_*bool_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*float32_"json:\"F1\"";_F2_*float32_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*int32_"json:\"F1\"";_F2_*int32_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*map[string]string_"json:\"F1\"";_F2_*map[string]string_"json:\"F2,omitempty\""_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F1_*[]string_"json:\"F1\"";_F2_*[]string_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_string_"json:\"F1\"";_F2_string_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*string_"json:\"F1\"";_F2_*string_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*test.jm_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*test.tm_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*test.sjm_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*test.tm_"json:\"f,omitempty\""_}#01 (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*uint32_"json:\"F1\"";_F2_*uint32_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_[]string_"json:\"F1\"";_F2_[]string_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_string_"json:\"F1\"";_F2_string_"json:\"F2,omitempty\""_}#01 (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.jm_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.tm_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_struct_{}_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.sjm_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.stm_"json:\"f,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_uint32_"json:\"F1\"";_F2_uint32_"json:\"F2,omitempty\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_bool_"json:\"F1\"";_F2_bool_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_uint8_"json:\"F1\"";_F2_uint8_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_float32_"json:\"F1\"";_F2_float32_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_float64_"json:\"F1\"";_F2_float64_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_int8_"json:\"F1\"";_F2_int8_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_int16_"json:\"F1\"";_F2_int16_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_int32_"json:\"F1\"";_F2_int32_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_uint8_"json:\"F1\"";_F2_uint8_"json:\"F2,string\""_}#01 (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_uint16_"json:\"F1\"";_F2_uint16_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_uint32_"json:\"F1\"";_F2_uint32_"json:\"F2,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_A_string_"json:\"a,omitempty\"";_B_string_"json:\"b,omitempty\"";_Annotations_map[string]string_"json:\"annotations,omitempty\""_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_Field_bool_"json:\",omitempty,string\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field_bool_"json:\"中文\""_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string;_Field9_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string;_Field9_string;_Field10_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_Field1_string;_Field2_string;_Field3_string;_Field4_string;_Field5_string;_Field6_string;_Field7_string;_Field8_string;_Field9_string;_Field10_string;_Field11_string_} (0.08s)
+    --- PASS: Test_symmetric/test.struct1Alias (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_[4]*string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_[4]string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_[4]test.stringAlias;_F2_test.arrayAlis_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_[4]string;_F2_[4]string;_F3_[4]string_} (0.02s)
+    --- PASS: Test_symmetric/struct_{_F_[4]struct_{_F1_string;_F2_string;_F3_string_}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{} (0.00s)
+    --- PASS: Test_symmetric/test.structEmpty (0.00s)
+    --- PASS: Test_symmetric/struct_{_Byte1_uint8;_Byte2_uint8;_Bool1_bool;_Bool2_bool;_Int8_int8;_Int16_int16;_Int32_int32;_Int64_int64;_Uint8_uint8;_Uint16_uint16;_Uint32_uint32;_Uint64_uint64;_Float32_float32;_Float64_float64;_String1_string;_String2_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_float64_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.float64Alias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_float64;_F2_float64;_F3_float64_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_test.float64Alias;_F2_test.float64Alias;_F3_test.float64Alias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_int32_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.int32Alias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_int32;_F2_int32;_F3_int32_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_test.int32Alias;_F2_test.int32Alias;_F3_test.int32Alias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_int64_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_map[int32]*string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_map[int32]string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_map[int32]struct_{_F1_string;_F2_string;_F3_string_}_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F_map[string]*string_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F_map[string]string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_map[string]struct_{_F1_string;_F2_string;_F3_string_}_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F_*float64_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*test.float64Alias;_F2_test.ptrFloat64Alias;_F3_*test.ptrFloat64Alias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*int32_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*test.int32Alias;_F2_test.ptrInt32Alias;_F3_*test.ptrInt32Alias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_**struct_{}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_**struct_{_F1_string;_F2_string;_F3_string_}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*test.stringAlias;_F2_test.ptrStringAlias;_F3_*test.ptrStringAlias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*struct_{}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_*struct_{_F1_string;_F2_string;_F3_string_}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*float64;_F2_*float64;_F3_*float64_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*int32;_F2_*int32;_F3_*int32_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_*string;_F2_*string;_F3_*string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_[]*string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_[]string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_[]test.stringAlias;_F2_test.stringAlias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_[]string;_F2_[]string;_F3_[]string_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F_[]struct_{_F1_string;_F2_string;_F3_string_}_} (0.01s)
+    --- PASS: Test_symmetric/struct_{_F_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.stringAlias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_string;_F2_string;_F3_string_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_test.stringAlias;_F2_test.stringAlias;_F3_test.stringAlias_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F1_struct_{};_F2_struct_{};_F3_struct_{}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_struct_{}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.structEmpty_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_struct_{_F1_float32;_F2_float32;_F3_float32_}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_struct_{_F_float32_}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.struct2_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_struct_{_F1_int32;_F2_int32;_F3_int32_}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_struct_{_F1_string;_F2_string;_F3_string_}_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_F_test.struct3_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_TF1_struct_{_F2_int;_F1_*test.withTime_}_} (0.00s)
+    --- PASS: Test_symmetric/test.DeeplyNested (0.00s)
+    --- PASS: Test_symmetric/test.StringTextMarshaler (0.00s)
+    --- PASS: Test_symmetric/test.structTextMarshaler (0.00s)
+    --- PASS: Test_symmetric/test.structTextMarshalerAlias (0.00s)
+    --- PASS: Test_symmetric/struct_{_S_string;_M_test.structTextMarshaler;_I_int8_} (0.00s)
+    --- PASS: Test_symmetric/struct_{_S_string;_M_test.structTextMarshalerAlias;_I_int8_} (0.00s)
+=== RUN   Test_asymmetric
+--- PASS: Test_asymmetric (0.00s)
+FAIL
+FAIL	github.com/json-iterator/go/type_tests	1.755s
+=== RUN   Test_errorInput
+=== RUN   Test_errorInput/[0]int
+=== RUN   Test_errorInput/[1]int
+=== RUN   Test_errorInput/[1]int#01
+=== RUN   Test_errorInput/struct_{_Field_bool_"json:\"field\""_}
+=== RUN   Test_errorInput/*interface_{}
+=== RUN   Test_errorInput/*interface_{}#01
+=== RUN   Test_errorInput/*interface_{}#02
+=== RUN   Test_errorInput/[]interface_{}
+=== RUN   Test_errorInput/struct_{_Field_interface_{}_}
+=== RUN   Test_errorInput/[]io.Closer
+=== RUN   Test_errorInput/struct_{_F1_int8;_F2_int16;_F3_int32;_F4_int64;_F5_int;_F6_uint8;_F7_uint16;_F8_uint32;_F9_uint64;_F10_uint;_F11_float32;_F12_float64;_F13_uintptr_}
+=== RUN   Test_errorInput/map[string]string
+=== RUN   Test_errorInput/map[string]string#01
+=== RUN   Test_errorInput/map[string]*json.RawMessage
+=== RUN   Test_errorInput/map[test.Date]bool
+=== RUN   Test_errorInput/map[test.Date2]bool
+=== RUN   Test_errorInput/map[test.customKey]string
+=== RUN   Test_errorInput/test.tmOfMap
+=== RUN   Test_errorInput/test.tmOfMapPtr
+=== RUN   Test_errorInput/json.Number
+=== RUN   Test_errorInput/json.Number#01
+=== RUN   Test_errorInput/json.Number#02
+=== RUN   Test_errorInput/json.RawMessage
+=== RUN   Test_errorInput/json.RawMessage#01
+=== RUN   Test_errorInput/[]string
+=== RUN   Test_errorInput/[]string#01
+=== RUN   Test_errorInput/[]uint8
+=== RUN   Test_errorInput/[]uint8#01
+=== RUN   Test_errorInput/[]uint8#02
+=== RUN   Test_errorInput/struct_{_Field_interface_{}_}#01
+=== RUN   Test_errorInput/struct_{_Field_interface_{}_}#02
+=== RUN   Test_errorInput/struct_{_Field_int_"json:\"field\""_}
+=== RUN   Test_errorInput/struct_{_Field_int_"json:\"field,string\""_}
+=== RUN   Test_errorInput/struct_{_ID_int_"json:\"id\"";_Payload_map[string]interface_{}_"json:\"payload\"";_buf_*bytes.Buffer_}
+=== RUN   Test_errorInput/struct_{_Field1_string_}
+=== RUN   Test_errorInput/struct_{_Field1_string_}#01
+=== RUN   Test_errorInput/struct_{_Field1_*string;_Field2_*string_}
+=== RUN   Test_errorInput/struct_{_Field1_string;_Field2_json.RawMessage_}
+=== RUN   Test_errorInput/struct_{_a_int;_b_<-chan_int;_C_int;_d_*time.Timer_}
+=== RUN   Test_errorInput/struct_{_A_string;_B_string;_C_string;_D_string;_E_string;_F_string;_G_string;_H_string;_I_string;_J_string;_K_string_}
+=== RUN   Test_errorInput/struct_{_T_float64_"json:\"T\""_}
+=== RUN   Test_errorInput/struct_{_T_float64_"json:\"T\""_}#01
+=== RUN   Test_errorInput/struct_{_T_float64_"json:\"t\""_}
+=== RUN   Test_errorInput/struct_{_KeyString_string_"json:\"key_string\"";_Type_string_"json:\"type\"";_Asks_[][2]float64_"json:\"asks\""_}
+--- PASS: Test_errorInput (0.00s)
+    --- PASS: Test_errorInput/[0]int (0.00s)
+    --- PASS: Test_errorInput/[1]int (0.00s)
+    --- PASS: Test_errorInput/[1]int#01 (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field_bool_"json:\"field\""_} (0.00s)
+    --- PASS: Test_errorInput/*interface_{} (0.00s)
+    --- PASS: Test_errorInput/*interface_{}#01 (0.00s)
+    --- PASS: Test_errorInput/*interface_{}#02 (0.00s)
+    --- PASS: Test_errorInput/[]interface_{} (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field_interface_{}_} (0.00s)
+    --- PASS: Test_errorInput/[]io.Closer (0.00s)
+    --- PASS: Test_errorInput/struct_{_F1_int8;_F2_int16;_F3_int32;_F4_int64;_F5_int;_F6_uint8;_F7_uint16;_F8_uint32;_F9_uint64;_F10_uint;_F11_float32;_F12_float64;_F13_uintptr_} (0.00s)
+    --- PASS: Test_errorInput/map[string]string (0.00s)
+    --- PASS: Test_errorInput/map[string]string#01 (0.00s)
+    --- PASS: Test_errorInput/map[string]*json.RawMessage (0.00s)
+    --- PASS: Test_errorInput/map[test.Date]bool (0.00s)
+    --- PASS: Test_errorInput/map[test.Date2]bool (0.00s)
+    --- PASS: Test_errorInput/map[test.customKey]string (0.00s)
+    --- PASS: Test_errorInput/test.tmOfMap (0.00s)
+    --- PASS: Test_errorInput/test.tmOfMapPtr (0.00s)
+    --- PASS: Test_errorInput/json.Number (0.00s)
+    --- PASS: Test_errorInput/json.Number#01 (0.00s)
+    --- PASS: Test_errorInput/json.Number#02 (0.00s)
+    --- PASS: Test_errorInput/json.RawMessage (0.00s)
+    --- PASS: Test_errorInput/json.RawMessage#01 (0.00s)
+    --- PASS: Test_errorInput/[]string (0.00s)
+    --- PASS: Test_errorInput/[]string#01 (0.00s)
+    --- PASS: Test_errorInput/[]uint8 (0.00s)
+    --- PASS: Test_errorInput/[]uint8#01 (0.00s)
+    --- PASS: Test_errorInput/[]uint8#02 (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field_interface_{}_}#01 (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field_interface_{}_}#02 (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field_int_"json:\"field\""_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field_int_"json:\"field,string\""_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_ID_int_"json:\"id\"";_Payload_map[string]interface_{}_"json:\"payload\"";_buf_*bytes.Buffer_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field1_string_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field1_string_}#01 (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field1_*string;_Field2_*string_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_Field1_string;_Field2_json.RawMessage_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_a_int;_b_<-chan_int;_C_int;_d_*time.Timer_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_A_string;_B_string;_C_string;_D_string;_E_string;_F_string;_G_string;_H_string;_I_string;_J_string;_K_string_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_T_float64_"json:\"T\""_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_T_float64_"json:\"T\""_}#01 (0.00s)
+    --- PASS: Test_errorInput/struct_{_T_float64_"json:\"t\""_} (0.00s)
+    --- PASS: Test_errorInput/struct_{_KeyString_string_"json:\"key_string\"";_Type_string_"json:\"type\"";_Asks_[][2]float64_"json:\"asks\""_} (0.00s)
+=== RUN   Test_read_float
+=== RUN   Test_read_float/1.1
+=== RUN   Test_read_float/1.1#01
+=== RUN   Test_read_float/1.1#02
+=== RUN   Test_read_float/1.1#03
+=== RUN   Test_read_float/1000
+=== RUN   Test_read_float/1000#01
+=== RUN   Test_read_float/1000#02
+=== RUN   Test_read_float/1000#03
+=== RUN   Test_read_float/9223372036854775807
+=== RUN   Test_read_float/9223372036854775807#01
+=== RUN   Test_read_float/9223372036854775807#02
+=== RUN   Test_read_float/9223372036854775807#03
+=== RUN   Test_read_float/12.3
+=== RUN   Test_read_float/12.3#01
+=== RUN   Test_read_float/12.3#02
+=== RUN   Test_read_float/12.3#03
+=== RUN   Test_read_float/-12.3
+=== RUN   Test_read_float/-12.3#01
+=== RUN   Test_read_float/-12.3#02
+=== RUN   Test_read_float/-12.3#03
+=== RUN   Test_read_float/720368.54775807
+=== RUN   Test_read_float/720368.54775807#01
+=== RUN   Test_read_float/720368.54775807#02
+=== RUN   Test_read_float/720368.54775807#03
+=== RUN   Test_read_float/720368.547758075
+=== RUN   Test_read_float/720368.547758075#01
+=== RUN   Test_read_float/720368.547758075#02
+=== RUN   Test_read_float/720368.547758075#03
+=== RUN   Test_read_float/1e1
+=== RUN   Test_read_float/1e1#01
+=== RUN   Test_read_float/1e1#02
+=== RUN   Test_read_float/1e1#03
+=== RUN   Test_read_float/1e+1
+=== RUN   Test_read_float/1e+1#01
+=== RUN   Test_read_float/1e+1#02
+=== RUN   Test_read_float/1e+1#03
+=== RUN   Test_read_float/1e-1
+=== RUN   Test_read_float/1e-1#01
+=== RUN   Test_read_float/1e-1#02
+=== RUN   Test_read_float/1e-1#03
+=== RUN   Test_read_float/1E1
+=== RUN   Test_read_float/1E1#01
+=== RUN   Test_read_float/1E1#02
+=== RUN   Test_read_float/1E1#03
+=== RUN   Test_read_float/1E+1
+=== RUN   Test_read_float/1E+1#01
+=== RUN   Test_read_float/1E+1#02
+=== RUN   Test_read_float/1E+1#03
+=== RUN   Test_read_float/1E-1
+=== RUN   Test_read_float/1E-1#01
+=== RUN   Test_read_float/1E-1#02
+=== RUN   Test_read_float/1E-1#03
+=== RUN   Test_read_float/-1e1
+=== RUN   Test_read_float/-1e1#01
+=== RUN   Test_read_float/-1e1#02
+=== RUN   Test_read_float/-1e1#03
+=== RUN   Test_read_float/-1e+1
+=== RUN   Test_read_float/-1e+1#01
+=== RUN   Test_read_float/-1e+1#02
+=== RUN   Test_read_float/-1e+1#03
+=== RUN   Test_read_float/-1e-1
+=== RUN   Test_read_float/-1e-1#01
+=== RUN   Test_read_float/-1e-1#02
+=== RUN   Test_read_float/-1e-1#03
+--- PASS: Test_read_float (0.00s)
+    --- PASS: Test_read_float/1.1 (0.00s)
+    --- PASS: Test_read_float/1.1#01 (0.00s)
+    --- PASS: Test_read_float/1.1#02 (0.00s)
+    --- PASS: Test_read_float/1.1#03 (0.00s)
+    --- PASS: Test_read_float/1000 (0.00s)
+    --- PASS: Test_read_float/1000#01 (0.00s)
+    --- PASS: Test_read_float/1000#02 (0.00s)
+    --- PASS: Test_read_float/1000#03 (0.00s)
+    --- PASS: Test_read_float/9223372036854775807 (0.00s)
+    --- PASS: Test_read_float/9223372036854775807#01 (0.00s)
+    --- PASS: Test_read_float/9223372036854775807#02 (0.00s)
+    --- PASS: Test_read_float/9223372036854775807#03 (0.00s)
+    --- PASS: Test_read_float/12.3 (0.00s)
+    --- PASS: Test_read_float/12.3#01 (0.00s)
+    --- PASS: Test_read_float/12.3#02 (0.00s)
+    --- PASS: Test_read_float/12.3#03 (0.00s)
+    --- PASS: Test_read_float/-12.3 (0.00s)
+    --- PASS: Test_read_float/-12.3#01 (0.00s)
+    --- PASS: Test_read_float/-12.3#02 (0.00s)
+    --- PASS: Test_read_float/-12.3#03 (0.00s)
+    --- PASS: Test_read_float/720368.54775807 (0.00s)
+    --- PASS: Test_read_float/720368.54775807#01 (0.00s)
+    --- PASS: Test_read_float/720368.54775807#02 (0.00s)
+    --- PASS: Test_read_float/720368.54775807#03 (0.00s)
+    --- PASS: Test_read_float/720368.547758075 (0.00s)
+    --- PASS: Test_read_float/720368.547758075#01 (0.00s)
+    --- PASS: Test_read_float/720368.547758075#02 (0.00s)
+    --- PASS: Test_read_float/720368.547758075#03 (0.00s)
+    --- PASS: Test_read_float/1e1 (0.00s)
+    --- PASS: Test_read_float/1e1#01 (0.00s)
+    --- PASS: Test_read_float/1e1#02 (0.00s)
+    --- PASS: Test_read_float/1e1#03 (0.00s)
+    --- PASS: Test_read_float/1e+1 (0.00s)
+    --- PASS: Test_read_float/1e+1#01 (0.00s)
+    --- PASS: Test_read_float/1e+1#02 (0.00s)
+    --- PASS: Test_read_float/1e+1#03 (0.00s)
+    --- PASS: Test_read_float/1e-1 (0.00s)
+    --- PASS: Test_read_float/1e-1#01 (0.00s)
+    --- PASS: Test_read_float/1e-1#02 (0.00s)
+    --- PASS: Test_read_float/1e-1#03 (0.00s)
+    --- PASS: Test_read_float/1E1 (0.00s)
+    --- PASS: Test_read_float/1E1#01 (0.00s)
+    --- PASS: Test_read_float/1E1#02 (0.00s)
+    --- PASS: Test_read_float/1E1#03 (0.00s)
+    --- PASS: Test_read_float/1E+1 (0.00s)
+    --- PASS: Test_read_float/1E+1#01 (0.00s)
+    --- PASS: Test_read_float/1E+1#02 (0.00s)
+    --- PASS: Test_read_float/1E+1#03 (0.00s)
+    --- PASS: Test_read_float/1E-1 (0.00s)
+    --- PASS: Test_read_float/1E-1#01 (0.00s)
+    --- PASS: Test_read_float/1E-1#02 (0.00s)
+    --- PASS: Test_read_float/1E-1#03 (0.00s)
+    --- PASS: Test_read_float/-1e1 (0.00s)
+    --- PASS: Test_read_float/-1e1#01 (0.00s)
+    --- PASS: Test_read_float/-1e1#02 (0.00s)
+    --- PASS: Test_read_float/-1e1#03 (0.00s)
+    --- PASS: Test_read_float/-1e+1 (0.00s)
+    --- PASS: Test_read_float/-1e+1#01 (0.00s)
+    --- PASS: Test_read_float/-1e+1#02 (0.00s)
+    --- PASS: Test_read_float/-1e+1#03 (0.00s)
+    --- PASS: Test_read_float/-1e-1 (0.00s)
+    --- PASS: Test_read_float/-1e-1#01 (0.00s)
+    --- PASS: Test_read_float/-1e-1#02 (0.00s)
+    --- PASS: Test_read_float/-1e-1#03 (0.00s)
+=== RUN   Test_write_float32
+=== RUN   Test_write_float32/0
+=== RUN   Test_write_float32/0#01
+=== RUN   Test_write_float32/1
+=== RUN   Test_write_float32/1#01
+=== RUN   Test_write_float32/-1
+=== RUN   Test_write_float32/-1#01
+=== RUN   Test_write_float32/99
+=== RUN   Test_write_float32/99#01
+=== RUN   Test_write_float32/255
+=== RUN   Test_write_float32/255#01
+=== RUN   Test_write_float32/4095
+=== RUN   Test_write_float32/4095#01
+=== RUN   Test_write_float32/65535
+=== RUN   Test_write_float32/65535#01
+=== RUN   Test_write_float32/1.048575e+06
+=== RUN   Test_write_float32/1.048575e+06#01
+=== RUN   Test_write_float32/1.6777215e+07
+=== RUN   Test_write_float32/1.6777215e+07#01
+=== RUN   Test_write_float32/8.388608e+07
+=== RUN   Test_write_float32/8.388608e+07#01
+=== RUN   Test_write_float32/2.6843546e+08
+=== RUN   Test_write_float32/2.6843546e+08#01
+=== RUN   Test_write_float32/-8.388608e+07
+=== RUN   Test_write_float32/-8.388608e+07#01
+=== RUN   Test_write_float32/-2.6843546e+08
+=== RUN   Test_write_float32/-2.6843546e+08#01
+=== RUN   Test_write_float32/1.2345
+=== RUN   Test_write_float32/1.2345#01
+=== RUN   Test_write_float32/1.23456
+=== RUN   Test_write_float32/1.23456#01
+=== RUN   Test_write_float32/1.234567
+=== RUN   Test_write_float32/1.234567#01
+=== RUN   Test_write_float32/1.001
+=== RUN   Test_write_float32/1.001#01
+--- PASS: Test_write_float32 (0.00s)
+    --- PASS: Test_write_float32/0 (0.00s)
+    --- PASS: Test_write_float32/0#01 (0.00s)
+    --- PASS: Test_write_float32/1 (0.00s)
+    --- PASS: Test_write_float32/1#01 (0.00s)
+    --- PASS: Test_write_float32/-1 (0.00s)
+    --- PASS: Test_write_float32/-1#01 (0.00s)
+    --- PASS: Test_write_float32/99 (0.00s)
+    --- PASS: Test_write_float32/99#01 (0.00s)
+    --- PASS: Test_write_float32/255 (0.00s)
+    --- PASS: Test_write_float32/255#01 (0.00s)
+    --- PASS: Test_write_float32/4095 (0.00s)
+    --- PASS: Test_write_float32/4095#01 (0.00s)
+    --- PASS: Test_write_float32/65535 (0.00s)
+    --- PASS: Test_write_float32/65535#01 (0.00s)
+    --- PASS: Test_write_float32/1.048575e+06 (0.00s)
+    --- PASS: Test_write_float32/1.048575e+06#01 (0.00s)
+    --- PASS: Test_write_float32/1.6777215e+07 (0.00s)
+    --- PASS: Test_write_float32/1.6777215e+07#01 (0.00s)
+    --- PASS: Test_write_float32/8.388608e+07 (0.00s)
+    --- PASS: Test_write_float32/8.388608e+07#01 (0.00s)
+    --- PASS: Test_write_float32/2.6843546e+08 (0.00s)
+    --- PASS: Test_write_float32/2.6843546e+08#01 (0.00s)
+    --- PASS: Test_write_float32/-8.388608e+07 (0.00s)
+    --- PASS: Test_write_float32/-8.388608e+07#01 (0.00s)
+    --- PASS: Test_write_float32/-2.6843546e+08 (0.00s)
+    --- PASS: Test_write_float32/-2.6843546e+08#01 (0.00s)
+    --- PASS: Test_write_float32/1.2345 (0.00s)
+    --- PASS: Test_write_float32/1.2345#01 (0.00s)
+    --- PASS: Test_write_float32/1.23456 (0.00s)
+    --- PASS: Test_write_float32/1.23456#01 (0.00s)
+    --- PASS: Test_write_float32/1.234567 (0.00s)
+    --- PASS: Test_write_float32/1.234567#01 (0.00s)
+    --- PASS: Test_write_float32/1.001 (0.00s)
+    --- PASS: Test_write_float32/1.001#01 (0.00s)
+=== RUN   Test_write_float64
+=== RUN   Test_write_float64/0
+=== RUN   Test_write_float64/0#01
+=== RUN   Test_write_float64/1
+=== RUN   Test_write_float64/1#01
+=== RUN   Test_write_float64/-1
+=== RUN   Test_write_float64/-1#01
+=== RUN   Test_write_float64/99
+=== RUN   Test_write_float64/99#01
+=== RUN   Test_write_float64/255
+=== RUN   Test_write_float64/255#01
+=== RUN   Test_write_float64/4095
+=== RUN   Test_write_float64/4095#01
+=== RUN   Test_write_float64/65535
+=== RUN   Test_write_float64/65535#01
+=== RUN   Test_write_float64/1.048575e+06
+=== RUN   Test_write_float64/1.048575e+06#01
+=== RUN   Test_write_float64/1.6777215e+07
+=== RUN   Test_write_float64/1.6777215e+07#01
+=== RUN   Test_write_float64/8.3886079e+07
+=== RUN   Test_write_float64/8.3886079e+07#01
+=== RUN   Test_write_float64/2.68435455e+08
+=== RUN   Test_write_float64/2.68435455e+08#01
+=== RUN   Test_write_float64/-8.3886079e+07
+=== RUN   Test_write_float64/-8.3886079e+07#01
+=== RUN   Test_write_float64/-2.68435455e+08
+=== RUN   Test_write_float64/-2.68435455e+08#01
+=== RUN   Test_write_float64/1.2345
+=== RUN   Test_write_float64/1.2345#01
+=== RUN   Test_write_float64/1.23456
+=== RUN   Test_write_float64/1.23456#01
+=== RUN   Test_write_float64/1.234567
+=== RUN   Test_write_float64/1.234567#01
+=== RUN   Test_write_float64/1.001
+=== RUN   Test_write_float64/1.001#01
+--- PASS: Test_write_float64 (0.00s)
+    --- PASS: Test_write_float64/0 (0.00s)
+    --- PASS: Test_write_float64/0#01 (0.00s)
+    --- PASS: Test_write_float64/1 (0.00s)
+    --- PASS: Test_write_float64/1#01 (0.00s)
+    --- PASS: Test_write_float64/-1 (0.00s)
+    --- PASS: Test_write_float64/-1#01 (0.00s)
+    --- PASS: Test_write_float64/99 (0.00s)
+    --- PASS: Test_write_float64/99#01 (0.00s)
+    --- PASS: Test_write_float64/255 (0.00s)
+    --- PASS: Test_write_float64/255#01 (0.00s)
+    --- PASS: Test_write_float64/4095 (0.00s)
+    --- PASS: Test_write_float64/4095#01 (0.00s)
+    --- PASS: Test_write_float64/65535 (0.00s)
+    --- PASS: Test_write_float64/65535#01 (0.00s)
+    --- PASS: Test_write_float64/1.048575e+06 (0.00s)
+    --- PASS: Test_write_float64/1.048575e+06#01 (0.00s)
+    --- PASS: Test_write_float64/1.6777215e+07 (0.00s)
+    --- PASS: Test_write_float64/1.6777215e+07#01 (0.00s)
+    --- PASS: Test_write_float64/8.3886079e+07 (0.00s)
+    --- PASS: Test_write_float64/8.3886079e+07#01 (0.00s)
+    --- PASS: Test_write_float64/2.68435455e+08 (0.00s)
+    --- PASS: Test_write_float64/2.68435455e+08#01 (0.00s)
+    --- PASS: Test_write_float64/-8.3886079e+07 (0.00s)
+    --- PASS: Test_write_float64/-8.3886079e+07#01 (0.00s)
+    --- PASS: Test_write_float64/-2.68435455e+08 (0.00s)
+    --- PASS: Test_write_float64/-2.68435455e+08#01 (0.00s)
+    --- PASS: Test_write_float64/1.2345 (0.00s)
+    --- PASS: Test_write_float64/1.2345#01 (0.00s)
+    --- PASS: Test_write_float64/1.23456 (0.00s)
+    --- PASS: Test_write_float64/1.23456#01 (0.00s)
+    --- PASS: Test_write_float64/1.234567 (0.00s)
+    --- PASS: Test_write_float64/1.234567#01 (0.00s)
+    --- PASS: Test_write_float64/1.001 (0.00s)
+    --- PASS: Test_write_float64/1.001#01 (0.00s)
+=== RUN   Test_int8
+=== RUN   Test_int8/127
+=== RUN   Test_int8/-128
+--- PASS: Test_int8 (0.00s)
+    --- PASS: Test_int8/127 (0.00s)
+    --- PASS: Test_int8/-128 (0.00s)
+=== RUN   Test_read_int16
+=== RUN   Test_read_int16/32767
+=== RUN   Test_read_int16/-32768
+--- PASS: Test_read_int16 (0.00s)
+    --- PASS: Test_read_int16/32767 (0.00s)
+    --- PASS: Test_read_int16/-32768 (0.00s)
+=== RUN   Test_read_int32
+=== RUN   Test_read_int32/1
+=== RUN   Test_read_int32/1#01
+=== RUN   Test_read_int32/12
+=== RUN   Test_read_int32/12#01
+=== RUN   Test_read_int32/123
+=== RUN   Test_read_int32/123#01
+=== RUN   Test_read_int32/1234
+=== RUN   Test_read_int32/1234#01
+=== RUN   Test_read_int32/12345
+=== RUN   Test_read_int32/12345#01
+=== RUN   Test_read_int32/123456
+=== RUN   Test_read_int32/123456#01
+=== RUN   Test_read_int32/2147483647
+=== RUN   Test_read_int32/2147483647#01
+=== RUN   Test_read_int32/-2147483648
+=== RUN   Test_read_int32/-2147483648#01
+--- PASS: Test_read_int32 (0.00s)
+    --- PASS: Test_read_int32/1 (0.00s)
+    --- PASS: Test_read_int32/1#01 (0.00s)
+    --- PASS: Test_read_int32/12 (0.00s)
+    --- PASS: Test_read_int32/12#01 (0.00s)
+    --- PASS: Test_read_int32/123 (0.00s)
+    --- PASS: Test_read_int32/123#01 (0.00s)
+    --- PASS: Test_read_int32/1234 (0.00s)
+    --- PASS: Test_read_int32/1234#01 (0.00s)
+    --- PASS: Test_read_int32/12345 (0.00s)
+    --- PASS: Test_read_int32/12345#01 (0.00s)
+    --- PASS: Test_read_int32/123456 (0.00s)
+    --- PASS: Test_read_int32/123456#01 (0.00s)
+    --- PASS: Test_read_int32/2147483647 (0.00s)
+    --- PASS: Test_read_int32/2147483647#01 (0.00s)
+    --- PASS: Test_read_int32/-2147483648 (0.00s)
+    --- PASS: Test_read_int32/-2147483648#01 (0.00s)
+=== RUN   Test_read_int_overflow
+--- PASS: Test_read_int_overflow (0.00s)
+=== RUN   Test_read_int64
+=== RUN   Test_read_int64/1
+=== RUN   Test_read_int64/1#01
+=== RUN   Test_read_int64/12
+=== RUN   Test_read_int64/12#01
+=== RUN   Test_read_int64/123
+=== RUN   Test_read_int64/123#01
+=== RUN   Test_read_int64/1234
+=== RUN   Test_read_int64/1234#01
+=== RUN   Test_read_int64/12345
+=== RUN   Test_read_int64/12345#01
+=== RUN   Test_read_int64/123456
+=== RUN   Test_read_int64/123456#01
+=== RUN   Test_read_int64/9223372036854775807
+=== RUN   Test_read_int64/9223372036854775807#01
+=== RUN   Test_read_int64/-9223372036854775808
+=== RUN   Test_read_int64/-9223372036854775808#01
+--- PASS: Test_read_int64 (0.00s)
+    --- PASS: Test_read_int64/1 (0.00s)
+    --- PASS: Test_read_int64/1#01 (0.00s)
+    --- PASS: Test_read_int64/12 (0.00s)
+    --- PASS: Test_read_int64/12#01 (0.00s)
+    --- PASS: Test_read_int64/123 (0.00s)
+    --- PASS: Test_read_int64/123#01 (0.00s)
+    --- PASS: Test_read_int64/1234 (0.00s)
+    --- PASS: Test_read_int64/1234#01 (0.00s)
+    --- PASS: Test_read_int64/12345 (0.00s)
+    --- PASS: Test_read_int64/12345#01 (0.00s)
+    --- PASS: Test_read_int64/123456 (0.00s)
+    --- PASS: Test_read_int64/123456#01 (0.00s)
+    --- PASS: Test_read_int64/9223372036854775807 (0.00s)
+    --- PASS: Test_read_int64/9223372036854775807#01 (0.00s)
+    --- PASS: Test_read_int64/-9223372036854775808 (0.00s)
+    --- PASS: Test_read_int64/-9223372036854775808#01 (0.00s)
+=== RUN   Test_write_uint8
+=== RUN   Test_write_uint8/0
+=== RUN   Test_write_uint8/0#01
+=== RUN   Test_write_uint8/1
+=== RUN   Test_write_uint8/1#01
+=== RUN   Test_write_uint8/11
+=== RUN   Test_write_uint8/11#01
+=== RUN   Test_write_uint8/111
+=== RUN   Test_write_uint8/111#01
+=== RUN   Test_write_uint8/255
+=== RUN   Test_write_uint8/255#01
+--- PASS: Test_write_uint8 (0.00s)
+    --- PASS: Test_write_uint8/0 (0.00s)
+    --- PASS: Test_write_uint8/0#01 (0.00s)
+    --- PASS: Test_write_uint8/1 (0.00s)
+    --- PASS: Test_write_uint8/1#01 (0.00s)
+    --- PASS: Test_write_uint8/11 (0.00s)
+    --- PASS: Test_write_uint8/11#01 (0.00s)
+    --- PASS: Test_write_uint8/111 (0.00s)
+    --- PASS: Test_write_uint8/111#01 (0.00s)
+    --- PASS: Test_write_uint8/255 (0.00s)
+    --- PASS: Test_write_uint8/255#01 (0.00s)
+=== RUN   Test_write_int8
+=== RUN   Test_write_int8/0
+=== RUN   Test_write_int8/0#01
+=== RUN   Test_write_int8/1
+=== RUN   Test_write_int8/1#01
+=== RUN   Test_write_int8/-1
+=== RUN   Test_write_int8/-1#01
+=== RUN   Test_write_int8/99
+=== RUN   Test_write_int8/99#01
+=== RUN   Test_write_int8/127
+=== RUN   Test_write_int8/127#01
+=== RUN   Test_write_int8/-128
+=== RUN   Test_write_int8/-128#01
+--- PASS: Test_write_int8 (0.00s)
+    --- PASS: Test_write_int8/0 (0.00s)
+    --- PASS: Test_write_int8/0#01 (0.00s)
+    --- PASS: Test_write_int8/1 (0.00s)
+    --- PASS: Test_write_int8/1#01 (0.00s)
+    --- PASS: Test_write_int8/-1 (0.00s)
+    --- PASS: Test_write_int8/-1#01 (0.00s)
+    --- PASS: Test_write_int8/99 (0.00s)
+    --- PASS: Test_write_int8/99#01 (0.00s)
+    --- PASS: Test_write_int8/127 (0.00s)
+    --- PASS: Test_write_int8/127#01 (0.00s)
+    --- PASS: Test_write_int8/-128 (0.00s)
+    --- PASS: Test_write_int8/-128#01 (0.00s)
+=== RUN   Test_write_uint16
+=== RUN   Test_write_uint16/0
+=== RUN   Test_write_uint16/0#01
+=== RUN   Test_write_uint16/1
+=== RUN   Test_write_uint16/1#01
+=== RUN   Test_write_uint16/11
+=== RUN   Test_write_uint16/11#01
+=== RUN   Test_write_uint16/111
+=== RUN   Test_write_uint16/111#01
+=== RUN   Test_write_uint16/255
+=== RUN   Test_write_uint16/255#01
+=== RUN   Test_write_uint16/4095
+=== RUN   Test_write_uint16/4095#01
+=== RUN   Test_write_uint16/65535
+=== RUN   Test_write_uint16/65535#01
+--- PASS: Test_write_uint16 (0.00s)
+    --- PASS: Test_write_uint16/0 (0.00s)
+    --- PASS: Test_write_uint16/0#01 (0.00s)
+    --- PASS: Test_write_uint16/1 (0.00s)
+    --- PASS: Test_write_uint16/1#01 (0.00s)
+    --- PASS: Test_write_uint16/11 (0.00s)
+    --- PASS: Test_write_uint16/11#01 (0.00s)
+    --- PASS: Test_write_uint16/111 (0.00s)
+    --- PASS: Test_write_uint16/111#01 (0.00s)
+    --- PASS: Test_write_uint16/255 (0.00s)
+    --- PASS: Test_write_uint16/255#01 (0.00s)
+    --- PASS: Test_write_uint16/4095 (0.00s)
+    --- PASS: Test_write_uint16/4095#01 (0.00s)
+    --- PASS: Test_write_uint16/65535 (0.00s)
+    --- PASS: Test_write_uint16/65535#01 (0.00s)
+=== RUN   Test_write_int16
+=== RUN   Test_write_int16/0
+=== RUN   Test_write_int16/0#01
+=== RUN   Test_write_int16/1
+=== RUN   Test_write_int16/1#01
+=== RUN   Test_write_int16/11
+=== RUN   Test_write_int16/11#01
+=== RUN   Test_write_int16/111
+=== RUN   Test_write_int16/111#01
+=== RUN   Test_write_int16/255
+=== RUN   Test_write_int16/255#01
+=== RUN   Test_write_int16/4095
+=== RUN   Test_write_int16/4095#01
+=== RUN   Test_write_int16/32767
+=== RUN   Test_write_int16/32767#01
+=== RUN   Test_write_int16/-32768
+=== RUN   Test_write_int16/-32768#01
+--- PASS: Test_write_int16 (0.00s)
+    --- PASS: Test_write_int16/0 (0.00s)
+    --- PASS: Test_write_int16/0#01 (0.00s)
+    --- PASS: Test_write_int16/1 (0.00s)
+    --- PASS: Test_write_int16/1#01 (0.00s)
+    --- PASS: Test_write_int16/11 (0.00s)
+    --- PASS: Test_write_int16/11#01 (0.00s)
+    --- PASS: Test_write_int16/111 (0.00s)
+    --- PASS: Test_write_int16/111#01 (0.00s)
+    --- PASS: Test_write_int16/255 (0.00s)
+    --- PASS: Test_write_int16/255#01 (0.00s)
+    --- PASS: Test_write_int16/4095 (0.00s)
+    --- PASS: Test_write_int16/4095#01 (0.00s)
+    --- PASS: Test_write_int16/32767 (0.00s)
+    --- PASS: Test_write_int16/32767#01 (0.00s)
+    --- PASS: Test_write_int16/-32768 (0.00s)
+    --- PASS: Test_write_int16/-32768#01 (0.00s)
+=== RUN   Test_write_uint32
+=== RUN   Test_write_uint32/0
+=== RUN   Test_write_uint32/0#01
+=== RUN   Test_write_uint32/1
+=== RUN   Test_write_uint32/1#01
+=== RUN   Test_write_uint32/11
+=== RUN   Test_write_uint32/11#01
+=== RUN   Test_write_uint32/111
+=== RUN   Test_write_uint32/111#01
+=== RUN   Test_write_uint32/255
+=== RUN   Test_write_uint32/255#01
+=== RUN   Test_write_uint32/999999
+=== RUN   Test_write_uint32/999999#01
+=== RUN   Test_write_uint32/4095
+=== RUN   Test_write_uint32/4095#01
+=== RUN   Test_write_uint32/65535
+=== RUN   Test_write_uint32/65535#01
+=== RUN   Test_write_uint32/1048575
+=== RUN   Test_write_uint32/1048575#01
+=== RUN   Test_write_uint32/16777215
+=== RUN   Test_write_uint32/16777215#01
+=== RUN   Test_write_uint32/268435455
+=== RUN   Test_write_uint32/268435455#01
+=== RUN   Test_write_uint32/4294967295
+=== RUN   Test_write_uint32/4294967295#01
+--- PASS: Test_write_uint32 (0.00s)
+    --- PASS: Test_write_uint32/0 (0.00s)
+    --- PASS: Test_write_uint32/0#01 (0.00s)
+    --- PASS: Test_write_uint32/1 (0.00s)
+    --- PASS: Test_write_uint32/1#01 (0.00s)
+    --- PASS: Test_write_uint32/11 (0.00s)
+    --- PASS: Test_write_uint32/11#01 (0.00s)
+    --- PASS: Test_write_uint32/111 (0.00s)
+    --- PASS: Test_write_uint32/111#01 (0.00s)
+    --- PASS: Test_write_uint32/255 (0.00s)
+    --- PASS: Test_write_uint32/255#01 (0.00s)
+    --- PASS: Test_write_uint32/999999 (0.00s)
+    --- PASS: Test_write_uint32/999999#01 (0.00s)
+    --- PASS: Test_write_uint32/4095 (0.00s)
+    --- PASS: Test_write_uint32/4095#01 (0.00s)
+    --- PASS: Test_write_uint32/65535 (0.00s)
+    --- PASS: Test_write_uint32/65535#01 (0.00s)
+    --- PASS: Test_write_uint32/1048575 (0.00s)
+    --- PASS: Test_write_uint32/1048575#01 (0.00s)
+    --- PASS: Test_write_uint32/16777215 (0.00s)
+    --- PASS: Test_write_uint32/16777215#01 (0.00s)
+    --- PASS: Test_write_uint32/268435455 (0.00s)
+    --- PASS: Test_write_uint32/268435455#01 (0.00s)
+    --- PASS: Test_write_uint32/4294967295 (0.00s)
+    --- PASS: Test_write_uint32/4294967295#01 (0.00s)
+=== RUN   Test_write_int32
+=== RUN   Test_write_int32/0
+=== RUN   Test_write_int32/0#01
+=== RUN   Test_write_int32/1
+=== RUN   Test_write_int32/1#01
+=== RUN   Test_write_int32/11
+=== RUN   Test_write_int32/11#01
+=== RUN   Test_write_int32/111
+=== RUN   Test_write_int32/111#01
+=== RUN   Test_write_int32/255
+=== RUN   Test_write_int32/255#01
+=== RUN   Test_write_int32/999999
+=== RUN   Test_write_int32/999999#01
+=== RUN   Test_write_int32/4095
+=== RUN   Test_write_int32/4095#01
+=== RUN   Test_write_int32/65535
+=== RUN   Test_write_int32/65535#01
+=== RUN   Test_write_int32/1048575
+=== RUN   Test_write_int32/1048575#01
+=== RUN   Test_write_int32/16777215
+=== RUN   Test_write_int32/16777215#01
+=== RUN   Test_write_int32/268435455
+=== RUN   Test_write_int32/268435455#01
+=== RUN   Test_write_int32/2147483647
+=== RUN   Test_write_int32/2147483647#01
+=== RUN   Test_write_int32/-2147483648
+=== RUN   Test_write_int32/-2147483648#01
+--- PASS: Test_write_int32 (0.00s)
+    --- PASS: Test_write_int32/0 (0.00s)
+    --- PASS: Test_write_int32/0#01 (0.00s)
+    --- PASS: Test_write_int32/1 (0.00s)
+    --- PASS: Test_write_int32/1#01 (0.00s)
+    --- PASS: Test_write_int32/11 (0.00s)
+    --- PASS: Test_write_int32/11#01 (0.00s)
+    --- PASS: Test_write_int32/111 (0.00s)
+    --- PASS: Test_write_int32/111#01 (0.00s)
+    --- PASS: Test_write_int32/255 (0.00s)
+    --- PASS: Test_write_int32/255#01 (0.00s)
+    --- PASS: Test_write_int32/999999 (0.00s)
+    --- PASS: Test_write_int32/999999#01 (0.00s)
+    --- PASS: Test_write_int32/4095 (0.00s)
+    --- PASS: Test_write_int32/4095#01 (0.00s)
+    --- PASS: Test_write_int32/65535 (0.00s)
+    --- PASS: Test_write_int32/65535#01 (0.00s)
+    --- PASS: Test_write_int32/1048575 (0.00s)
+    --- PASS: Test_write_int32/1048575#01 (0.00s)
+    --- PASS: Test_write_int32/16777215 (0.00s)
+    --- PASS: Test_write_int32/16777215#01 (0.00s)
+    --- PASS: Test_write_int32/268435455 (0.00s)
+    --- PASS: Test_write_int32/268435455#01 (0.00s)
+    --- PASS: Test_write_int32/2147483647 (0.00s)
+    --- PASS: Test_write_int32/2147483647#01 (0.00s)
+    --- PASS: Test_write_int32/-2147483648 (0.00s)
+    --- PASS: Test_write_int32/-2147483648#01 (0.00s)
+=== RUN   Test_write_uint64
+=== RUN   Test_write_uint64/0
+=== RUN   Test_write_uint64/0#01
+=== RUN   Test_write_uint64/1
+=== RUN   Test_write_uint64/1#01
+=== RUN   Test_write_uint64/11
+=== RUN   Test_write_uint64/11#01
+=== RUN   Test_write_uint64/111
+=== RUN   Test_write_uint64/111#01
+=== RUN   Test_write_uint64/255
+=== RUN   Test_write_uint64/255#01
+=== RUN   Test_write_uint64/999999
+=== RUN   Test_write_uint64/999999#01
+=== RUN   Test_write_uint64/4095
+=== RUN   Test_write_uint64/4095#01
+=== RUN   Test_write_uint64/65535
+=== RUN   Test_write_uint64/65535#01
+=== RUN   Test_write_uint64/1048575
+=== RUN   Test_write_uint64/1048575#01
+=== RUN   Test_write_uint64/16777215
+=== RUN   Test_write_uint64/16777215#01
+=== RUN   Test_write_uint64/268435455
+=== RUN   Test_write_uint64/268435455#01
+=== RUN   Test_write_uint64/4294967295
+=== RUN   Test_write_uint64/4294967295#01
+=== RUN   Test_write_uint64/68719476735
+=== RUN   Test_write_uint64/68719476735#01
+=== RUN   Test_write_uint64/1099511627775
+=== RUN   Test_write_uint64/1099511627775#01
+=== RUN   Test_write_uint64/17592186044415
+=== RUN   Test_write_uint64/17592186044415#01
+=== RUN   Test_write_uint64/281474976710655
+=== RUN   Test_write_uint64/281474976710655#01
+=== RUN   Test_write_uint64/4503599627370495
+=== RUN   Test_write_uint64/4503599627370495#01
+=== RUN   Test_write_uint64/72057594037927935
+=== RUN   Test_write_uint64/72057594037927935#01
+=== RUN   Test_write_uint64/1152921504606846975
+=== RUN   Test_write_uint64/1152921504606846975#01
+=== RUN   Test_write_uint64/18446744073709551615
+=== RUN   Test_write_uint64/18446744073709551615#01
+--- PASS: Test_write_uint64 (0.00s)
+    --- PASS: Test_write_uint64/0 (0.00s)
+    --- PASS: Test_write_uint64/0#01 (0.00s)
+    --- PASS: Test_write_uint64/1 (0.00s)
+    --- PASS: Test_write_uint64/1#01 (0.00s)
+    --- PASS: Test_write_uint64/11 (0.00s)
+    --- PASS: Test_write_uint64/11#01 (0.00s)
+    --- PASS: Test_write_uint64/111 (0.00s)
+    --- PASS: Test_write_uint64/111#01 (0.00s)
+    --- PASS: Test_write_uint64/255 (0.00s)
+    --- PASS: Test_write_uint64/255#01 (0.00s)
+    --- PASS: Test_write_uint64/999999 (0.00s)
+    --- PASS: Test_write_uint64/999999#01 (0.00s)
+    --- PASS: Test_write_uint64/4095 (0.00s)
+    --- PASS: Test_write_uint64/4095#01 (0.00s)
+    --- PASS: Test_write_uint64/65535 (0.00s)
+    --- PASS: Test_write_uint64/65535#01 (0.00s)
+    --- PASS: Test_write_uint64/1048575 (0.00s)
+    --- PASS: Test_write_uint64/1048575#01 (0.00s)
+    --- PASS: Test_write_uint64/16777215 (0.00s)
+    --- PASS: Test_write_uint64/16777215#01 (0.00s)
+    --- PASS: Test_write_uint64/268435455 (0.00s)
+    --- PASS: Test_write_uint64/268435455#01 (0.00s)
+    --- PASS: Test_write_uint64/4294967295 (0.00s)
+    --- PASS: Test_write_uint64/4294967295#01 (0.00s)
+    --- PASS: Test_write_uint64/68719476735 (0.00s)
+    --- PASS: Test_write_uint64/68719476735#01 (0.00s)
+    --- PASS: Test_write_uint64/1099511627775 (0.00s)
+    --- PASS: Test_write_uint64/1099511627775#01 (0.00s)
+    --- PASS: Test_write_uint64/17592186044415 (0.00s)
+    --- PASS: Test_write_uint64/17592186044415#01 (0.00s)
+    --- PASS: Test_write_uint64/281474976710655 (0.00s)
+    --- PASS: Test_write_uint64/281474976710655#01 (0.00s)
+    --- PASS: Test_write_uint64/4503599627370495 (0.00s)
+    --- PASS: Test_write_uint64/4503599627370495#01 (0.00s)
+    --- PASS: Test_write_uint64/72057594037927935 (0.00s)
+    --- PASS: Test_write_uint64/72057594037927935#01 (0.00s)
+    --- PASS: Test_write_uint64/1152921504606846975 (0.00s)
+    --- PASS: Test_write_uint64/1152921504606846975#01 (0.00s)
+    --- PASS: Test_write_uint64/18446744073709551615 (0.00s)
+    --- PASS: Test_write_uint64/18446744073709551615#01 (0.00s)
+=== RUN   Test_write_int64
+=== RUN   Test_write_int64/0
+=== RUN   Test_write_int64/0#01
+=== RUN   Test_write_int64/1
+=== RUN   Test_write_int64/1#01
+=== RUN   Test_write_int64/11
+=== RUN   Test_write_int64/11#01
+=== RUN   Test_write_int64/111
+=== RUN   Test_write_int64/111#01
+=== RUN   Test_write_int64/255
+=== RUN   Test_write_int64/255#01
+=== RUN   Test_write_int64/999999
+=== RUN   Test_write_int64/999999#01
+=== RUN   Test_write_int64/4095
+=== RUN   Test_write_int64/4095#01
+=== RUN   Test_write_int64/65535
+=== RUN   Test_write_int64/65535#01
+=== RUN   Test_write_int64/1048575
+=== RUN   Test_write_int64/1048575#01
+=== RUN   Test_write_int64/16777215
+=== RUN   Test_write_int64/16777215#01
+=== RUN   Test_write_int64/268435455
+=== RUN   Test_write_int64/268435455#01
+=== RUN   Test_write_int64/4294967295
+=== RUN   Test_write_int64/4294967295#01
+=== RUN   Test_write_int64/68719476735
+=== RUN   Test_write_int64/68719476735#01
+=== RUN   Test_write_int64/1099511627775
+=== RUN   Test_write_int64/1099511627775#01
+=== RUN   Test_write_int64/17592186044415
+=== RUN   Test_write_int64/17592186044415#01
+=== RUN   Test_write_int64/281474976710655
+=== RUN   Test_write_int64/281474976710655#01
+=== RUN   Test_write_int64/4503599627370495
+=== RUN   Test_write_int64/4503599627370495#01
+=== RUN   Test_write_int64/72057594037927935
+=== RUN   Test_write_int64/72057594037927935#01
+=== RUN   Test_write_int64/1152921504606846975
+=== RUN   Test_write_int64/1152921504606846975#01
+=== RUN   Test_write_int64/9223372036854775807
+=== RUN   Test_write_int64/9223372036854775807#01
+=== RUN   Test_write_int64/-9223372036854775808
+=== RUN   Test_write_int64/-9223372036854775808#01
+--- PASS: Test_write_int64 (0.00s)
+    --- PASS: Test_write_int64/0 (0.00s)
+    --- PASS: Test_write_int64/0#01 (0.00s)
+    --- PASS: Test_write_int64/1 (0.00s)
+    --- PASS: Test_write_int64/1#01 (0.00s)
+    --- PASS: Test_write_int64/11 (0.00s)
+    --- PASS: Test_write_int64/11#01 (0.00s)
+    --- PASS: Test_write_int64/111 (0.00s)
+    --- PASS: Test_write_int64/111#01 (0.00s)
+    --- PASS: Test_write_int64/255 (0.00s)
+    --- PASS: Test_write_int64/255#01 (0.00s)
+    --- PASS: Test_write_int64/999999 (0.00s)
+    --- PASS: Test_write_int64/999999#01 (0.00s)
+    --- PASS: Test_write_int64/4095 (0.00s)
+    --- PASS: Test_write_int64/4095#01 (0.00s)
+    --- PASS: Test_write_int64/65535 (0.00s)
+    --- PASS: Test_write_int64/65535#01 (0.00s)
+    --- PASS: Test_write_int64/1048575 (0.00s)
+    --- PASS: Test_write_int64/1048575#01 (0.00s)
+    --- PASS: Test_write_int64/16777215 (0.00s)
+    --- PASS: Test_write_int64/16777215#01 (0.00s)
+    --- PASS: Test_write_int64/268435455 (0.00s)
+    --- PASS: Test_write_int64/268435455#01 (0.00s)
+    --- PASS: Test_write_int64/4294967295 (0.00s)
+    --- PASS: Test_write_int64/4294967295#01 (0.00s)
+    --- PASS: Test_write_int64/68719476735 (0.00s)
+    --- PASS: Test_write_int64/68719476735#01 (0.00s)
+    --- PASS: Test_write_int64/1099511627775 (0.00s)
+    --- PASS: Test_write_int64/1099511627775#01 (0.00s)
+    --- PASS: Test_write_int64/17592186044415 (0.00s)
+    --- PASS: Test_write_int64/17592186044415#01 (0.00s)
+    --- PASS: Test_write_int64/281474976710655 (0.00s)
+    --- PASS: Test_write_int64/281474976710655#01 (0.00s)
+    --- PASS: Test_write_int64/4503599627370495 (0.00s)
+    --- PASS: Test_write_int64/4503599627370495#01 (0.00s)
+    --- PASS: Test_write_int64/72057594037927935 (0.00s)
+    --- PASS: Test_write_int64/72057594037927935#01 (0.00s)
+    --- PASS: Test_write_int64/1152921504606846975 (0.00s)
+    --- PASS: Test_write_int64/1152921504606846975#01 (0.00s)
+    --- PASS: Test_write_int64/9223372036854775807 (0.00s)
+    --- PASS: Test_write_int64/9223372036854775807#01 (0.00s)
+    --- PASS: Test_write_int64/-9223372036854775808 (0.00s)
+    --- PASS: Test_write_int64/-9223372036854775808#01 (0.00s)
+=== RUN   Test_missing_object_end
+--- PASS: Test_missing_object_end (0.00s)
+=== RUN   Test_missing_array_end
+--- PASS: Test_missing_array_end (0.00s)
+=== RUN   Test_invalid_any
+--- PASS: Test_invalid_any (0.00s)
+=== RUN   Test_invalid_struct_input
+--- PASS: Test_invalid_struct_input (0.00s)
+=== RUN   Test_invalid_slice_input
+--- PASS: Test_invalid_slice_input (0.00s)
+=== RUN   Test_invalid_array_input
+--- PASS: Test_invalid_array_input (0.00s)
+=== RUN   Test_invalid_float
+=== RUN   Test_invalid_float/1.e1
+=== RUN   Test_invalid_float/1.
+=== RUN   Test_invalid_float/#00
+=== RUN   Test_invalid_float/01
+=== RUN   Test_invalid_float/-
+=== RUN   Test_invalid_float/--
+=== RUN   Test_invalid_float/--2
+--- PASS: Test_invalid_float (0.00s)
+    --- PASS: Test_invalid_float/1.e1 (0.00s)
+    --- PASS: Test_invalid_float/1. (0.00s)
+    --- PASS: Test_invalid_float/#00 (0.00s)
+    --- PASS: Test_invalid_float/01 (0.00s)
+    --- PASS: Test_invalid_float/- (0.00s)
+    --- PASS: Test_invalid_float/-- (0.00s)
+    --- PASS: Test_invalid_float/--2 (0.00s)
+=== RUN   Test_chan
+=== RUN   Test_chan/Encode_channel
+=== RUN   Test_chan/Encode_channel_using_compatible_configuration
+--- PASS: Test_chan (0.00s)
+    --- PASS: Test_chan/Encode_channel (0.00s)
+    --- PASS: Test_chan/Encode_channel_using_compatible_configuration (0.00s)
+=== RUN   Test_invalid_in_map
+=== RUN   Test_invalid_in_map/Encode_map_with_invalid_content
+=== RUN   Test_invalid_in_map/Encode_map_with_invalid_content_using_compatible_configuration
+--- PASS: Test_invalid_in_map (0.00s)
+    --- PASS: Test_invalid_in_map/Encode_map_with_invalid_content (0.00s)
+    --- PASS: Test_invalid_in_map/Encode_map_with_invalid_content_using_compatible_configuration (0.00s)
+=== RUN   Test_invalid_number
+--- PASS: Test_invalid_number (0.00s)
+=== RUN   Test_valid
+--- PASS: Test_valid (0.00s)
+=== RUN   Test_nil_pointer
+--- PASS: Test_nil_pointer (0.00s)
+=== RUN   Test_func_pointer_type
+=== RUN   Test_func_pointer_type/encode_null_is_valid
+=== RUN   Test_func_pointer_type/encode_not_null_is_invalid
+=== RUN   Test_func_pointer_type/decode_null_is_valid
+=== RUN   Test_func_pointer_type/decode_not_null_is_invalid
+--- PASS: Test_func_pointer_type (0.00s)
+    --- PASS: Test_func_pointer_type/encode_null_is_valid (0.00s)
+    --- PASS: Test_func_pointer_type/encode_not_null_is_invalid (0.00s)
+    --- PASS: Test_func_pointer_type/decode_null_is_valid (0.00s)
+    --- PASS: Test_func_pointer_type/decode_not_null_is_invalid (0.00s)
+=== RUN   TestEOF
+--- PASS: TestEOF (0.00s)
+=== RUN   TestDecodeErrorType
+--- PASS: TestDecodeErrorType (0.00s)
+=== RUN   Test_decode_slash
+--- PASS: Test_decode_slash (0.00s)
+=== RUN   Test_NilInput
+--- PASS: Test_NilInput (0.00s)
+=== RUN   Test_EmptyInput
+--- PASS: Test_EmptyInput (0.00s)
+=== RUN   Test_nil_any
+--- PASS: Test_nil_any (0.00s)
+=== RUN   Test_read_string
+--- PASS: Test_read_string (0.00s)
+=== RUN   Test_unmarshal
+=== RUN   Test_unmarshal/[0][1]
+=== RUN   Test_unmarshal/[1][2]
+=== RUN   Test_unmarshal/[2][]
+=== RUN   Test_unmarshal/[3]{"field":_null}
+=== RUN   Test_unmarshal/[4]"hello"
+=== RUN   Test_unmarshal/[5]1e1
+=== RUN   Test_unmarshal/[6]1.0e1
+=== RUN   Test_unmarshal/[7][1.0e1]
+=== RUN   Test_unmarshal/[8]{"field":"hello"}
+=== RUN   Test_unmarshal/[9]{"name":"value"}
+=== RUN   Test_unmarshal/[10]{"field":_null}
+=== RUN   Test_unmarshal/[11]{"field":_null}
+=== RUN   Test_unmarshal/[12]{"field":_null}
+=== RUN   Test_unmarshal/[13][null]
+=== RUN   Test_unmarshal/[14]{"Field":_"hello"}
+=== RUN   Test_unmarshal/[15]{____"f1":null,____"f2":null,____"f3":null,____"f4":null,____"f5":null,____"f6":null,____"f7":null,____"f8":null,____"f9":null,____"f10":null,____"f11":null,____"f12":null,____"f13":null___}
+=== RUN   Test_unmarshal/[16]{"k\"ey":_"val"}
+=== RUN   Test_unmarshal/[17]null
+=== RUN   Test_unmarshal/[18]{"test":[{"key":"value"}]}
+=== RUN   Test_unmarshal/[19]{_________"2018-12-12":_true,_________"2018-12-13":_true,_________"2018-12-14":_true______}
+=== RUN   Test_unmarshal/[20]{_________"2018-12-12":_true,_________"2018-12-13":_true,_________"2018-12-14":_true______}
+=== RUN   Test_unmarshal/[21]{"foo":_"bar"}
+=== RUN   Test_unmarshal/[22]"{1:2}"
+=== RUN   Test_unmarshal/[23]"{1:2}"
+=== RUN   Test_unmarshal/[24]"500"
+=== RUN   Test_unmarshal/[25]1
+=== RUN   Test_unmarshal/[26]null
+=== RUN   Test_unmarshal/[27]null
+=== RUN   Test_unmarshal/[28]null
+=== RUN   Test_unmarshal/[29]10
+=== RUN   Test_unmarshal/[30]null
+=== RUN   Test_unmarshal/[31][1,2,3]
+=== RUN   Test_unmarshal/[32]1.122e+250
+=== RUN   Test_unmarshal/[33]null
+=== RUN   Test_unmarshal/[34][]
+=== RUN   Test_unmarshal/[35][1,2,3]
+=== RUN   Test_unmarshal/[36]"aGVsbG8="
+=== RUN   Test_unmarshal/[37]"c3ViamVjdHM\/X2Q9MQ=="
+=== RUN   Test_unmarshal/[38]{"Field":_"hello"}
+=== RUN   Test_unmarshal/[39]{"Field":_"hello"}_______
+=== RUN   Test_unmarshal/[40]{"field":_null}
+=== RUN   Test_unmarshal/[41]{"field":_null}
+=== RUN   Test_unmarshal/[42]_{"id":1,_"payload":{"account":"123","password":"456"}}
+=== RUN   Test_unmarshal/[43]{"Field\"1":"hello"}
+=== RUN   Test_unmarshal/[44]{"\u0046ield1":"hello"}
+=== RUN   Test_unmarshal/[45]{"field1":_null,_"field2":_"world"}
+=== RUN   Test_unmarshal/[46]{"field1":_"hello",_"field2":[1,2,3]}
+=== RUN   Test_unmarshal/[47]{"a":_444,_"b":"bad",_"C":256,_"d":{"not":"a_timer"}}
+=== RUN   Test_unmarshal/[48]{"a":"1","b":"2","c":"3","d":"4","e":"5","f":"6","g":"7","h":"8","i":"9","j":"10","k":"11"}
+=== RUN   Test_unmarshal/[49]{"t":10.0}
+=== RUN   Test_unmarshal/[50]{"T":10.0}
+=== RUN   Test_unmarshal/[51]{"T":10.0}
+=== RUN   Test_unmarshal/[52]{"key_string":_"KEYSTRING","type":_"TYPE","asks":_[[1e+66,1]]}
+--- PASS: Test_unmarshal (0.00s)
+    --- PASS: Test_unmarshal/[0][1] (0.00s)
+    --- PASS: Test_unmarshal/[1][2] (0.00s)
+    --- PASS: Test_unmarshal/[2][] (0.00s)
+    --- PASS: Test_unmarshal/[3]{"field":_null} (0.00s)
+    --- PASS: Test_unmarshal/[4]"hello" (0.00s)
+    --- PASS: Test_unmarshal/[5]1e1 (0.00s)
+    --- PASS: Test_unmarshal/[6]1.0e1 (0.00s)
+    --- PASS: Test_unmarshal/[7][1.0e1] (0.00s)
+    --- PASS: Test_unmarshal/[8]{"field":"hello"} (0.00s)
+    --- PASS: Test_unmarshal/[9]{"name":"value"} (0.00s)
+    --- PASS: Test_unmarshal/[10]{"field":_null} (0.00s)
+    --- PASS: Test_unmarshal/[11]{"field":_null} (0.00s)
+    --- PASS: Test_unmarshal/[12]{"field":_null} (0.00s)
+    --- PASS: Test_unmarshal/[13][null] (0.00s)
+    --- PASS: Test_unmarshal/[14]{"Field":_"hello"} (0.00s)
+    --- PASS: Test_unmarshal/[15]{____"f1":null,____"f2":null,____"f3":null,____"f4":null,____"f5":null,____"f6":null,____"f7":null,____"f8":null,____"f9":null,____"f10":null,____"f11":null,____"f12":null,____"f13":null___} (0.00s)
+    --- PASS: Test_unmarshal/[16]{"k\"ey":_"val"} (0.00s)
+    --- PASS: Test_unmarshal/[17]null (0.00s)
+    --- PASS: Test_unmarshal/[18]{"test":[{"key":"value"}]} (0.00s)
+    --- PASS: Test_unmarshal/[19]{_________"2018-12-12":_true,_________"2018-12-13":_true,_________"2018-12-14":_true______} (0.00s)
+    --- PASS: Test_unmarshal/[20]{_________"2018-12-12":_true,_________"2018-12-13":_true,_________"2018-12-14":_true______} (0.00s)
+    --- PASS: Test_unmarshal/[21]{"foo":_"bar"} (0.00s)
+    --- PASS: Test_unmarshal/[22]"{1:2}" (0.00s)
+    --- PASS: Test_unmarshal/[23]"{1:2}" (0.00s)
+    --- PASS: Test_unmarshal/[24]"500" (0.00s)
+    --- PASS: Test_unmarshal/[25]1 (0.00s)
+    --- PASS: Test_unmarshal/[26]null (0.00s)
+    --- PASS: Test_unmarshal/[27]null (0.00s)
+    --- PASS: Test_unmarshal/[28]null (0.00s)
+    --- PASS: Test_unmarshal/[29]10 (0.00s)
+    --- PASS: Test_unmarshal/[30]null (0.00s)
+    --- PASS: Test_unmarshal/[31][1,2,3] (0.00s)
+    --- PASS: Test_unmarshal/[32]1.122e+250 (0.00s)
+    --- PASS: Test_unmarshal/[33]null (0.00s)
+    --- PASS: Test_unmarshal/[34][] (0.00s)
+    --- PASS: Test_unmarshal/[35][1,2,3] (0.00s)
+    --- PASS: Test_unmarshal/[36]"aGVsbG8=" (0.00s)
+    --- PASS: Test_unmarshal/[37]"c3ViamVjdHM\/X2Q9MQ==" (0.00s)
+    --- PASS: Test_unmarshal/[38]{"Field":_"hello"} (0.00s)
+    --- PASS: Test_unmarshal/[39]{"Field":_"hello"}_______ (0.00s)
+    --- PASS: Test_unmarshal/[40]{"field":_null} (0.00s)
+    --- PASS: Test_unmarshal/[41]{"field":_null} (0.00s)
+    --- PASS: Test_unmarshal/[42]_{"id":1,_"payload":{"account":"123","password":"456"}} (0.00s)
+    --- PASS: Test_unmarshal/[43]{"Field\"1":"hello"} (0.00s)
+    --- PASS: Test_unmarshal/[44]{"\u0046ield1":"hello"} (0.00s)
+    --- PASS: Test_unmarshal/[45]{"field1":_null,_"field2":_"world"} (0.00s)
+    --- PASS: Test_unmarshal/[46]{"field1":_"hello",_"field2":[1,2,3]} (0.00s)
+    --- PASS: Test_unmarshal/[47]{"a":_444,_"b":"bad",_"C":256,_"d":{"not":"a_timer"}} (0.00s)
+    --- PASS: Test_unmarshal/[48]{"a":"1","b":"2","c":"3","d":"4","e":"5","f":"6","g":"7","h":"8","i":"9","j":"10","k":"11"} (0.00s)
+    --- PASS: Test_unmarshal/[49]{"t":10.0} (0.00s)
+    --- PASS: Test_unmarshal/[50]{"T":10.0} (0.00s)
+    --- PASS: Test_unmarshal/[51]{"T":10.0} (0.00s)
+    --- PASS: Test_unmarshal/[52]{"key_string":_"KEYSTRING","type":_"TYPE","asks":_[[1e+66,1]]} (0.00s)
+=== RUN   Test_marshal
+=== RUN   Test_marshal/#00
+=== RUN   Test_marshal/[1][<nil>]/[1]*float64
+=== RUN   Test_marshal/[2][0xc00001c610]/[1]*float64
+=== RUN   Test_marshal/[3][<nil>_<nil>]/[2]*float64
+=== RUN   Test_marshal/[4]0xc00005f510/*interface_{}
+=== RUN   Test_marshal/[5]{hello}/struct_{_Field_interface_{}_}
+=== RUN   Test_marshal/[6]{{<nil>}}/struct_{_Field_interface_{}_}
+=== RUN   Test_marshal/[7]{{0xc00001c618}}/struct_{_Field_interface_{}_}
+=== RUN   Test_marshal/[8]0xc00005f550/*io.Closer
+=== RUN   Test_marshal/[9]0xc00005f580/*io.Closer
+=== RUN   Test_marshal/[10]map[abc:1]/map[string]interface_{}
+=== RUN   Test_marshal/[11]map[hello:world]/map[string]test.MyInterface
+=== RUN   Test_marshal/[12]map[1.2:2]/map[*big.Float]string
+=== RUN   Test_marshal/[13]map[1:1_2:2_3:3]/map[string]interface_{}
+=== RUN   Test_marshal/[14]map[1:a_2:a_4:a]/map[uint64]interface_{}
+=== RUN   Test_marshal/[15]map[]/map[string]string
+=== RUN   Test_marshal/[16]&map[]/*map[string]string
+=== RUN   Test_marshal/[17]map[hello:0xc00000e618]/map[string]*json.RawMessage
+=== RUN   Test_marshal/[18]map[0001-01-01_00:00:00_+0000_UTC:true]/map[test.Date]bool
+=== RUN   Test_marshal/[19]map[0001-01-01_00:00:00_+0000_UTC:true]/map[test.Date2]bool
+=== RUN   Test_marshal/[20]map[1:bar]/map[test.customKey]string
+=== RUN   Test_marshal/[21]{<nil>}/test.jmOfStruct
+=== RUN   Test_marshal/[22]0xc00005f590/*json.Marshaler
+=== RUN   Test_marshal/[23]{<nil>}/test.tmOfStruct
+=== RUN   Test_marshal/[24]0xc00005f5a0/*encoding.TextMarshaler
+=== RUN   Test_marshal/[25]{0}/test.tmOfStructInt
+=== RUN   Test_marshal/[26]0xc00005f5b0/*encoding.TextMarshaler
+=== RUN   Test_marshal/[27]map[{<nil>}:100]/map[test.tmOfStruct]int
+=== RUN   Test_marshal/[28]map[0xc000010230:100]/map[*test.tmOfStruct]int
+=== RUN   Test_marshal/[29]map[{<nil>}:100]/map[encoding.TextMarshaler]int
+=== RUN   Test_marshal/[30]/json.Number
+=== RUN   Test_marshal/[31]<nil>/*int
+=== RUN   Test_marshal/[32]0xc00001c638/*int
+=== RUN   Test_marshal/[33][123_125]/json.RawMessage
+=== RUN   Test_marshal/[34][49_50_51_52_53]/json.RawMessage
+=== RUN   Test_marshal/[35][51_46_49_52]/json.RawMessage
+=== RUN   Test_marshal/[36][45_48_46_53_101_49_48]/json.RawMessage
+=== RUN   Test_marshal/[37]{jfdk_[]}/struct_{_Env_string_"json:\"env\"";_Extra_json.RawMessage_"json:\"extra,omitempty\""_}
+=== RUN   Test_marshal/[38][hello]/[]interface_{}
+=== RUN   Test_marshal/[39][]/[]string
+=== RUN   Test_marshal/[40]&[]/*[]string
+=== RUN   Test_marshal/[41][1_2_3]/[]uint8
+=== RUN   Test_marshal/[42]>/string
+=== RUN   Test_marshal/[43]"数字山谷"/string
+=== RUN   Test_marshal/[44]he__he/string
+=== RUN   Test_marshal/[45]\x00/string
+=== RUN   Test_marshal/[46]\x01/string
+=== RUN   Test_marshal/[47]\x02/string
+=== RUN   Test_marshal/[48]\x03/string
+=== RUN   Test_marshal/[49]\x04/string
+=== RUN   Test_marshal/[50]\x05/string
+=== RUN   Test_marshal/[51]\x06/string
+=== RUN   Test_marshal/[52]\a/string
+=== RUN   Test_marshal/[53]\b/string
+=== RUN   Test_marshal/[54]_/string
+=== RUN   Test_marshal/[55]_/string
+=== RUN   Test_marshal/[56]_/string
+=== RUN   Test_marshal/[57]_/string
+=== RUN   Test_marshal/[58]_/string
+=== RUN   Test_marshal/[59]\x0e/string
+=== RUN   Test_marshal/[60]\x0f/string
+=== RUN   Test_marshal/[61]\x10/string
+=== RUN   Test_marshal/[62]\x11/string
+=== RUN   Test_marshal/[63]\x12/string
+=== RUN   Test_marshal/[64]\x13/string
+=== RUN   Test_marshal/[65]\x14/string
+=== RUN   Test_marshal/[66]\x15/string
+=== RUN   Test_marshal/[67]\x16/string
+=== RUN   Test_marshal/[68]\x17/string
+=== RUN   Test_marshal/[69]\x18/string
+=== RUN   Test_marshal/[70]\x19/string
+=== RUN   Test_marshal/[71]\x1a/string
+=== RUN   Test_marshal/[72]\x1b/string
+=== RUN   Test_marshal/[73]\x1c/string
+=== RUN   Test_marshal/[74]\x1d/string
+=== RUN   Test_marshal/[75]\x1e/string
+=== RUN   Test_marshal/[76]\x1f/string
+=== RUN   Test_marshal/[77]_/string
+=== RUN   Test_marshal/[78]!/string
+=== RUN   Test_marshal/[79]"/string
+=== RUN   Test_marshal/[80]#/string
+=== RUN   Test_marshal/[81]$/string
+=== RUN   Test_marshal/[82]%/string
+=== RUN   Test_marshal/[83]&/string
+=== RUN   Test_marshal/[84]'/string
+=== RUN   Test_marshal/[85](/string
+=== RUN   Test_marshal/[86])/string
+=== RUN   Test_marshal/[87]*/string
+=== RUN   Test_marshal/[88]+/string
+=== RUN   Test_marshal/[89],/string
+=== RUN   Test_marshal/[90]-/string
+=== RUN   Test_marshal/[91]./string
+=== RUN   Test_marshal/[92]//string
+=== RUN   Test_marshal/[93]0/string
+=== RUN   Test_marshal/[94]1/string
+=== RUN   Test_marshal/[95]2/string
+=== RUN   Test_marshal/[96]3/string
+=== RUN   Test_marshal/[97]4/string
+=== RUN   Test_marshal/[98]5/string
+=== RUN   Test_marshal/[99]6/string
+=== RUN   Test_marshal/[100]7/string
+=== RUN   Test_marshal/[101]8/string
+=== RUN   Test_marshal/[102]9/string
+=== RUN   Test_marshal/[103]:/string
+=== RUN   Test_marshal/[104];/string
+=== RUN   Test_marshal/[105]</string
+=== RUN   Test_marshal/[106]=/string
+=== RUN   Test_marshal/[107]>/string
+=== RUN   Test_marshal/[108]?/string
+=== RUN   Test_marshal/[109]@/string
+=== RUN   Test_marshal/[110]A/string
+=== RUN   Test_marshal/[111]B/string
+=== RUN   Test_marshal/[112]C/string
+=== RUN   Test_marshal/[113]D/string
+=== RUN   Test_marshal/[114]E/string
+=== RUN   Test_marshal/[115]F/string
+=== RUN   Test_marshal/[116]G/string
+=== RUN   Test_marshal/[117]H/string
+=== RUN   Test_marshal/[118]I/string
+=== RUN   Test_marshal/[119]J/string
+=== RUN   Test_marshal/[120]K/string
+=== RUN   Test_marshal/[121]L/string
+=== RUN   Test_marshal/[122]M/string
+=== RUN   Test_marshal/[123]N/string
+=== RUN   Test_marshal/[124]O/string
+=== RUN   Test_marshal/[125]P/string
+=== RUN   Test_marshal/[126]Q/string
+=== RUN   Test_marshal/[127]R/string
+=== RUN   Test_marshal/[128]S/string
+=== RUN   Test_marshal/[129]T/string
+=== RUN   Test_marshal/[130]U/string
+=== RUN   Test_marshal/[131]V/string
+=== RUN   Test_marshal/[132]W/string
+=== RUN   Test_marshal/[133]X/string
+=== RUN   Test_marshal/[134]Y/string
+=== RUN   Test_marshal/[135]Z/string
+=== RUN   Test_marshal/[136][/string
+=== RUN   Test_marshal/[137]\/string
+=== RUN   Test_marshal/[138]]/string
+=== RUN   Test_marshal/[139]^/string
+=== RUN   Test_marshal/[140]_/string
+=== RUN   Test_marshal/[141]`/string
+=== RUN   Test_marshal/[142]a/string
+=== RUN   Test_marshal/[143]b/string
+=== RUN   Test_marshal/[144]c/string
+=== RUN   Test_marshal/[145]d/string
+=== RUN   Test_marshal/[146]e/string
+=== RUN   Test_marshal/[147]f/string
+=== RUN   Test_marshal/[148]g/string
+=== RUN   Test_marshal/[149]h/string
+=== RUN   Test_marshal/[150]i/string
+=== RUN   Test_marshal/[151]j/string
+=== RUN   Test_marshal/[152]k/string
+=== RUN   Test_marshal/[153]l/string
+=== RUN   Test_marshal/[154]m/string
+=== RUN   Test_marshal/[155]n/string
+=== RUN   Test_marshal/[156]o/string
+=== RUN   Test_marshal/[157]p/string
+=== RUN   Test_marshal/[158]q/string
+=== RUN   Test_marshal/[159]r/string
+=== RUN   Test_marshal/[160]s/string
+=== RUN   Test_marshal/[161]t/string
+=== RUN   Test_marshal/[162]u/string
+=== RUN   Test_marshal/[163]v/string
+=== RUN   Test_marshal/[164]w/string
+=== RUN   Test_marshal/[165]x/string
+=== RUN   Test_marshal/[166]y/string
+=== RUN   Test_marshal/[167]z/string
+=== RUN   Test_marshal/[168]{/string
+=== RUN   Test_marshal/[169]|/string
+=== RUN   Test_marshal/[170]}/string
+=== RUN   Test_marshal/[171]~/string
+=== RUN   Test_marshal/[172]\u007f/string
+=== RUN   Test_marshal/[173]{map[hello:world]}/struct_{_Field_map[string]interface_{}_}
+=== RUN   Test_marshal/[174]{map[hello:world]_}/struct_{_Field_map[string]interface_{};_Field2_string_}
+=== RUN   Test_marshal/[175]{1024}/struct_{_Field_interface_{}_}
+=== RUN   Test_marshal/[176]{hello}/struct_{_Field_test.MyInterface_}
+=== RUN   Test_marshal/[177]{<nil>}/struct_{_F_*float64_}
+=== RUN   Test_marshal/[178]1970-01-01_02:00:00_+0200_EET/struct_{_*time.Time_}
+=== RUN   Test_marshal/[179]{0xc00016a300}/struct_{_*test.StructVarious_}
+=== RUN   Test_marshal/[180]{<nil>_10}/struct_{_*test.StructVarious;_Field_int_}
+=== RUN   Test_marshal/[181]{0_[<nil>]}/struct_{_Field1_int;_Field2_[1]*float64_}
+=== RUN   Test_marshal/[182]{<nil>}/struct_{_Field_interface_{}_"json:\"field,omitempty\""_}
+=== RUN   Test_marshal/[183]{<nil>}/struct_{_Field_test.MyInterface_"json:\"field,omitempty\""_}
+=== RUN   Test_marshal/[184]{hello}/struct_{_Field_test.MyInterface_"json:\"field,omitempty\""_}
+=== RUN   Test_marshal/[185]{<nil>}/struct_{_Field_json.Marshaler_"json:\"field\""_}
+=== RUN   Test_marshal/[186]{<nil>}/struct_{_Field_test.MyInterface_"json:\"field\""_}
+=== RUN   Test_marshal/[187]{hello}/struct_{_Field_test.MyInterface_"json:\"field\""_}
+=== RUN   Test_marshal/[188]{_<nil>}/struct_{_Field1_string_"json:\"field-1,omitempty\"";_Field2_func()_"json:\"-\""_}
+=== RUN   Test_marshal/[189]{_<nil>}/test.structRecursive
+=== RUN   Test_marshal/[190]{0xc00000e6f0_<nil>_20}/struct_{_*test.CacheItem;_OmitMaxAge_test.omit_"json:\"cacheAge,omitempty\"";_MaxAge_int_"json:\"max_age\""_}
+=== RUN   Test_marshal/[191]{_{}__{_{}_}_}/test.structOrder
+=== RUN   Test_marshal/[192]{<nil>_0xc00005fdd0}/struct_{_Field1_*string;_Field2_*string_}
+=== RUN   Test_marshal/[193]{42_0xc000140160_21_0xc0000122d0}/struct_{_a_int;_b_<-chan_int;_C_int;_d_*time.Timer_}
+=== RUN   Test_marshal/[194]{should_not_marshal}/struct_{__UnderscoreField_string_}
+--- PASS: Test_marshal (0.01s)
+    --- PASS: Test_marshal/#00 (0.00s)
+    --- PASS: Test_marshal/[1][<nil>]/[1]*float64 (0.00s)
+    --- PASS: Test_marshal/[2][0xc00001c610]/[1]*float64 (0.00s)
+    --- PASS: Test_marshal/[3][<nil>_<nil>]/[2]*float64 (0.00s)
+    --- PASS: Test_marshal/[4]0xc00005f510/*interface_{} (0.00s)
+    --- PASS: Test_marshal/[5]{hello}/struct_{_Field_interface_{}_} (0.00s)
+    --- PASS: Test_marshal/[6]{{<nil>}}/struct_{_Field_interface_{}_} (0.00s)
+    --- PASS: Test_marshal/[7]{{0xc00001c618}}/struct_{_Field_interface_{}_} (0.00s)
+    --- PASS: Test_marshal/[8]0xc00005f550/*io.Closer (0.00s)
+    --- PASS: Test_marshal/[9]0xc00005f580/*io.Closer (0.00s)
+    --- PASS: Test_marshal/[10]map[abc:1]/map[string]interface_{} (0.00s)
+    --- PASS: Test_marshal/[11]map[hello:world]/map[string]test.MyInterface (0.00s)
+    --- PASS: Test_marshal/[12]map[1.2:2]/map[*big.Float]string (0.00s)
+    --- PASS: Test_marshal/[13]map[1:1_2:2_3:3]/map[string]interface_{} (0.00s)
+    --- PASS: Test_marshal/[14]map[1:a_2:a_4:a]/map[uint64]interface_{} (0.00s)
+    --- PASS: Test_marshal/[15]map[]/map[string]string (0.00s)
+    --- PASS: Test_marshal/[16]&map[]/*map[string]string (0.00s)
+    --- PASS: Test_marshal/[17]map[hello:0xc00000e618]/map[string]*json.RawMessage (0.00s)
+    --- PASS: Test_marshal/[18]map[0001-01-01_00:00:00_+0000_UTC:true]/map[test.Date]bool (0.00s)
+    --- PASS: Test_marshal/[19]map[0001-01-01_00:00:00_+0000_UTC:true]/map[test.Date2]bool (0.00s)
+    --- PASS: Test_marshal/[20]map[1:bar]/map[test.customKey]string (0.00s)
+    --- PASS: Test_marshal/[21]{<nil>}/test.jmOfStruct (0.00s)
+    --- PASS: Test_marshal/[22]0xc00005f590/*json.Marshaler (0.00s)
+    --- PASS: Test_marshal/[23]{<nil>}/test.tmOfStruct (0.00s)
+    --- PASS: Test_marshal/[24]0xc00005f5a0/*encoding.TextMarshaler (0.00s)
+    --- PASS: Test_marshal/[25]{0}/test.tmOfStructInt (0.00s)
+    --- PASS: Test_marshal/[26]0xc00005f5b0/*encoding.TextMarshaler (0.00s)
+    --- PASS: Test_marshal/[27]map[{<nil>}:100]/map[test.tmOfStruct]int (0.00s)
+    --- PASS: Test_marshal/[28]map[0xc000010230:100]/map[*test.tmOfStruct]int (0.00s)
+    --- PASS: Test_marshal/[29]map[{<nil>}:100]/map[encoding.TextMarshaler]int (0.00s)
+    --- PASS: Test_marshal/[30]/json.Number (0.00s)
+    --- PASS: Test_marshal/[31]<nil>/*int (0.00s)
+    --- PASS: Test_marshal/[32]0xc00001c638/*int (0.00s)
+    --- PASS: Test_marshal/[33][123_125]/json.RawMessage (0.00s)
+    --- PASS: Test_marshal/[34][49_50_51_52_53]/json.RawMessage (0.00s)
+    --- PASS: Test_marshal/[35][51_46_49_52]/json.RawMessage (0.00s)
+    --- PASS: Test_marshal/[36][45_48_46_53_101_49_48]/json.RawMessage (0.00s)
+    --- PASS: Test_marshal/[37]{jfdk_[]}/struct_{_Env_string_"json:\"env\"";_Extra_json.RawMessage_"json:\"extra,omitempty\""_} (0.00s)
+    --- PASS: Test_marshal/[38][hello]/[]interface_{} (0.00s)
+    --- PASS: Test_marshal/[39][]/[]string (0.00s)
+    --- PASS: Test_marshal/[40]&[]/*[]string (0.00s)
+    --- PASS: Test_marshal/[41][1_2_3]/[]uint8 (0.00s)
+    --- PASS: Test_marshal/[42]>/string (0.00s)
+    --- PASS: Test_marshal/[43]"数字山谷"/string (0.00s)
+    --- PASS: Test_marshal/[44]he__he/string (0.00s)
+    --- PASS: Test_marshal/[45]\x00/string (0.00s)
+    --- PASS: Test_marshal/[46]\x01/string (0.00s)
+    --- PASS: Test_marshal/[47]\x02/string (0.00s)
+    --- PASS: Test_marshal/[48]\x03/string (0.00s)
+    --- PASS: Test_marshal/[49]\x04/string (0.00s)
+    --- PASS: Test_marshal/[50]\x05/string (0.00s)
+    --- PASS: Test_marshal/[51]\x06/string (0.00s)
+    --- PASS: Test_marshal/[52]\a/string (0.00s)
+    --- PASS: Test_marshal/[53]\b/string (0.00s)
+    --- PASS: Test_marshal/[54]_/string (0.00s)
+    --- PASS: Test_marshal/[55]_/string (0.00s)
+    --- PASS: Test_marshal/[56]_/string (0.00s)
+    --- PASS: Test_marshal/[57]_/string (0.00s)
+    --- PASS: Test_marshal/[58]_/string (0.00s)
+    --- PASS: Test_marshal/[59]\x0e/string (0.00s)
+    --- PASS: Test_marshal/[60]\x0f/string (0.00s)
+    --- PASS: Test_marshal/[61]\x10/string (0.00s)
+    --- PASS: Test_marshal/[62]\x11/string (0.00s)
+    --- PASS: Test_marshal/[63]\x12/string (0.00s)
+    --- PASS: Test_marshal/[64]\x13/string (0.00s)
+    --- PASS: Test_marshal/[65]\x14/string (0.00s)
+    --- PASS: Test_marshal/[66]\x15/string (0.00s)
+    --- PASS: Test_marshal/[67]\x16/string (0.00s)
+    --- PASS: Test_marshal/[68]\x17/string (0.00s)
+    --- PASS: Test_marshal/[69]\x18/string (0.00s)
+    --- PASS: Test_marshal/[70]\x19/string (0.00s)
+    --- PASS: Test_marshal/[71]\x1a/string (0.00s)
+    --- PASS: Test_marshal/[72]\x1b/string (0.00s)
+    --- PASS: Test_marshal/[73]\x1c/string (0.00s)
+    --- PASS: Test_marshal/[74]\x1d/string (0.00s)
+    --- PASS: Test_marshal/[75]\x1e/string (0.00s)
+    --- PASS: Test_marshal/[76]\x1f/string (0.00s)
+    --- PASS: Test_marshal/[77]_/string (0.00s)
+    --- PASS: Test_marshal/[78]!/string (0.00s)
+    --- PASS: Test_marshal/[79]"/string (0.00s)
+    --- PASS: Test_marshal/[80]#/string (0.00s)
+    --- PASS: Test_marshal/[81]$/string (0.00s)
+    --- PASS: Test_marshal/[82]%/string (0.00s)
+    --- PASS: Test_marshal/[83]&/string (0.00s)
+    --- PASS: Test_marshal/[84]'/string (0.00s)
+    --- PASS: Test_marshal/[85](/string (0.00s)
+    --- PASS: Test_marshal/[86])/string (0.00s)
+    --- PASS: Test_marshal/[87]*/string (0.00s)
+    --- PASS: Test_marshal/[88]+/string (0.00s)
+    --- PASS: Test_marshal/[89],/string (0.00s)
+    --- PASS: Test_marshal/[90]-/string (0.00s)
+    --- PASS: Test_marshal/[91]./string (0.00s)
+    --- PASS: Test_marshal/[92]//string (0.00s)
+    --- PASS: Test_marshal/[93]0/string (0.00s)
+    --- PASS: Test_marshal/[94]1/string (0.00s)
+    --- PASS: Test_marshal/[95]2/string (0.00s)
+    --- PASS: Test_marshal/[96]3/string (0.00s)
+    --- PASS: Test_marshal/[97]4/string (0.00s)
+    --- PASS: Test_marshal/[98]5/string (0.00s)
+    --- PASS: Test_marshal/[99]6/string (0.00s)
+    --- PASS: Test_marshal/[100]7/string (0.00s)
+    --- PASS: Test_marshal/[101]8/string (0.00s)
+    --- PASS: Test_marshal/[102]9/string (0.00s)
+    --- PASS: Test_marshal/[103]:/string (0.00s)
+    --- PASS: Test_marshal/[104];/string (0.00s)
+    --- PASS: Test_marshal/[105]</string (0.00s)
+    --- PASS: Test_marshal/[106]=/string (0.00s)
+    --- PASS: Test_marshal/[107]>/string (0.00s)
+    --- PASS: Test_marshal/[108]?/string (0.00s)
+    --- PASS: Test_marshal/[109]@/string (0.00s)
+    --- PASS: Test_marshal/[110]A/string (0.00s)
+    --- PASS: Test_marshal/[111]B/string (0.00s)
+    --- PASS: Test_marshal/[112]C/string (0.00s)
+    --- PASS: Test_marshal/[113]D/string (0.00s)
+    --- PASS: Test_marshal/[114]E/string (0.00s)
+    --- PASS: Test_marshal/[115]F/string (0.00s)
+    --- PASS: Test_marshal/[116]G/string (0.00s)
+    --- PASS: Test_marshal/[117]H/string (0.00s)
+    --- PASS: Test_marshal/[118]I/string (0.00s)
+    --- PASS: Test_marshal/[119]J/string (0.00s)
+    --- PASS: Test_marshal/[120]K/string (0.00s)
+    --- PASS: Test_marshal/[121]L/string (0.00s)
+    --- PASS: Test_marshal/[122]M/string (0.00s)
+    --- PASS: Test_marshal/[123]N/string (0.00s)
+    --- PASS: Test_marshal/[124]O/string (0.00s)
+    --- PASS: Test_marshal/[125]P/string (0.00s)
+    --- PASS: Test_marshal/[126]Q/string (0.00s)
+    --- PASS: Test_marshal/[127]R/string (0.00s)
+    --- PASS: Test_marshal/[128]S/string (0.00s)
+    --- PASS: Test_marshal/[129]T/string (0.00s)
+    --- PASS: Test_marshal/[130]U/string (0.00s)
+    --- PASS: Test_marshal/[131]V/string (0.00s)
+    --- PASS: Test_marshal/[132]W/string (0.00s)
+    --- PASS: Test_marshal/[133]X/string (0.00s)
+    --- PASS: Test_marshal/[134]Y/string (0.00s)
+    --- PASS: Test_marshal/[135]Z/string (0.00s)
+    --- PASS: Test_marshal/[136][/string (0.00s)
+    --- PASS: Test_marshal/[137]\/string (0.00s)
+    --- PASS: Test_marshal/[138]]/string (0.00s)
+    --- PASS: Test_marshal/[139]^/string (0.00s)
+    --- PASS: Test_marshal/[140]_/string (0.00s)
+    --- PASS: Test_marshal/[141]`/string (0.00s)
+    --- PASS: Test_marshal/[142]a/string (0.00s)
+    --- PASS: Test_marshal/[143]b/string (0.00s)
+    --- PASS: Test_marshal/[144]c/string (0.00s)
+    --- PASS: Test_marshal/[145]d/string (0.00s)
+    --- PASS: Test_marshal/[146]e/string (0.00s)
+    --- PASS: Test_marshal/[147]f/string (0.00s)
+    --- PASS: Test_marshal/[148]g/string (0.00s)
+    --- PASS: Test_marshal/[149]h/string (0.00s)
+    --- PASS: Test_marshal/[150]i/string (0.00s)
+    --- PASS: Test_marshal/[151]j/string (0.00s)
+    --- PASS: Test_marshal/[152]k/string (0.00s)
+    --- PASS: Test_marshal/[153]l/string (0.00s)
+    --- PASS: Test_marshal/[154]m/string (0.00s)
+    --- PASS: Test_marshal/[155]n/string (0.00s)
+    --- PASS: Test_marshal/[156]o/string (0.00s)
+    --- PASS: Test_marshal/[157]p/string (0.00s)
+    --- PASS: Test_marshal/[158]q/string (0.00s)
+    --- PASS: Test_marshal/[159]r/string (0.00s)
+    --- PASS: Test_marshal/[160]s/string (0.00s)
+    --- PASS: Test_marshal/[161]t/string (0.00s)
+    --- PASS: Test_marshal/[162]u/string (0.00s)
+    --- PASS: Test_marshal/[163]v/string (0.00s)
+    --- PASS: Test_marshal/[164]w/string (0.00s)
+    --- PASS: Test_marshal/[165]x/string (0.00s)
+    --- PASS: Test_marshal/[166]y/string (0.00s)
+    --- PASS: Test_marshal/[167]z/string (0.00s)
+    --- PASS: Test_marshal/[168]{/string (0.00s)
+    --- PASS: Test_marshal/[169]|/string (0.00s)
+    --- PASS: Test_marshal/[170]}/string (0.00s)
+    --- PASS: Test_marshal/[171]~/string (0.00s)
+    --- PASS: Test_marshal/[172]\u007f/string (0.00s)
+    --- PASS: Test_marshal/[173]{map[hello:world]}/struct_{_Field_map[string]interface_{}_} (0.00s)
+    --- PASS: Test_marshal/[174]{map[hello:world]_}/struct_{_Field_map[string]interface_{};_Field2_string_} (0.00s)
+    --- PASS: Test_marshal/[175]{1024}/struct_{_Field_interface_{}_} (0.00s)
+    --- PASS: Test_marshal/[176]{hello}/struct_{_Field_test.MyInterface_} (0.00s)
+    --- PASS: Test_marshal/[177]{<nil>}/struct_{_F_*float64_} (0.00s)
+    --- PASS: Test_marshal/[178]1970-01-01_02:00:00_+0200_EET/struct_{_*time.Time_} (0.00s)
+    --- PASS: Test_marshal/[179]{0xc00016a300}/struct_{_*test.StructVarious_} (0.00s)
+    --- PASS: Test_marshal/[180]{<nil>_10}/struct_{_*test.StructVarious;_Field_int_} (0.00s)
+    --- PASS: Test_marshal/[181]{0_[<nil>]}/struct_{_Field1_int;_Field2_[1]*float64_} (0.00s)
+    --- PASS: Test_marshal/[182]{<nil>}/struct_{_Field_interface_{}_"json:\"field,omitempty\""_} (0.00s)
+    --- PASS: Test_marshal/[183]{<nil>}/struct_{_Field_test.MyInterface_"json:\"field,omitempty\""_} (0.00s)
+    --- PASS: Test_marshal/[184]{hello}/struct_{_Field_test.MyInterface_"json:\"field,omitempty\""_} (0.00s)
+    --- PASS: Test_marshal/[185]{<nil>}/struct_{_Field_json.Marshaler_"json:\"field\""_} (0.00s)
+    --- PASS: Test_marshal/[186]{<nil>}/struct_{_Field_test.MyInterface_"json:\"field\""_} (0.00s)
+    --- PASS: Test_marshal/[187]{hello}/struct_{_Field_test.MyInterface_"json:\"field\""_} (0.00s)
+    --- PASS: Test_marshal/[188]{_<nil>}/struct_{_Field1_string_"json:\"field-1,omitempty\"";_Field2_func()_"json:\"-\""_} (0.00s)
+    --- PASS: Test_marshal/[189]{_<nil>}/test.structRecursive (0.00s)
+    --- PASS: Test_marshal/[190]{0xc00000e6f0_<nil>_20}/struct_{_*test.CacheItem;_OmitMaxAge_test.omit_"json:\"cacheAge,omitempty\"";_MaxAge_int_"json:\"max_age\""_} (0.00s)
+    --- PASS: Test_marshal/[191]{_{}__{_{}_}_}/test.structOrder (0.00s)
+    --- PASS: Test_marshal/[192]{<nil>_0xc00005fdd0}/struct_{_Field1_*string;_Field2_*string_} (0.00s)
+    --- PASS: Test_marshal/[193]{42_0xc000140160_21_0xc0000122d0}/struct_{_a_int;_b_<-chan_int;_C_int;_d_*time.Timer_} (0.00s)
+    --- PASS: Test_marshal/[194]{should_not_marshal}/struct_{__UnderscoreField_string_} (0.00s)
+PASS
+ok  	github.com/json-iterator/go/value_tests	(cached)
+FAIL
