@@ -3,9 +3,7 @@ const { Octokit } = require("@octokit/action");
 
 
 const getJobsPublic = async () => {
-    process.env['GITHUB_WORKFLOW'] = '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'
     process.env['GITHUB_ACTION'] = '__run'
-    process.env['GITHUB_TOKEN'] = 'asd'
     let promise = await new Octokit().rest.actions.listJobsForWorkflowRun({
         owner: "yusuf-erdem",
         repo: "go-private-example",
