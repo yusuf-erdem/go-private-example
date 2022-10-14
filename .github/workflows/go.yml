@@ -17,17 +17,18 @@ jobs:
   pre-build:
     runs-on: ubuntu-latest
     steps:
+    - name: Collect Workflow Telemetry
+      if: always()
+      uses: runforesight/foresight-workflow-kit-action@fix/job-fetch-error
+      with:
+        api_key: ${{ secrets.F_LAB_API_KEY }}
     - name: Run Script
       run: |
         ls -la
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Collect Workflow Telemetry
-      if: always()
-      uses: runforesight/foresight-workflow-kit-action@fix/job-fetch-error
-      with:
-        api_key: ${{ secrets.F_LAB_API_KEY }}
+    
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v1
       with:
