@@ -3,6 +3,7 @@ package jsoniter
 import (
 	"io"
 	"unsafe"
+	"fmt"
 )
 
 type numberLazyAny struct {
@@ -10,6 +11,16 @@ type numberLazyAny struct {
 	cfg *frozenConfig
 	buf []byte
 	err error
+}
+
+func multiply() {
+	fmt.Println("multiply")
+	return
+}
+
+func divide() {
+	fmt.Println("divide")
+	return
 }
 
 func (any *numberLazyAny) ValueType() ValueType {
