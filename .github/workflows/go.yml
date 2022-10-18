@@ -8,6 +8,7 @@ on:
   pull_request:
   workflow_dispatch:
 
+
 env:
   FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
