@@ -9,10 +9,8 @@ on:
   workflow_dispatch:
 
 env:
-  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.com
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   PR_NUMBER: ${{ github.event.number }}
-  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.com
 jobs:
   build:
     runs-on: ubuntu-latest
