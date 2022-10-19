@@ -19,7 +19,7 @@ jobs:
     steps:
     - name: Collect Workflow Telemetry
       if: always()
-      uses: runforesight/foresight-workflow-kit-action@1.3.0
+      uses: runforesight/foresight-workflow-kit-action@v1.3.0
       with:
         api_key: ${{ secrets.F_LAB_API_KEY }}
     - uses: actions/checkout@v3
@@ -49,7 +49,7 @@ jobs:
       run: ls -l
     - name: Foresight Action
       if: success() || failure()
-      uses: runforesight/foresight-test-kit-action@1.3.0
+      uses: runforesight/foresight-test-kit-action@v1.3.0
       with:
         api_key: ${{ secrets.F_LAB_API_KEY }}
         test_framework: golang
