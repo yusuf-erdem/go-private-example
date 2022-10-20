@@ -5,6 +5,7 @@ import (
 	"io"
 )
 
+
 // RawMessage to make replace json with jsoniter
 type RawMessage []byte
 
