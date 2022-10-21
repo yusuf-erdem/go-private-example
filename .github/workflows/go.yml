@@ -43,8 +43,10 @@ jobs:
     - name: Test Go
       run: |
           go test -v -json ./... > ./test-report.json -coverprofile=coverage.out
-    - name: ls files
-      run: ls -l
+    - name: pwd
+      run: pwd
+    - name: workspace
+      run: echo ${{ github.workspace }}
     - name: ls files
       run: ls -l
     - name: Foresight Action
