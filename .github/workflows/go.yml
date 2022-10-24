@@ -12,6 +12,7 @@ env:
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   PR_NUMBER: ${{ github.event.number }}
   WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.me
+  
 jobs:
   build:
     runs-on: ubuntu-latest
