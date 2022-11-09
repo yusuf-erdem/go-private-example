@@ -12,6 +12,7 @@ type arrayLazyAny struct {
 	err error
 }
 
+
 func (any *arrayLazyAny) ValueType() ValueType {
 	return ArrayValue
 }
