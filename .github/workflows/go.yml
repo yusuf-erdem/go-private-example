@@ -47,7 +47,8 @@ jobs:
     - name: ls files
       run: ls -l
     - name: ls files
-      run: ls -l
+      if: always()
+      run: cat test-report.json
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
