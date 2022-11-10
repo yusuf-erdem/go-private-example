@@ -31,7 +31,7 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-        go clean --cache
+        go get github.com/json-iterator/go
         go test -v -json > ./test-report-custom.json -coverprofile=coverage2.out -run TestCustom
     - name: Foresight Action
       if: success() || failure()
