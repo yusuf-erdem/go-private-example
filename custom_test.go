@@ -6,7 +6,6 @@ import (
 )
 
 func TestCustom(t *testing.T) {
-
 	t.Run("Fail Test", func(t *testing.T) {
 		should := require.New(t)
 		should.Equal(1, 123)
