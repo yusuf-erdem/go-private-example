@@ -2,8 +2,10 @@ package jsoniter
 
 import (
 	"fmt"
+	"github.com/stretchr/testify/require"
 	"os"
 	"strings"
+	"testing"
 )
 
 func ExampleMarshal() {
@@ -93,6 +95,15 @@ func ExampleGet() {
 	fmt.Printf(Get(val, "Colors", 0).ToString())
 	// Output:
 	// Crimson
+}
+
+func TestCustom(t *testing.T) {
+
+	t.Run("Fail Test", func(t *testing.T) {
+		should := require.New(t)
+		should.Equal(1, 123)
+	})
+
 }
 
 func ExampleMyKey() {
