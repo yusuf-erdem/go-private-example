@@ -1,4 +1,4 @@
-name: Go Test Fail
+name: Go Test Success
 on:
   issue_comment:
     types:
@@ -31,7 +31,7 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-        go test -v -json > ./test-report-custom.json -coverprofile=coverage2.out -run TestCustom
+        go test -v -json > ./test-report-custom.json -coverprofile=coverage2.out -run ExampleGet
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
