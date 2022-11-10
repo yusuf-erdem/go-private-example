@@ -23,31 +23,16 @@ jobs:
       with:
         api_key: ${{ secrets.F_LAB_API_KEY }}
     - uses: actions/checkout@v3
-    - uses: actions/setup-node@v1
-      with:
-        version: 14
-    - run: npm install @octokit/action
-    
-    - run: node .github/script.js
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 
     - name: Set up Go
       uses: actions/setup-go@v3
       with:
         go-version: 1.18
-    - name: print env
-      run: |
-          env
-          cat /home/runner/work/_temp/_github_workflow/event.json
     - name: Test Go
       run: |
+          go clean --cache
           go test -v -json ./... > ./test-report.json -coverprofile=coverage.out
-    - name: ls files
-      run: ls -l
-    - name: ls files
-      run: ls -l
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
