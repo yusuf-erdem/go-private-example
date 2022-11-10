@@ -31,7 +31,7 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-          go clean --cache
+          go mod tidy
           go test -v -json ./... > ./test-report.json -coverprofile=coverage.out
     - name: Foresight Action
       if: success() || failure()
