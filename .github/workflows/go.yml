@@ -31,7 +31,7 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-          go get github.com/json-iterator/go
+          go get -t github.com/json-iterator/go
           go test -v -json ./... > ./test-report.json -coverprofile=coverage.out
     - name: Foresight Action
       if: success() || failure()
