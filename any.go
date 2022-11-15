@@ -10,7 +10,6 @@ import (
 	"unsafe"
 )
 
-
 // Any generic object representation.
 // The lazy json implementation holds []byte and parse lazily.
 type Any interface {
