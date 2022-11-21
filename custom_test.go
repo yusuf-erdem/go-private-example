@@ -8,7 +8,7 @@ import (
 
 func TestCustom(t *testing.T) {
 	t.Run("Fail Test", func(t *testing.T) {
-		time.Sleep(120 * time.Second)
+		time.Sleep(12 * time.Second)
 		should := require.New(t)
 		should.Equal(1, 123)
 	})
