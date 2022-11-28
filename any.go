@@ -1,5 +1,6 @@
 package jsoniter
 
+
 import (
 	"errors"
 	"fmt"
@@ -9,6 +10,7 @@ import (
 	"strconv"
 	"unsafe"
 )
+
 
 // Any generic object representation.
 // The lazy json implementation holds []byte and parse lazily.
