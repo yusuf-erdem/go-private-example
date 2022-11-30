@@ -11,7 +11,7 @@ func TestCustom(t *testing.T) {
 	t.Run("Fail Test", func(t *testing.T) {
 		time.Sleep(10 * time.Second)
 		should := require.New(t)
-		should.Equal(12, 123)
+		should.Equal(11, 123)
 	})
 
 }
