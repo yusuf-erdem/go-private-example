@@ -8,18 +8,20 @@ on:
   pull_request:
   workflow_dispatch:
 env:
+  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   PR_NUMBER: ${{ github.event.number }}
+  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.me
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Collect Workflow Telemetry with | special char
+    - name: Collect Workflow Telemetry
       if: always()
       uses: runforesight/foresight-workflow-kit-action@v1
       with:
-        api_key: ${{ secrets.F_PROD_API_KEY }}
+        api_key: ${{ secrets.F_LAB_API_KEY }}
     - uses: actions/checkout@v3
 
 
@@ -34,7 +36,7 @@ jobs:
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
       with:
-        api_key: ${{ secrets.F_PROD_API_KEY }}
+        api_key: ${{ secrets.F_LAB_API_KEY }}
         test_framework: golang
         test_format: json
         test_path: ./test-report-custom.json
