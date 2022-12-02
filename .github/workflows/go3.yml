@@ -17,7 +17,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - name: Collect Workflow Telemetry
+    - name: Collect Workflow Telemetry with | special char
       if: always()
       uses: runforesight/foresight-workflow-kit-action@v1
       with:

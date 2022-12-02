@@ -14,7 +14,7 @@ env:
   WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.us
 
 jobs:
-  build with | character:
+  build:
     runs-on: ubuntu-latest
     steps:
     - name: Collect Workflow Telemetry
@@ -43,3 +43,8 @@ jobs:
         coverage_format: golang
         coverage_path: |
             coverage.out
+  with | character:
+    runs-on: ubuntu-latest
+    - name: Test Go
+      run: |
+        echo 'Demo'
