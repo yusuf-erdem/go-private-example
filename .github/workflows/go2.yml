@@ -29,7 +29,7 @@ jobs:
       uses: actions/setup-go@v3
       with:
         go-version: 1.18
-    - name: Test Go
+    - name: Test Go | Failed
       run: |
         go test -v -json > ./test-report-custom.json -coverprofile=coverage2.out -run TestCustom
     - name: Foresight Action
