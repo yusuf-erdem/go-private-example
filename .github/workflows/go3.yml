@@ -8,8 +8,10 @@ on:
   pull_request:
   workflow_dispatch:
 env:
+  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
   ACTIONS_ALLOW_UNSECURE_COMMANDS: true
   PR_NUMBER: ${{ github.event.number }}
+  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.me
 
 jobs:
   build:
@@ -19,7 +21,7 @@ jobs:
       if: always()
       uses: runforesight/foresight-workflow-kit-action@v1
       with:
-        api_key: ${{ secrets.F_PROD_API_KEY }}
+        api_key: ${{ secrets.F_LAB_API_KEY }}
     - uses: actions/checkout@v3
 
 
@@ -29,15 +31,15 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-        go test -v -json > ./test-report-custom.json -coverprofile=coverage2.out -run ExampleGet
+        go test -v  > ./test-report-custom.txt -coverprofile=coverage2.out -run ExampleGet
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
       with:
-        api_key: ${{ secrets.F_PROD_API_KEY }}
+        api_key: ${{ secrets.F_LAB_API_KEY }}
         test_framework: golang
-        test_format: json
-        test_path: ./test-report-custom.json
+        test_format: text
+        test_path: ./test-report-custom.txt
         coverage_format: golang
         coverage_path: |
             coverage2.out
