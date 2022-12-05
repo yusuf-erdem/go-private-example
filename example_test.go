@@ -91,6 +91,7 @@ func ExampleConfigFastest_Unmarshal() {
 func ExampleGet() {
 	val := []byte(`{"ID":1,"Name":"Reds","Colors":["Crimson","Red","Ruby","Maroon"]}`)
 	fmt.Printf(Get(val, "Colors", 0).ToString())
+	fmt.Println("Custom Test Example Output")
 	// Output:
 	// Crimson
 }
