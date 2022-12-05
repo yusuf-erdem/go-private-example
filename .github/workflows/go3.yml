@@ -31,7 +31,7 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-        go test -v  > ./test-report-custom.txt -coverprofile=coverage2.out -run ExampleGet
+        go test -v  | tee ./test-report-custom.txt -coverprofile=coverage2.out -run ExampleGet
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
