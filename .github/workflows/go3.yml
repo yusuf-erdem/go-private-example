@@ -31,15 +31,15 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-        go test -v  > ./test-report-custom.txt -coverprofile=coverage2.out -run ExampleGet
+        go test -v -json > ./test-report-custom.json -coverprofile=coverage2.out -run ExampleGet
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
       with:
         api_key: ${{ secrets.F_LAB_API_KEY }}
         test_framework: golang
-        test_format: text
-        test_path: ./test-report-custom.txt
+        test_format: json
+        test_path: ./test-report-custom.json
         coverage_format: golang
         coverage_path: |
             coverage2.out
