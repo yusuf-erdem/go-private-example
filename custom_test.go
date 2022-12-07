@@ -13,7 +13,7 @@ func TestCustom(t *testing.T) {
 		time.Sleep(1 * time.Second)
 		fmt.Println("Custom Test Output")
 		should := require.New(t)
-		should.Equal(1, 123)
+		should.Equal(12, 123)
 	})
 
 }
