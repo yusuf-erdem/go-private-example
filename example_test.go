@@ -62,16 +62,12 @@ func ExampleUnmarshalFromString() {
 	}
 	fmt.Printf("%+v", animals)
 
-	type TestObject struct {
-		Field1 Any
-		Field2 Any
-	}
-	obj := TestObject{}
-	err2 := UnmarshalFromString(`{"Field1": "hello", "Field2": [1,2,3]}`, &obj)
+	var animals2 []Animal
+	err2 := UnmarshalFromString(`{"Field1": "hello", "Field2": [1,2,3]}`, &animals2)
 	if err != nil {
 		fmt.Println("error:", err2)
 	}
-	fmt.Printf("%+v", obj)
+	fmt.Printf("%+v", animals2)
 	// Output:
 	// [{Name:Platypus Order:Monotremata} {Name:Quoll Order:Dasyuromorphia}]
 }
