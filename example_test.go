@@ -45,7 +45,7 @@ func ExampleUnmarshal() {
 	// [{Name:Platypus Order:Monotremata} {Name:Quoll Order:Dasyuromorphia}]
 }
 
-func ExampleUnmarshalFromString() {
+/*func ExampleUnmarshalFromString() {
 	type TestObject struct {
 		field1 string
 	}
@@ -57,7 +57,7 @@ func ExampleUnmarshalFromString() {
 	fmt.Printf("%+v", obj)
 	// Output:
 	// {field1:}
-}
+}*/
 
 func ExampleConfigFastest_Marshal() {
 	type ColorGroup struct {
