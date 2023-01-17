@@ -37,10 +37,14 @@ func ExampleUnmarshal() {
 	}
 	var animals []Animal
 	err := Unmarshal(jsonBlob, &animals)
+	var val string
+
+	err1 := UnmarshalFromString("asd", &val)
 	if err != nil {
 		fmt.Println("error:", err)
 	}
 	fmt.Printf("%+v", animals)
+	fmt.Print(err1)
 	// Output:
 	// [{Name:Platypus Order:Monotremata} {Name:Quoll Order:Dasyuromorphia}]
 }
