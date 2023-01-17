@@ -46,30 +46,17 @@ func ExampleUnmarshal() {
 }
 
 func ExampleUnmarshalFromString() {
-	var jsonBlob = []byte(`[
-		{"Name": "Platypus", "Order": "Monotremata"},
-		{"Name": "Quoll",    "Order": "Dasyuromorphia"}
-	]`)
-	type Animal struct {
-		Name  string
-		Order string
+	type TestObject struct {
+		field1 string
 	}
-
-	var animals []Animal
-	err := Unmarshal(jsonBlob, &animals)
-	if err != nil {
-		fmt.Println("error:", err)
-	}
-	fmt.Printf("%+v", animals)
-
-	var animals2 []Animal
-	err2 := UnmarshalFromString(`{"Field1": "hello", "Field2": [1,2,3]}`, &animals2)
-	if err != nil {
+	obj := TestObject{}
+	err2 := UnmarshalFromString(`{"field1":"Hello"}`, &obj)
+	if err2 != nil {
 		fmt.Println("error:", err2)
 	}
-	fmt.Printf("%+v", animals2)
+	fmt.Printf("%+v", obj)
 	// Output:
-	// [{Name:Platypus Order:Monotremata} {Name:Quoll Order:Dasyuromorphia}]
+	// {field1:}
 }
 
 func ExampleConfigFastest_Marshal() {
