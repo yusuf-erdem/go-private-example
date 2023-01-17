@@ -45,20 +45,6 @@ func ExampleUnmarshal() {
 	// [{Name:Platypus Order:Monotremata} {Name:Quoll Order:Dasyuromorphia}]
 }
 
-/*func ExampleUnmarshalFromString() {
-	type TestObject struct {
-		field1 string
-	}
-	obj := TestObject{}
-	err2 := UnmarshalFromString(`{"field1":"Hello"}`, &obj)
-	if err2 != nil {
-		fmt.Println("error:", err2)
-	}
-	fmt.Printf("%+v", obj)
-	// Output:
-	// {field1:}
-}*/
-
 func ExampleConfigFastest_Marshal() {
 	type ColorGroup struct {
 		ID     int
