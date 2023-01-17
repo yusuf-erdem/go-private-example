@@ -43,3 +43,5 @@ jobs:
         coverage_format: golang
         coverage_path: |
             coverage.out
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
