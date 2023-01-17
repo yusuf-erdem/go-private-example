@@ -32,7 +32,6 @@ jobs:
     - name: Test Go2
       run: |
           go test -v -run Test_Multiply -json ./... > ./test-report1.json -coverprofile=coverage1.out
-    - name: Test Go2
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
