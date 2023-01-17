@@ -45,6 +45,36 @@ func ExampleUnmarshal() {
 	// [{Name:Platypus Order:Monotremata} {Name:Quoll Order:Dasyuromorphia}]
 }
 
+func ExampleUnmarshalFromString() {
+	var jsonBlob = []byte(`[
+		{"Name": "Platypus", "Order": "Monotremata"},
+		{"Name": "Quoll",    "Order": "Dasyuromorphia"}
+	]`)
+	type Animal struct {
+		Name  string
+		Order string
+	}
+	var animals []Animal
+	err := Unmarshal(jsonBlob, &animals)
+	if err != nil {
+		fmt.Println("error:", err)
+	}
+	fmt.Printf("%+v", animals)
+
+	type TestObject struct {
+		Field1 Any
+		Field2 Any
+	}
+	obj := TestObject{}
+	err2 := UnmarshalFromString(`{"Field1": "hello", "Field2": [1,2,3]}`, &obj)
+	if err != nil {
+		fmt.Println("error:", err2)
+	}
+	fmt.Printf("%+v", obj)
+	// Output:
+	// [{Name:Platypus Order:Monotremata} {Name:Quoll Order:Dasyuromorphia}]
+}
+
 func ExampleConfigFastest_Marshal() {
 	type ColorGroup struct {
 		ID     int
