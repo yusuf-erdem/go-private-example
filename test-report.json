@@ -1,52 +1,325 @@
-{"Time":"2023-01-17T14:48:08.889215+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer"}
-{"Time":"2023-01-17T14:48:08.889444+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer","Output":"=== RUN   Test_writeByte_should_grow_buffer\n"}
-{"Time":"2023-01-17T14:48:08.889495+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer","Output":"--- PASS: Test_writeByte_should_grow_buffer (0.00s)\n"}
-{"Time":"2023-01-17T14:48:08.889509+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer","Elapsed":0}
-{"Time":"2023-01-17T14:48:08.889534+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer"}
-{"Time":"2023-01-17T14:48:08.889541+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer","Output":"=== RUN   Test_writeBytes_should_grow_buffer\n"}
-{"Time":"2023-01-17T14:48:08.88955+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer","Output":"--- PASS: Test_writeBytes_should_grow_buffer (0.00s)\n"}
-{"Time":"2023-01-17T14:48:08.889557+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer","Elapsed":0}
-{"Time":"2023-01-17T14:48:08.889564+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer"}
-{"Time":"2023-01-17T14:48:08.88957+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer","Output":"=== RUN   Test_writeIndention_should_grow_buffer\n"}
-{"Time":"2023-01-17T14:48:08.889578+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer","Output":"--- PASS: Test_writeIndention_should_grow_buffer (0.00s)\n"}
-{"Time":"2023-01-17T14:48:08.889586+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer","Elapsed":0}
-{"Time":"2023-01-17T14:48:08.889592+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer"}
-{"Time":"2023-01-17T14:48:08.889599+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer","Output":"=== RUN   Test_writeRaw_should_grow_buffer\n"}
-{"Time":"2023-01-17T14:48:08.889607+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer","Output":"--- PASS: Test_writeRaw_should_grow_buffer (0.00s)\n"}
-{"Time":"2023-01-17T14:48:08.889614+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer","Elapsed":0}
-{"Time":"2023-01-17T14:48:08.889621+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer"}
-{"Time":"2023-01-17T14:48:08.889627+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer","Output":"=== RUN   Test_writeString_should_grow_buffer\n"}
-{"Time":"2023-01-17T14:48:08.889634+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer","Output":"--- PASS: Test_writeString_should_grow_buffer (0.00s)\n"}
-{"Time":"2023-01-17T14:48:08.889641+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer","Elapsed":0}
-{"Time":"2023-01-17T14:48:08.889647+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer"}
-{"Time":"2023-01-17T14:48:08.889654+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer","Output":"=== RUN   Test_flush_buffer_should_stop_grow_buffer\n"}
-{"Time":"2023-01-17T14:48:09.004058+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer","Output":"--- PASS: Test_flush_buffer_should_stop_grow_buffer (0.11s)\n"}
-{"Time":"2023-01-17T14:48:09.004199+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer","Elapsed":0.11}
-{"Time":"2023-01-17T14:48:09.004232+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleMarshal"}
-{"Time":"2023-01-17T14:48:09.00426+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMarshal","Output":"=== RUN   ExampleMarshal\n"}
-{"Time":"2023-01-17T14:48:09.004294+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMarshal","Output":"--- PASS: ExampleMarshal (0.00s)\n"}
-{"Time":"2023-01-17T14:48:09.00432+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleMarshal","Elapsed":0}
-{"Time":"2023-01-17T14:48:09.004326+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal"}
-{"Time":"2023-01-17T14:48:09.00435+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal","Output":"=== RUN   ExampleUnmarshal\n"}
-{"Time":"2023-01-17T14:48:09.004636+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal","Output":"--- PASS: ExampleUnmarshal (0.00s)\n"}
-{"Time":"2023-01-17T14:48:09.004696+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal","Elapsed":0}
-{"Time":"2023-01-17T14:48:09.004703+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal"}
-{"Time":"2023-01-17T14:48:09.004709+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal","Output":"=== RUN   ExampleConfigFastest_Marshal\n"}
-{"Time":"2023-01-17T14:48:09.004757+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal","Output":"--- PASS: ExampleConfigFastest_Marshal (0.00s)\n"}
-{"Time":"2023-01-17T14:48:09.004795+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal","Elapsed":0}
-{"Time":"2023-01-17T14:48:09.004811+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal"}
-{"Time":"2023-01-17T14:48:09.004818+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal","Output":"=== RUN   ExampleConfigFastest_Unmarshal\n"}
-{"Time":"2023-01-17T14:48:09.005073+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal","Output":"--- PASS: ExampleConfigFastest_Unmarshal (0.00s)\n"}
-{"Time":"2023-01-17T14:48:09.005113+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal","Elapsed":0}
-{"Time":"2023-01-17T14:48:09.005134+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleGet"}
-{"Time":"2023-01-17T14:48:09.00514+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleGet","Output":"=== RUN   ExampleGet\n"}
-{"Time":"2023-01-17T14:48:09.005168+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleGet","Output":"--- PASS: ExampleGet (0.00s)\n"}
-{"Time":"2023-01-17T14:48:09.005174+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleGet","Elapsed":0}
-{"Time":"2023-01-17T14:48:09.005179+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleMyKey"}
-{"Time":"2023-01-17T14:48:09.005184+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMyKey","Output":"=== RUN   ExampleMyKey\n"}
-{"Time":"2023-01-17T14:48:09.005255+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMyKey","Output":"--- PASS: ExampleMyKey (0.00s)\n"}
-{"Time":"2023-01-17T14:48:09.005265+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleMyKey","Elapsed":0}
-{"Time":"2023-01-17T14:48:09.005284+03:00","Action":"output","Package":"github.com/json-iterator/go","Output":"PASS\n"}
-{"Time":"2023-01-17T14:48:09.013642+03:00","Action":"output","Package":"github.com/json-iterator/go","Output":"coverage: 21.2% of statements\n"}
-{"Time":"2023-01-17T14:48:09.0145+03:00","Action":"output","Package":"github.com/json-iterator/go","Output":"ok  \tgithub.com/json-iterator/go\t0.805s\tcoverage: 21.2% of statements\n"}
-{"Time":"2023-01-17T14:48:09.014541+03:00","Action":"pass","Package":"github.com/json-iterator/go","Elapsed":0.806}
+{"Time":"2023-01-17T15:12:52.899777+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec"}
+{"Time":"2023-01-17T15:12:52.899987+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec","Output":"=== RUN   TestBinaryAsStringCodec\n"}
+{"Time":"2023-01-17T15:12:52.900028+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/safe_set"}
+{"Time":"2023-01-17T15:12:52.900065+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/safe_set","Output":"=== RUN   TestBinaryAsStringCodec/safe_set\n"}
+{"Time":"2023-01-17T15:12:52.90009+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/non_safe_set"}
+{"Time":"2023-01-17T15:12:52.900098+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/non_safe_set","Output":"=== RUN   TestBinaryAsStringCodec/non_safe_set\n"}
+{"Time":"2023-01-17T15:12:52.900116+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec","Output":"--- PASS: TestBinaryAsStringCodec (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900126+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/safe_set","Output":"    --- PASS: TestBinaryAsStringCodec/safe_set (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900134+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/safe_set","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900155+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/non_safe_set","Output":"    --- PASS: TestBinaryAsStringCodec/non_safe_set (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900167+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec/non_safe_set","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900175+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"TestBinaryAsStringCodec","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900182+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_string"}
+{"Time":"2023-01-17T15:12:52.900189+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_string","Output":"=== RUN   Test_any_to_string\n"}
+{"Time":"2023-01-17T15:12:52.900199+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_string","Output":"--- PASS: Test_any_to_string (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900206+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_string","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900213+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int64"}
+{"Time":"2023-01-17T15:12:52.900219+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int64","Output":"=== RUN   Test_any_to_int64\n"}
+{"Time":"2023-01-17T15:12:52.900227+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int64","Output":"--- PASS: Test_any_to_int64 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900234+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int64","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900259+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int"}
+{"Time":"2023-01-17T15:12:52.900267+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int","Output":"=== RUN   Test_any_to_int\n"}
+{"Time":"2023-01-17T15:12:52.900275+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int","Output":"--- PASS: Test_any_to_int (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900283+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900289+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int16"}
+{"Time":"2023-01-17T15:12:52.900312+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int16","Output":"=== RUN   Test_any_to_int16\n"}
+{"Time":"2023-01-17T15:12:52.900321+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int16","Output":"--- PASS: Test_any_to_int16 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900334+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int16","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900342+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int32"}
+{"Time":"2023-01-17T15:12:52.900348+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int32","Output":"=== RUN   Test_any_to_int32\n"}
+{"Time":"2023-01-17T15:12:52.900357+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int32","Output":"--- PASS: Test_any_to_int32 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900365+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int32","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900371+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int8"}
+{"Time":"2023-01-17T15:12:52.900377+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int8","Output":"=== RUN   Test_any_to_int8\n"}
+{"Time":"2023-01-17T15:12:52.900385+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int8","Output":"--- PASS: Test_any_to_int8 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900392+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_int8","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900398+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint8"}
+{"Time":"2023-01-17T15:12:52.900405+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint8","Output":"=== RUN   Test_any_to_uint8\n"}
+{"Time":"2023-01-17T15:12:52.900412+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint8","Output":"--- PASS: Test_any_to_uint8 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900419+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint8","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900425+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint64"}
+{"Time":"2023-01-17T15:12:52.900432+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint64","Output":"=== RUN   Test_any_to_uint64\n"}
+{"Time":"2023-01-17T15:12:52.900439+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint64","Output":"--- PASS: Test_any_to_uint64 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900446+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint64","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900452+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint32"}
+{"Time":"2023-01-17T15:12:52.900459+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint32","Output":"=== RUN   Test_any_to_uint32\n"}
+{"Time":"2023-01-17T15:12:52.900471+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint32","Output":"--- PASS: Test_any_to_uint32 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900486+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint32","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900494+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint16"}
+{"Time":"2023-01-17T15:12:52.9005+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint16","Output":"=== RUN   Test_any_to_uint16\n"}
+{"Time":"2023-01-17T15:12:52.90052+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint16","Output":"--- PASS: Test_any_to_uint16 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900528+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint16","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900535+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint"}
+{"Time":"2023-01-17T15:12:52.900541+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint","Output":"=== RUN   Test_any_to_uint\n"}
+{"Time":"2023-01-17T15:12:52.900548+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint","Output":"--- PASS: Test_any_to_uint (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900555+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_uint","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900562+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float32"}
+{"Time":"2023-01-17T15:12:52.900568+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float32","Output":"=== RUN   Test_any_to_float32\n"}
+{"Time":"2023-01-17T15:12:52.900575+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float32","Output":"--- PASS: Test_any_to_float32 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900584+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float32","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900591+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float64"}
+{"Time":"2023-01-17T15:12:52.900597+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float64","Output":"=== RUN   Test_any_to_float64\n"}
+{"Time":"2023-01-17T15:12:52.900604+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float64","Output":"--- PASS: Test_any_to_float64 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900611+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_any_to_float64","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900618+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_map"}
+{"Time":"2023-01-17T15:12:52.900624+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_map","Output":"=== RUN   Test_empty_array_as_map\n"}
+{"Time":"2023-01-17T15:12:52.90064+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_map","Output":"--- PASS: Test_empty_array_as_map (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900648+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_map","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900655+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_object"}
+{"Time":"2023-01-17T15:12:52.900661+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_object","Output":"=== RUN   Test_empty_array_as_object\n"}
+{"Time":"2023-01-17T15:12:52.900668+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_object","Output":"--- PASS: Test_empty_array_as_object (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900675+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_empty_array_as_object","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900682+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_bad_case"}
+{"Time":"2023-01-17T15:12:52.900688+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_bad_case","Output":"=== RUN   Test_bad_case\n"}
+{"Time":"2023-01-17T15:12:52.900697+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_bad_case","Output":"--- PASS: Test_bad_case (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900716+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_bad_case","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900724+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_string"}
+{"Time":"2023-01-17T15:12:52.90073+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_string","Output":"=== RUN   Test_null_to_string\n"}
+{"Time":"2023-01-17T15:12:52.900741+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_string","Output":"--- PASS: Test_null_to_string (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.90075+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_string","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900757+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_int"}
+{"Time":"2023-01-17T15:12:52.90077+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_int","Output":"=== RUN   Test_null_to_int\n"}
+{"Time":"2023-01-17T15:12:52.900778+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_int","Output":"--- PASS: Test_null_to_int (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900785+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_int","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900791+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float32"}
+{"Time":"2023-01-17T15:12:52.900812+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float32","Output":"=== RUN   Test_null_to_float32\n"}
+{"Time":"2023-01-17T15:12:52.900824+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float32","Output":"--- PASS: Test_null_to_float32 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900832+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float32","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900839+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float64"}
+{"Time":"2023-01-17T15:12:52.900845+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float64","Output":"=== RUN   Test_null_to_float64\n"}
+{"Time":"2023-01-17T15:12:52.900854+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float64","Output":"--- PASS: Test_null_to_float64 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900862+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_null_to_float64","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900869+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_lower_case_with_underscores"}
+{"Time":"2023-01-17T15:12:52.900875+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_lower_case_with_underscores","Output":"=== RUN   Test_lower_case_with_underscores\n"}
+{"Time":"2023-01-17T15:12:52.900882+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_lower_case_with_underscores","Output":"--- PASS: Test_lower_case_with_underscores (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900889+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_lower_case_with_underscores","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900896+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_overrides"}
+{"Time":"2023-01-17T15:12:52.900902+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_overrides","Output":"=== RUN   Test_set_naming_strategy_with_overrides\n"}
+{"Time":"2023-01-17T15:12:52.900909+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_overrides","Output":"--- PASS: Test_set_naming_strategy_with_overrides (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900918+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_overrides","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900938+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_omitempty"}
+{"Time":"2023-01-17T15:12:52.900945+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_omitempty","Output":"=== RUN   Test_set_naming_strategy_with_omitempty\n"}
+{"Time":"2023-01-17T15:12:52.900953+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_omitempty","Output":"--- PASS: Test_set_naming_strategy_with_omitempty (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900962+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_omitempty","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900969+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_private_field"}
+{"Time":"2023-01-17T15:12:52.900975+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_private_field","Output":"=== RUN   Test_set_naming_strategy_with_private_field\n"}
+{"Time":"2023-01-17T15:12:52.900984+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_private_field","Output":"--- PASS: Test_set_naming_strategy_with_private_field (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.900992+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_set_naming_strategy_with_private_field","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.900998+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_private_fields"}
+{"Time":"2023-01-17T15:12:52.901004+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_private_fields","Output":"=== RUN   Test_private_fields\n"}
+{"Time":"2023-01-17T15:12:52.901013+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_private_fields","Output":"--- PASS: Test_private_fields (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.901021+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_private_fields","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.901027+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64"}
+{"Time":"2023-01-17T15:12:52.901034+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64","Output":"=== RUN   Test_time_as_int64\n"}
+{"Time":"2023-01-17T15:12:52.901043+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64","Output":"--- PASS: Test_time_as_int64 (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.90105+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.901057+03:00","Action":"run","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64_keep_microsecond"}
+{"Time":"2023-01-17T15:12:52.901063+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64_keep_microsecond","Output":"=== RUN   Test_time_as_int64_keep_microsecond\n"}
+{"Time":"2023-01-17T15:12:52.901072+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64_keep_microsecond","Output":"    time_as_int64_codec_test.go:22: conflict\n"}
+{"Time":"2023-01-17T15:12:52.901081+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64_keep_microsecond","Output":"--- SKIP: Test_time_as_int64_keep_microsecond (0.00s)\n"}
+{"Time":"2023-01-17T15:12:52.901096+03:00","Action":"skip","Package":"github.com/json-iterator/go/extra","Test":"Test_time_as_int64_keep_microsecond","Elapsed":0}
+{"Time":"2023-01-17T15:12:52.901104+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Output":"PASS\n"}
+{"Time":"2023-01-17T15:12:52.902336+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Output":"coverage: 86.4% of statements\n"}
+{"Time":"2023-01-17T15:12:52.903117+03:00","Action":"output","Package":"github.com/json-iterator/go/extra","Output":"ok  \tgithub.com/json-iterator/go/extra\t0.602s\tcoverage: 86.4% of statements\n"}
+{"Time":"2023-01-17T15:12:52.903138+03:00","Action":"pass","Package":"github.com/json-iterator/go/extra","Elapsed":0.602}
+{"Time":"2023-01-17T15:12:53.110992+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_empty_array_as_any"}
+{"Time":"2023-01-17T15:12:53.111065+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_empty_array_as_any","Output":"=== RUN   Test_read_empty_array_as_any\n"}
+{"Time":"2023-01-17T15:12:53.111081+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_empty_array_as_any","Output":"--- PASS: Test_read_empty_array_as_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111092+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_empty_array_as_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111105+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_one_element_array_as_any"}
+{"Time":"2023-01-17T15:12:53.111112+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_one_element_array_as_any","Output":"=== RUN   Test_read_one_element_array_as_any\n"}
+{"Time":"2023-01-17T15:12:53.111122+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_one_element_array_as_any","Output":"--- PASS: Test_read_one_element_array_as_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.11113+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_one_element_array_as_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111138+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_two_element_array_as_any"}
+{"Time":"2023-01-17T15:12:53.111144+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_two_element_array_as_any","Output":"=== RUN   Test_read_two_element_array_as_any\n"}
+{"Time":"2023-01-17T15:12:53.111252+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_two_element_array_as_any","Output":"--- PASS: Test_read_two_element_array_as_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111278+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_two_element_array_as_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111288+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_array_and_convert_to_any"}
+{"Time":"2023-01-17T15:12:53.111296+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_array_and_convert_to_any","Output":"=== RUN   Test_wrap_array_and_convert_to_any\n"}
+{"Time":"2023-01-17T15:12:53.111315+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_array_and_convert_to_any","Output":"--- PASS: Test_wrap_array_and_convert_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111325+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_array_and_convert_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111332+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get"}
+{"Time":"2023-01-17T15:12:53.111339+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get","Output":"=== RUN   Test_array_lazy_any_get\n"}
+{"Time":"2023-01-17T15:12:53.111347+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get","Output":"--- PASS: Test_array_lazy_any_get (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111356+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111382+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_all"}
+{"Time":"2023-01-17T15:12:53.11139+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_all","Output":"=== RUN   Test_array_lazy_any_get_all\n"}
+{"Time":"2023-01-17T15:12:53.111399+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_all","Output":"--- PASS: Test_array_lazy_any_get_all (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111407+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_all","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111413+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_wrapper_any_get_all"}
+{"Time":"2023-01-17T15:12:53.11142+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_wrapper_any_get_all","Output":"=== RUN   Test_array_wrapper_any_get_all\n"}
+{"Time":"2023-01-17T15:12:53.111434+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_wrapper_any_get_all","Output":"--- PASS: Test_array_wrapper_any_get_all (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111443+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_wrapper_any_get_all","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.11145+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_invalid"}
+{"Time":"2023-01-17T15:12:53.111456+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_invalid","Output":"=== RUN   Test_array_lazy_any_get_invalid\n"}
+{"Time":"2023-01-17T15:12:53.111466+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_invalid","Output":"--- PASS: Test_array_lazy_any_get_invalid (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111477+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_array_lazy_any_get_invalid","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111487+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_invalid_array"}
+{"Time":"2023-01-17T15:12:53.111494+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_invalid_array","Output":"=== RUN   Test_invalid_array\n"}
+{"Time":"2023-01-17T15:12:53.111502+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_invalid_array","Output":"--- PASS: Test_invalid_array (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.11151+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_invalid_array","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111517+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_bool_as_any"}
+{"Time":"2023-01-17T15:12:53.111523+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_bool_as_any","Output":"=== RUN   Test_read_bool_as_any\n"}
+{"Time":"2023-01-17T15:12:53.111532+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_bool_as_any","Output":"--- PASS: Test_read_bool_as_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111539+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_bool_as_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111546+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_write_bool_to_stream"}
+{"Time":"2023-01-17T15:12:53.111552+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_write_bool_to_stream","Output":"=== RUN   Test_write_bool_to_stream\n"}
+{"Time":"2023-01-17T15:12:53.11156+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_write_bool_to_stream","Output":"--- PASS: Test_write_bool_to_stream (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111568+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_write_bool_to_stream","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111587+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_float"}
+{"Time":"2023-01-17T15:12:53.111594+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_float","Output":"=== RUN   Test_read_any_to_float\n"}
+{"Time":"2023-01-17T15:12:53.111756+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_float","Output":"--- PASS: Test_read_any_to_float (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111779+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_float","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111789+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_float_to_any"}
+{"Time":"2023-01-17T15:12:53.111797+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_float_to_any","Output":"=== RUN   Test_read_float_to_any\n"}
+{"Time":"2023-01-17T15:12:53.111805+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_float_to_any","Output":"--- PASS: Test_read_float_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111812+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_float_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111819+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_int"}
+{"Time":"2023-01-17T15:12:53.111825+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_int","Output":"=== RUN   Test_read_any_to_int\n"}
+{"Time":"2023-01-17T15:12:53.111966+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_int","Output":"--- PASS: Test_read_any_to_int (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.111989+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_int","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.111999+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_uint"}
+{"Time":"2023-01-17T15:12:53.112006+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_uint","Output":"=== RUN   Test_read_any_to_uint\n"}
+{"Time":"2023-01-17T15:12:53.112126+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_uint","Output":"--- PASS: Test_read_any_to_uint (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112153+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_uint","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112163+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int64_to_any"}
+{"Time":"2023-01-17T15:12:53.112171+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int64_to_any","Output":"=== RUN   Test_read_int64_to_any\n"}
+{"Time":"2023-01-17T15:12:53.112181+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int64_to_any","Output":"--- PASS: Test_read_int64_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112189+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int64_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112196+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int32_to_any"}
+{"Time":"2023-01-17T15:12:53.112214+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int32_to_any","Output":"=== RUN   Test_read_int32_to_any\n"}
+{"Time":"2023-01-17T15:12:53.112223+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int32_to_any","Output":"--- PASS: Test_read_int32_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.11223+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_int32_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112254+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint32_to_any"}
+{"Time":"2023-01-17T15:12:53.112262+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint32_to_any","Output":"=== RUN   Test_read_uint32_to_any\n"}
+{"Time":"2023-01-17T15:12:53.112282+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint32_to_any","Output":"--- PASS: Test_read_uint32_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112291+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint32_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112298+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint64_to_any"}
+{"Time":"2023-01-17T15:12:53.112305+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint64_to_any","Output":"=== RUN   Test_read_uint64_to_any\n"}
+{"Time":"2023-01-17T15:12:53.112312+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint64_to_any","Output":"--- PASS: Test_read_uint64_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112319+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_uint64_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112325+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_int_lazy_any_get"}
+{"Time":"2023-01-17T15:12:53.112332+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_int_lazy_any_get","Output":"=== RUN   Test_int_lazy_any_get\n"}
+{"Time":"2023-01-17T15:12:53.112343+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_int_lazy_any_get","Output":"--- PASS: Test_int_lazy_any_get (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112354+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_int_lazy_any_get","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112361+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map"}
+{"Time":"2023-01-17T15:12:53.112367+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map","Output":"=== RUN   Test_wrap_map\n"}
+{"Time":"2023-01-17T15:12:53.112376+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map","Output":"--- PASS: Test_wrap_map (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112384+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112391+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_map_wrapper_any_get_all"}
+{"Time":"2023-01-17T15:12:53.1124+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_map_wrapper_any_get_all","Output":"=== RUN   Test_map_wrapper_any_get_all\n"}
+{"Time":"2023-01-17T15:12:53.112576+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_map_wrapper_any_get_all","Output":"--- PASS: Test_map_wrapper_any_get_all (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112602+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_map_wrapper_any_get_all","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112612+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_null_as_any"}
+{"Time":"2023-01-17T15:12:53.11262+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_null_as_any","Output":"=== RUN   Test_read_null_as_any\n"}
+{"Time":"2023-01-17T15:12:53.112628+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_null_as_any","Output":"--- PASS: Test_read_null_as_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112636+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_null_as_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112661+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_object_as_any"}
+{"Time":"2023-01-17T15:12:53.11267+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_object_as_any","Output":"=== RUN   Test_read_object_as_any\n"}
+{"Time":"2023-01-17T15:12:53.11268+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_object_as_any","Output":"--- PASS: Test_read_object_as_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112688+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_object_as_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112695+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get"}
+{"Time":"2023-01-17T15:12:53.112702+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get","Output":"=== RUN   Test_object_lazy_any_get\n"}
+{"Time":"2023-01-17T15:12:53.112709+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get","Output":"--- PASS: Test_object_lazy_any_get (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112716+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112723+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_all"}
+{"Time":"2023-01-17T15:12:53.11274+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_all","Output":"=== RUN   Test_object_lazy_any_get_all\n"}
+{"Time":"2023-01-17T15:12:53.112748+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_all","Output":"--- PASS: Test_object_lazy_any_get_all (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112755+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_all","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112762+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_invalid"}
+{"Time":"2023-01-17T15:12:53.112768+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_invalid","Output":"=== RUN   Test_object_lazy_any_get_invalid\n"}
+{"Time":"2023-01-17T15:12:53.112775+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_invalid","Output":"--- PASS: Test_object_lazy_any_get_invalid (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112795+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_lazy_any_get_invalid","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112804+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map_and_convert_to_any"}
+{"Time":"2023-01-17T15:12:53.11281+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map_and_convert_to_any","Output":"=== RUN   Test_wrap_map_and_convert_to_any\n"}
+{"Time":"2023-01-17T15:12:53.11282+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map_and_convert_to_any","Output":"--- PASS: Test_wrap_map_and_convert_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112827+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_map_and_convert_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112833+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_object_and_convert_to_any"}
+{"Time":"2023-01-17T15:12:53.11284+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_object_and_convert_to_any","Output":"=== RUN   Test_wrap_object_and_convert_to_any\n"}
+{"Time":"2023-01-17T15:12:53.112847+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_object_and_convert_to_any","Output":"--- PASS: Test_wrap_object_and_convert_to_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112869+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_object_and_convert_to_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112877+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_any_within_struct"}
+{"Time":"2023-01-17T15:12:53.112883+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_any_within_struct","Output":"=== RUN   Test_any_within_struct\n"}
+{"Time":"2023-01-17T15:12:53.112892+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_any_within_struct","Output":"--- PASS: Test_any_within_struct (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.1129+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_any_within_struct","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112907+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_wrapper_any_get_all"}
+{"Time":"2023-01-17T15:12:53.112914+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_wrapper_any_get_all","Output":"=== RUN   Test_object_wrapper_any_get_all\n"}
+{"Time":"2023-01-17T15:12:53.112922+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_wrapper_any_get_all","Output":"--- PASS: Test_object_wrapper_any_get_all (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112929+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_object_wrapper_any_get_all","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112936+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_string"}
+{"Time":"2023-01-17T15:12:53.112943+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_string","Output":"=== RUN   Test_read_any_to_string\n"}
+{"Time":"2023-01-17T15:12:53.112953+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_string","Output":"--- PASS: Test_read_any_to_string (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112961+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_any_to_string","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.112967+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_string_as_any"}
+{"Time":"2023-01-17T15:12:53.11298+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_string_as_any","Output":"=== RUN   Test_read_string_as_any\n"}
+{"Time":"2023-01-17T15:12:53.112987+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_string_as_any","Output":"--- PASS: Test_read_string_as_any (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.112995+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_read_string_as_any","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.113001+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_string"}
+{"Time":"2023-01-17T15:12:53.11301+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_string","Output":"=== RUN   Test_wrap_string\n"}
+{"Time":"2023-01-17T15:12:53.113021+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_string","Output":"--- PASS: Test_wrap_string (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.113029+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_string","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.113035+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_must_be_valid"}
+{"Time":"2023-01-17T15:12:53.113042+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_must_be_valid","Output":"=== RUN   Test_must_be_valid\n"}
+{"Time":"2023-01-17T15:12:53.113064+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_must_be_valid","Output":"--- PASS: Test_must_be_valid (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.113072+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_must_be_valid","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.113081+03:00","Action":"run","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_and_valuetype_everything"}
+{"Time":"2023-01-17T15:12:53.113088+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_and_valuetype_everything","Output":"=== RUN   Test_wrap_and_valuetype_everything\n"}
+{"Time":"2023-01-17T15:12:53.113096+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_and_valuetype_everything","Output":"--- PASS: Test_wrap_and_valuetype_everything (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.113104+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Test":"Test_wrap_and_valuetype_everything","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.11311+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Output":"PASS\n"}
+{"Time":"2023-01-17T15:12:53.113292+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Output":"coverage: [no statements]\n"}
+{"Time":"2023-01-17T15:12:53.113874+03:00","Action":"output","Package":"github.com/json-iterator/go/any_tests","Output":"ok  \tgithub.com/json-iterator/go/any_tests\t0.812s\tcoverage: [no statements]\n"}
+{"Time":"2023-01-17T15:12:53.113897+03:00","Action":"pass","Package":"github.com/json-iterator/go/any_tests","Elapsed":0.812}
+{"Time":"2023-01-17T15:12:53.318556+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer"}
+{"Time":"2023-01-17T15:12:53.318611+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer","Output":"=== RUN   Test_writeByte_should_grow_buffer\n"}
+{"Time":"2023-01-17T15:12:53.318659+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer","Output":"--- PASS: Test_writeByte_should_grow_buffer (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.318669+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeByte_should_grow_buffer","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.318677+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer"}
+{"Time":"2023-01-17T15:12:53.318684+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer","Output":"=== RUN   Test_writeBytes_should_grow_buffer\n"}
+{"Time":"2023-01-17T15:12:53.318692+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer","Output":"--- PASS: Test_writeBytes_should_grow_buffer (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.318699+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeBytes_should_grow_buffer","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.318706+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer"}
+{"Time":"2023-01-17T15:12:53.318712+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer","Output":"=== RUN   Test_writeIndention_should_grow_buffer\n"}
+{"Time":"2023-01-17T15:12:53.318752+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer","Output":"--- PASS: Test_writeIndention_should_grow_buffer (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.318768+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeIndention_should_grow_buffer","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.318776+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer"}
+{"Time":"2023-01-17T15:12:53.318782+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer","Output":"=== RUN   Test_writeRaw_should_grow_buffer\n"}
+{"Time":"2023-01-17T15:12:53.318823+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer","Output":"--- PASS: Test_writeRaw_should_grow_buffer (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.318834+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeRaw_should_grow_buffer","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.318841+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer"}
+{"Time":"2023-01-17T15:12:53.318847+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer","Output":"=== RUN   Test_writeString_should_grow_buffer\n"}
+{"Time":"2023-01-17T15:12:53.318855+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer","Output":"--- PASS: Test_writeString_should_grow_buffer (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.318861+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_writeString_should_grow_buffer","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.318868+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer"}
+{"Time":"2023-01-17T15:12:53.318874+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer","Output":"=== RUN   Test_flush_buffer_should_stop_grow_buffer\n"}
+{"Time":"2023-01-17T15:12:53.430647+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer","Output":"--- PASS: Test_flush_buffer_should_stop_grow_buffer (0.11s)\n"}
+{"Time":"2023-01-17T15:12:53.430691+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"Test_flush_buffer_should_stop_grow_buffer","Elapsed":0.11}
+{"Time":"2023-01-17T15:12:53.430716+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleMarshal"}
+{"Time":"2023-01-17T15:12:53.430742+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMarshal","Output":"=== RUN   ExampleMarshal\n"}
+{"Time":"2023-01-17T15:12:53.430864+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMarshal","Output":"--- PASS: ExampleMarshal (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.430929+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleMarshal","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.430953+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal"}
+{"Time":"2023-01-17T15:12:53.430959+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal","Output":"=== RUN   ExampleUnmarshal\n"}
+{"Time":"2023-01-17T15:12:53.431214+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal","Output":"--- PASS: ExampleUnmarshal (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.43125+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleUnmarshal","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.431257+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal"}
+{"Time":"2023-01-17T15:12:53.431262+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal","Output":"=== RUN   ExampleConfigFastest_Marshal\n"}
+{"Time":"2023-01-17T15:12:53.431335+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal","Output":"--- PASS: ExampleConfigFastest_Marshal (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.431365+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Marshal","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.43137+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal"}
+{"Time":"2023-01-17T15:12:53.431394+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal","Output":"=== RUN   ExampleConfigFastest_Unmarshal\n"}
+{"Time":"2023-01-17T15:12:53.431632+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal","Output":"--- PASS: ExampleConfigFastest_Unmarshal (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.43165+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleConfigFastest_Unmarshal","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.431683+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleGet"}
+{"Time":"2023-01-17T15:12:53.431688+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleGet","Output":"=== RUN   ExampleGet\n"}
+{"Time":"2023-01-17T15:12:53.431739+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleGet","Output":"--- PASS: ExampleGet (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.431798+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleGet","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.431824+03:00","Action":"run","Package":"github.com/json-iterator/go","Test":"ExampleMyKey"}
+{"Time":"2023-01-17T15:12:53.43183+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMyKey","Output":"=== RUN   ExampleMyKey\n"}
+{"Time":"2023-01-17T15:12:53.431917+03:00","Action":"output","Package":"github.com/json-iterator/go","Test":"ExampleMyKey","Output":"--- PASS: ExampleMyKey (0.00s)\n"}
+{"Time":"2023-01-17T15:12:53.431955+03:00","Action":"pass","Package":"github.com/json-iterator/go","Test":"ExampleMyKey","Elapsed":0}
+{"Time":"2023-01-17T15:12:53.431963+03:00","Action":"output","Package":"github.com/json-iterator/go","Output":"PASS\n"}
+{"Time":"2023-01-17T15:12:53.440316+03:00","Action":"output","Package":"github.com/json-iterator/go","Output":"coverage: 21.2% of statements\n"}
+{"Time":"2023-01-17T15:12:53.441151+03:00","Action":"output","Package":"github.com/json-iterator/go","Output":"ok  \tgithub.com/json-iterator/go\t1.074s\tcoverage: 21.2% of statements\n"}
+{"Time":"2023-01-17T15:12:53.441162+03:00","Action":"pass","Package":"github.com/json-iterator/go","Elapsed":1.074}
