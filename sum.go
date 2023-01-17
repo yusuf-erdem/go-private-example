@@ -7,3 +7,7 @@ func sum() int {
 func divide() int {
 	return 6 / 3
 }
+
+func multiply() int {
+	return 6 * 2
+}
