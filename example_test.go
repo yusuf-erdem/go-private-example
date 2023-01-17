@@ -54,6 +54,7 @@ func ExampleUnmarshalFromString() {
 		Name  string
 		Order string
 	}
+
 	var animals []Animal
 	err := Unmarshal(jsonBlob, &animals)
 	if err != nil {
