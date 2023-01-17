@@ -31,10 +31,10 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-          go test -v -run ExampleUnmarshalFromString -json ./... > ./test-report1.json -coverprofile=coverage1.out
+          go test -v -run Test_Sum -json ./... > ./test-report1.json -coverprofile=coverage1.out
     - name: Test Go2
       run: |
-          go test -v -run ExampleMyKey -json ./... > ./test-report2.json -coverprofile=coverage2.out
+          go test -v -run Test_Sum -json ./... > ./test-report2.json -coverprofile=coverage2.out
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
