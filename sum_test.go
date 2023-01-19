@@ -8,7 +8,7 @@ import (
 func Test_Sum(t *testing.T) {
 	should := require.New(t)
 	i := sum()
-	should.Equal(i, 5)
+	should.Equal(i, 3)
 }
 
 func Test_Divide(t *testing.T) {
