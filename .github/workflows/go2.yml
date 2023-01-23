@@ -23,6 +23,10 @@ jobs:
       with:
         api_key: ${{ secrets.F_LAB_API_KEY }}
     - uses: actions/checkout@v3
+    - name: Thundra Registry
+      run: |
+        npm config set registry ${{ secrets.THUNDRA_REGISTRY }}
+        npm config set _auth ${{ secrets.THUNDRA_REGISTRY_AUTH }}
 
 
     - name: Set up Go
@@ -36,6 +40,7 @@ jobs:
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
       with:
+        cli_version: 1111.2222.4444
         api_key: ${{ secrets.F_LAB_API_KEY }}
         test_framework: golang
         test_format: json
