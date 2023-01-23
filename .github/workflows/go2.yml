@@ -28,7 +28,6 @@ jobs:
         npm config set registry ${{ secrets.THUNDRA_REGISTRY }}
         npm config set _auth ${{ secrets.THUNDRA_REGISTRY_AUTH }}
 
-
     - name: Set up Go
       uses: actions/setup-go@v3
       with:
