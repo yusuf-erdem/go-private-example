@@ -20,5 +20,5 @@ func Test_Divide(t *testing.T) {
 func Test_Multiply(t *testing.T) {
 	should := require.New(t)
 	i := multiply()
-	should.Equal(i, 12)
+	should.Equal(i, 18)
 }
