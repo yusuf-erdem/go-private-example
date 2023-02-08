@@ -14,6 +14,9 @@ func (any *stringAny) Get(path ...interface{}) Any {
 	if len(path) == 0 {
 		return any
 	}
+	if len(path) == 0 {
+		return any
+	}
 	return &invalidAny{baseAny{}, fmt.Errorf("GetIndex %v from simple value", path)}
 }
 
