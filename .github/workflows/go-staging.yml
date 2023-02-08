@@ -31,7 +31,7 @@ jobs:
         go-version: 1.18
     - name: Test Go
       run: |
-          go test -v -json ./... > ./test-report.json -coverprofile=coverage.out
+          go test -v -run Test_Sum -json ./... > ./test-report1.json -coverprofile=coverage1.out
     - name: Foresight Action
       if: success() || failure()
       uses: runforesight/foresight-test-kit-action@v1
@@ -42,6 +42,6 @@ jobs:
         test_path: ./test-report.json
         coverage_format: golang
         coverage_path: |
-            coverage.out
+            coverage1.out
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v3
