@@ -1,0 +1,47 @@
+name: Go lab
+on:
+  issue_comment:
+    types:
+      - created
+  push:
+    branches: [ "master" ]
+  pull_request:
+  workflow_dispatch:
+env:
+  FORESIGHT_UPLOADER_SIGNER_URL: https://upload.service.runforesight.me
+  ACTIONS_ALLOW_UNSECURE_COMMANDS: true
+  PR_NUMBER: ${{ github.event.number }}
+  WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.me
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Collect Workflow Telemetry
+      if: always()
+      uses: runforesight/foresight-workflow-kit-action@v1
+      with:
+        api_key: d06a3675-c8ac-4fbf-a80d-b0e5aaae4924
+    - uses: actions/checkout@v3
+
+
+    - name: Set up Go
+      uses: actions/setup-go@v3
+      with:
+        go-version: 1.18
+    - name: Test Go
+      run: |
+          go test -v -json ./... > ./test-report.json -coverprofile=coverage.out
+    - name: Foresight Action
+      if: success() || failure()
+      uses: runforesight/foresight-test-kit-action@v1
+      with:
+        api_key: d06a3675-c8ac-4fbf-a80d-b0e5aaae4924
+        test_framework: golang
+        test_format: json
+        test_path: ./test-report.json
+        coverage_format: golang
+        coverage_path: |
+            coverage.out
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
