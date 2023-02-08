@@ -1,4 +1,4 @@
-name: Go
+name: Go staging
 on:
   issue_comment:
     types:
