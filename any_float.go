@@ -23,10 +23,12 @@ func (any *floatAny) MustBeValid() Any {
 
 func (any *floatAny) LastError() error {
 	return nil
+	
 }
 
 func (any *floatAny) ToBool() bool {
 	return any.ToFloat64() != 0
+	
 }
 
 func (any *floatAny) ToInt() int {
