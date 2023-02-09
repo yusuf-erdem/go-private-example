@@ -14,37 +14,65 @@ env:
   WORKFLOW_TELEMETRY_BASE_URL: https://api.service.runforesight.us
   
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Collect Workflow Telemetry
-      if: always()
-      uses: runforesight/foresight-workflow-kit-action@v1
-      with:
-        api_key: ${{ secrets.F_STAGING_API_KEY }}
-    - uses: actions/checkout@v3
+  job1:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Collect Workflow Telemetry
+        if: always()
+        uses: runforesight/foresight-workflow-kit-action@v1
+        with:
+          api_key: ${{ secrets.F_STAGING_API_KEY }}
+      - uses: actions/checkout@v3
 
-    - name: Set up Go
-      uses: actions/setup-go@v3
-      with:
-        go-version: 1.18
-    - name: Test Go
-      run: |
-        go test -v -run Test_Sum -json ./... > ./test-report1.json -coverprofile=coverage1.out
-    - name: Test Go2
-      run: |
-        go test -v -run Test_Divide -json ./... > ./test-report2.json -coverprofile=coverage2.out
-    - name: Foresight Action
-      if: success() || failure()
-      uses: runforesight/foresight-test-kit-action@v1
-      with:
-        api_key: ${{ secrets.F_STAGING_API_KEY }}
-        test_framework: golang
-        test_format: json
-        test_path: ./test-report1.json
-        coverage_format: golang
-        coverage_path: |
-            coverage1.out
-            coverage2.out
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v3
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.18
+      - name: Test Go
+        run: |
+          go test -v -run Test_Sum -json ./... > ./test-report1.json -coverprofile=coverage1.out
+      - name: Foresight Action
+        if: success() || failure()
+        uses: runforesight/foresight-test-kit-action@v1
+        with:
+          api_key: ${{ secrets.F_STAGING_API_KEY }}
+          test_framework: golang
+          test_format: json
+          test_path: ./test-report1.json
+          coverage_format: golang
+          coverage_path: |
+              coverage1.out
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+  job2:
+    build:
+      runs-on: ubuntu-latest
+      steps:
+      - name: Collect Workflow Telemetry
+        if: always()
+        uses: runforesight/foresight-workflow-kit-action@v1
+        with:
+          api_key: ${{ secrets.F_STAGING_API_KEY }}
+      - uses: actions/checkout@v3
+
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: 1.18
+      - name: Test Go2
+        run: |
+          go test -v -run Test_Divide -json ./... > ./test-report2.json -coverprofile=coverage2.out
+      - name: Foresight Action
+        if: success() || failure()
+        uses: runforesight/foresight-test-kit-action@v1
+        with:
+          api_key: ${{ secrets.F_STAGING_API_KEY }}
+          test_framework: golang
+          test_format: json
+          test_path: ./test-report2.json
+          coverage_format: golang
+          coverage_path: |
+              coverage2.out
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
