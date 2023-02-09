@@ -15,7 +15,6 @@ env:
   
 jobs:
   job1:
-    build:
       runs-on: ubuntu-latest
       steps:
       - name: Collect Workflow Telemetry
@@ -46,7 +45,6 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
   job2:
-    build:
       runs-on: ubuntu-latest
       steps:
       - name: Collect Workflow Telemetry
