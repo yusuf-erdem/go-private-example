@@ -9,5 +9,5 @@ func divide() int {
 }
 
 func multiply() int {
-	return 6 * 3
+	return 6 * 2
 }
