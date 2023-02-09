@@ -23,3 +23,13 @@ func divide2() int {
 func multiply2() int {
 	return 6 * 3
 }
+
+
+func divide21() int {
+	return 6 / 3
+}
+
+
+func divide22() int {
+	return 6 / 3
+}
