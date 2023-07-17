@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Custom Action
-      uses: yusuf-erdem/yusufs-test-wiser@v1.0.0
+      uses: yusuf-erdem/yusufs-test-wiser@v1
       with:
         timeout: 245
