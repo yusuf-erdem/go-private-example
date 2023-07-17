@@ -16,3 +16,11 @@ jobs:
       uses: yusuf-erdem/yusufs-test-wiser@v1
       with:
         milliseconds: 245 ms
+        
+  test: # make sure the action works on a clean machine without building
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: yusuf-erdem/yusufs-test-wiser@v1
+        with:
+          milliseconds: 2222
