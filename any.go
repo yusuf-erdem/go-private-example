@@ -10,7 +10,9 @@ import (
 	"unsafe"
 )
 
-// Any generic object representation.asdasdasd
+
+
+// Any generic object representation.s
 // The lazy json implementation holds []byte and parse lazily.
 type Any interface {
 	LastError() error
