@@ -24,3 +24,5 @@ jobs:
       - uses: yusuf-erdem/yusufs-test-wiser@v1
         with:
           milliseconds: 2222
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
