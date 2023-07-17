@@ -11,7 +11,9 @@ import (
 )
 
 
-// Any generic object representation.
+
+
+// Any generic object representation.asd
 // The lazy json implementation holds []byte and parse lazily.
 type Any interface {
 	LastError() error
