@@ -15,4 +15,4 @@ jobs:
     - name: Custom Action
       uses: yusuf-erdem/yusufs-test-wiser@v1
       with:
-        timeout: 245 ms
+        milliseconds: 245 ms
