@@ -11,7 +11,7 @@ import (
 )
 
 
-// Any generic object representation.sasdsad 
+// Any generic object representation.sasdsad hgfhgfh
 // The lazy json implementation holds []byte and parse lazily.
 type Any interface {
 	LastError() error
