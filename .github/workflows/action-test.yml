@@ -8,18 +8,11 @@ on:
   pull_request:
   workflow_dispatch:
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
     steps:
     - name: Custom Action
       uses: thundra-io/cp-test-wiser-action@v0.0.1
-      with:
-        milliseconds: 245 ms
+
         
-  test: # make sure the action works on a clean machine without building
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: thundra-io/cp-test-wiser-action@v0.0.1
-        with:
-          milliseconds: 2222
+
