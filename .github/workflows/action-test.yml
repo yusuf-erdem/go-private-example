@@ -13,16 +13,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Custom Action
-      uses: yusuf-erdem/yusufs-test-wiser@v1
+    - uses: thundra-io/cp-test-wiser-action@v0.0.1
       with:
-        milliseconds: 245 ms
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         
   test: # make sure the action works on a clean machine without building
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: yusuf-erdem/yusufs-test-wiser@v1
+      - uses: thundra-io/cp-test-wiser-action@v0.0.1
         with:
-          milliseconds: 2222
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
